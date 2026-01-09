@@ -1,0 +1,23 @@
+Day started with given tasks through slack
+learned and praticed python basic classes
+ 1. python usecases and indendation
+ 2. variables and  Data types in python and how to define them
+ 3. Basic arithmetic operations in python using operands
+ 4. if else and elif conditional statements in python
+ 5. basic loops and loops structre in python
+ 6. created a python program based on a student report card and marks
+ 7. created a python program based on grocery store and cart system
+
+learned and practise mongodb basic classes
+ 8. Installing mongodb and its initial running commands (status, start)
+ 9. Intalling and using the mongo shell
+ 10. Fimiliarised with mongoshell using  common  mongoDB commands
+ 15. Used basic mongoDB operations such as Insert, Bulk insert, Update, Delete, Export and import, Dumb and Restore, Creating unique and normal index
+
+Attended meeting with training head and discussed about mongoDB theory classes
+ 11. Learned about Object id and creating timestamp from objectID
+ 12. Learned about sharding, clustering, nodes and mongo guidelines
+ 13. Installed MongoDB compass
+ 14. Fimiliarised with Compass interfaces like documents aggregations, schema, Validation
+
+
