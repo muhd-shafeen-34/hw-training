@@ -12,12 +12,12 @@ learned and practise mongodb basic classes
  8. Installing mongodb and its initial running commands (status, start)
  9. Intalling and using the mongo shell
  10. Fimiliarised with mongoshell using  common  mongoDB commands
- 15. Used basic mongoDB operations such as Insert, Bulk insert, Update, Delete, Export and import, Dumb and Restore, Creating unique and normal index
+ 11. Used basic mongoDB operations such as Insert, Bulk insert, Update, Delete, Export and import, Dumb and Restore, Creating unique and normal index
+ 12. Learned about Object id and creating timestamp from objectID
 
 Attended meeting with training head and discussed about mongoDB theory classes
- 11. Learned about Object id and creating timestamp from objectID
- 12. Learned about sharding, clustering, nodes and mongo guidelines
- 13. Installed MongoDB compass
- 14. Fimiliarised with Compass interfaces like documents aggregations, schema, Validation
+ 13 Learned about sharding, clustering, nodes and mongo guidelines
+ 14. Installed MongoDB compass
+ 15. Fimiliarised with Compass interfaces like documents aggregations, schema, Validation
 
 
