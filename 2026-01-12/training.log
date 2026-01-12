@@ -1,0 +1,22 @@
+Day started with given learning tasks through slack 
+learned and tried out python advanced concepts
+ 1. Python functions and its uses
+ 2. Self argument, Positional arguments, Default arguments and Keyword arguments
+ 3. Also tried positional arguments using *args and keyword arguments with **kwargs
+ 4. Using return in functions
+ 5. Generators and usage of yield in python
+ 6. List comprehension in python 
+ 7. Different type of String formatting in python 
+ 8. Creating Modules and importing modules
+ 9. Exceptions and errors handling using Try, Except and Finally keywords
+
+Learned and practiced Object oriented programming in python
+ 10. Usage of Objects and Classes in python 
+ 11. Understood the core OOP  concepts such as Encapsulation, Inheritance, Polymorphism and Abstraction
+ 12. Use of Constructor and Destructor
+ 13. Importance of self keyword in classes
+ 14. How python memory reference works
+ 15. File handling in python and its operations such as read and write
+ 16. Learned about python code Readability, Optimization and Reliability
+ 17. Read the PEP-8 guidelines to realize the best practices of coding in python language
+ 
