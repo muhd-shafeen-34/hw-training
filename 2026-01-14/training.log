@@ -1,0 +1,25 @@
+Day started with doing advance python practical task
+ 1. initially tried to create a mini data mining system on a website
+ 2. started with a Class based Design which follows OOPS concepts and functions 
+ 3. Added method for starting the system
+ 4. included method for fetching html data using requests module with exception handling for request errors
+
+Attended meeting with training head to discuss about the task and got assigned with new learning task
+
+ 5.  used BeautifulSoap module to parse data into the system
+ 6. created a parse_item method to clean the data for saving
+ 7. partitioned the system into two different files to practise package import 
+ 8. concluded with saving the data as txt file and raw html into an html file for practising file operations
+ 9. at last used a generator to print data one by from the data stored txt file  using yield
+ 10. suscessfully fetched details like name, email and phonenumbers of agents 
+started browser analysis learning task
+ 11. Learned inspect tab in the browser and client-side javascript execution
+ 12. learned API identification and data scraping
+ 13. Learned about different type of requests PUT,GET,DELETE,POST,HEAD,PATCH,OPTIONS and inspecting AJAX loaded URLs
+
+Attended meeting with training head and cleared doubts about learning tasks
+ 14. Continued Learning about request and response headers,user-agent,cookies and sessions
+ 15. learned about sitemaps usage, posibilities and limitations
+
+
+ 

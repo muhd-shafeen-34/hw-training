@@ -1,0 +1,40 @@
+{'name': '2 Rivers Team', 'email': '2riversteam@compass.com', 'phone': '202-341-7530'}
+{'name': 'Sean Aalai', 'email': 'sean@compass.com', 'phone': '202-552-9167'}
+{'name': 'Sherif Abdalla', 'email': 'sherif@compass.com', 'phone': '703-624-5555'}
+{'name': 'Katrina Abjornson', 'email': 'katrina@compass.com', 'phone': '202-441-3982'}
+{'name': 'Casey Aboulafia', 'email': 'casey@compass.com', 'phone': '202-780-5885'}
+{'name': 'Claire Abrams', 'email': 'claire@compass.com', 'phone': '202-445-4432'}
+{'name': 'David Abrams', 'email': 'da@compass.com', 'phone': '202-716-0660'}
+{'name': 'David Abramson', 'email': 'david.abramson@compass.com', 'phone': '240-475-5001'}
+{'name': 'Abrams Residential', 'email': 'abramsresidential@compass.com', 'phone': '202-716-0660'}
+{'name': 'Sarah Adams', 'email': 'sarah.adams@compass.com', 'phone': '734-417-1415'}
+{'name': 'Kerry Adams', 'email': 'kerry.adams@compass.com', 'phone': '703-587-7841'}
+{'name': 'Dani Adams', 'email': 'dani.adams@compass.com', 'phone': '601-918-8235'}
+{'name': 'Randolph Adams', 'email': 'randolph.adams@compass.com', 'phone': '202-656-8019'}
+{'name': 'Koki Adasi', 'email': 'koki.adasi@compass.com', 'phone': '240-994-3941'}
+{'name': 'Hala Adra', 'email': 'hala.adra@compass.com', 'phone': '703-980-4041'}
+{'name': 'Advisory - DC', 'email': 'advisory@compass.com', 'phone': ''}
+{'name': 'Lana Deoraes Africano', 'email': 'lana.africano@compass.com', 'phone': '301-404-0340'}
+{'name': 'Nicholas Africano', 'email': 'nick.africano@compass.com', 'phone': '703-851-6201'}
+{'name': 'Kyra Agarwal', 'email': 'kyra.agarwal@compass.com', 'phone': '424-666-9202'}
+{'name': 'Steve Agostino', 'email': 'steve.agostino@compass.com', 'phone': '202-321-5506'}
+{'name': 'Reza Akhavan', 'email': 'reza.akhavan@compass.com', 'phone': '202-309-0073'}
+{'name': 'Farouk Al Alousi', 'email': 'farouk.alalousi@compass.com', 'phone': '703-673-8657'}
+{'name': 'ichael Alderfer', 'email': 'michael.alderfer@compass.com', 'phone': '202-276-4293'}
+{'name': 'Addi Aliu', 'email': 'addi.aliu@compass.com', 'phone': '301-323-3397'}
+{'name': 'Alliance Home Group', 'email': 'alliancehomegroup@compass.com', 'phone': ''}
+{'name': 'Brittany Allison', 'email': 'brittany.allison@compass.com', 'phone': '301-461-0084'}
+{'name': 'Darrell Allison', 'email': 'darrell.allison@compass.com', 'phone': '202-669-3218'}
+{'name': 'Peter Allison', 'email': 'peterallison@compass.com', 'phone': '301-996-7125'}
+{'name': 'Christine Allocca', 'email': 'christine.allocca@compass.com', 'phone': '703-795-3016'}
+{'name': 'ouhanad Al Rifay', 'email': 'mouhanad.alrifay@compass.com', 'phone': '301-633-5314'}
+{'name': 'Jazzmine Alston', 'email': 'jazzmine.alston@compass.com', 'phone': '336-254-4391'}
+{'name': 'anuel Alvarez', 'email': 'manuel.alvarez@compass.com', 'phone': '443-643-8678'}
+{'name': 'Albert Amar', 'email': 'albert.amar@compass.com', 'phone': '240-643-1417'}
+{'name': 'Tess Amolsch', 'email': 'tessamolsch@compass.com', 'phone': '202-494-3356'}
+{'name': 'aureen Andary', 'email': 'maureen.andary@compass.com', 'phone': '202-320-2003'}
+{'name': 'Carolyn Anderson', 'email': 'carolyn.anderson@compass.com', 'phone': '202-320-9354'}
+{'name': 'Jake Anderson', 'email': 'jake.anderson@compass.com', 'phone': '202-669-7842'}
+{'name': 'Alvin Anderson', 'email': 'alvin.anderson@compass.com', 'phone': '917-370-9444'}
+{'name': 'Josh Andrew', 'email': 'josh.andrew@compass.com', 'phone': '410-829-4477'}
+{'name': 'Kelly Andrews', 'email': 'kelly.andrews@compass.com', 'phone': '202-341-6003'}
