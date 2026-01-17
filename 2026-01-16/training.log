@@ -1,0 +1,11 @@
+Day started doing python packages and xpath task
+ 1. Created the structure to crawl and parse the website
+
+Attended meeting with training head and discussed about the ongoing task and got assigned new tasks
+ 2. Continued doing python xpath task and created a full crawler 
+ 3. Fetched PDP links and Pagination links using the crawler
+ 4. Created a full parser
+ 5. Fetched available feilds which are mentioned in the task
+ 6. created mongo connection
+ 7. Exported all extracted documents into monogodb using pymongo
+ 8. Completed the python xpath task 
