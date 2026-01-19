@@ -1,0 +1,22 @@
+Day started by Learning scrapy framework as learning task
+
+ 1. Learned Scrapy request and form request
+
+Attended meeting with training head and discussed about the tasks
+
+ 2. Continued learning on scrapy Response, shell, Inspect_response and selector
+
+Started next learning task as learning Request method functions
+
+ 3. Learned request handling and response handling
+ 4. Learned post request and payloads, cookies and session
+ 5. Learned about Proxies and need for both http and https proxies
+ 6. Fimiliarised with certificate verification and API identification and data extraction
+ 7. Learned about nohup command in linux, request exceptions and better coding with python requests
+
+Started doing training task by converting intake scrapy project to python
+
+8. created the structure of crawler, parser and pagination handler
+9. Extracted every PDP urls and passed it into the parser
+10. Extracted every fields from PDP urls
+11. saved the data and exported it into json and csv file  

@@ -1,15 +1,16 @@
 import requests as rq
 import parsel as pl
 import re
+from lxml import etree
 from pymongo import MongoClient
 
 URL = "https://www.johnlewis.com/browse/men/mens-shirts/_/N-eaf?chunk=8"
 header = {
     'user-agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0"
     }
+NAMESPACE = {"ns": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
-
-
+sitemapurl = "https://www.johnlewis.com/siteindex.xml"
 
 
 

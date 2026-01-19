@@ -3,7 +3,9 @@ import parsel as pl
 from pymongo import MongoClient
 import re
 import json
-from settings import URL, header
+import csv
+from lxml import etree
+from settings import URL, sitemapurl, header, NAMESPACE
 
 
 class ParsingError(Exception):
@@ -13,9 +15,10 @@ class ParsingError(Exception):
 class PlpCrawler():
     def __init__(self,url):
         self.url = url
+        self.sitemapurl = sitemapurl
         self.cleaned_plp_data= []
         self.cleaned_pdp_data= []
-        self.sitemap = []
+        self.sitemap_data= []
     def start(self):
         print(f"[INFO] Starting the crawler on {self.url}")
         session = rq.Session()
@@ -58,11 +61,13 @@ class PlpCrawler():
                     break
             except Exception as e:
                 print(f"[ERROR] Request failed: {e}")
-        
-        with open("data.json","w") as file:
-                    for item in self.cleaned_pdp_data:
-                        json_line = json.dumps(item,ensure_ascii=False)
-                        file.write(json_line + "\n")
+
+        self.sitemap(self.sitemapurl)
+
+
+        self.save_to_json()
+        self.save_to_csv()
+
 
 
         self.mongo_connection()
@@ -159,7 +164,41 @@ class PlpCrawler():
                 "Care_instruction" : Care_instruction,
                 "Image_url" : Image_url
                 }
+
+    #save to json file 
+    def save_to_json(self):
+        if not self.cleaned_pdp_data:
+            print("no data to be saved")
+            return
+        print("All the products are saving as a json file")
+        with open("data.json","w") as file:
+                    for item in self.cleaned_pdp_data:
+                        json_line = json.dumps(item,ensure_ascii=False)
+                        file.write(json_line + "\n")
+        print(f"Completed and saved {len(self.cleaned_pdp_data)} data into json")
     
+    #save to csv file
+
+    def save_to_csv(self):
+        if not self.cleaned_pdp_data:
+            print("No data found to save")
+            return
+        print("Saving products into CSV")
+
+        headers = self.cleaned_pdp_data[0].keys()
+
+        with open("data.csv", "w", newline="", encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=headers)
+            writer.writeheader()
+            writer.writerows(self.cleaned_pdp_data)
+
+        print(f"Saved {len(self.cleaned_pdp_data)} records successfully")
+
+    
+
+
+
+
     #function to initiate mongo db
     
     def mongo_connection(self):
@@ -173,6 +212,21 @@ class PlpCrawler():
         except Exception as e:
             print(f"mongo error: {e}")
         print("suscessfully entered data into mongodb")
+
+
+           #Scraping sitemap data
+
+    def sitemap(self,url):
+        print("starting to get site map index................\n")
+        response = rq.get(url,headers=header)
+        content = response.content
+        root = etree.fromstring(content)
+        if root.tag.endswith("sitemapindex"):
+            print("sitemap index detected")
+        self.sitemap_data = root.xpath("//ns:loc/text()",namespaces = NAMESPACE)
+        print("Printing sitemap indecies..................\n")
+        print(self.sitemap_data)
+
 
 
 
