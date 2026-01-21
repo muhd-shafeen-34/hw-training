@@ -1,0 +1,16 @@
+Day started with doing training task to extract required fields from a website
+ 1. Analysed the website using inspect tool
+
+Attended meeting with training head and discussed about the task
+ 2. continued doing the training task by analyzing the website and getting needed xpath expressions
+ 3. Created crawler to fetch agents urls
+ 4. bypassed the cloudfare block using request headers
+ 5. extracted urls from api calls by using params 
+ 6. Created Parser for those urls
+ 7. Cleaned and extracted all the required fields
+ 8. using those urls as csv file
+ 9. Completed the task
+
+
+
+
