@@ -117,33 +117,34 @@ class Crawler():
             #social and mailid fetch
 
             mailid_and_social_fetch = agent_selector.xpath('//div[@class="site-info-contact"]//a[starts-with(@href,"https:")]/@href').getall()
-            platforms = ['contact','facebook', 'instagram', 'linkedin', 'twitter','youtube','tiktok','pintrest']
+            platforms = ['facebook', 'instagram', 'linkedin', 'twitter','youtube','tiktok','pintrest']
             social_links = {}
-
+            cleaned_links = []
             #this field only run when any link returns
 
             if mailid_and_social_fetch:
 
                 #cleaning social links
-                cleaned_links = []
                 for i in mailid_and_social_fetch:
                     if i not in cleaned_links:
                         cleaned_links.append(i)
 
 
-            for link in cleaned_links:
-                lower_link = link.lower()
-                for platform in platforms:
-                    if platform in lower_link:
-                        if platform not in social_links:
-                            social_links[platform] = link
-                        break
+                for link in cleaned_links:
+                    lower_link = link.lower()
+                    for platform in platforms:
+                        if platform in lower_link:
+                            if platform not in social_links:
+                                social_links[platform] = link
+                            break
             else:
                 pass
 
-            maild_id = social_links["contact"]
+                #mail id is not available in the website
+
+            mail_id = "N/A"
         
-            social =  {k: v for k, v in social_links.items() if k != 'contact'}
+            social =  social_links
 
             #fetching address
 
@@ -166,7 +167,7 @@ class Crawler():
                 "Address" : address,
                 "Description" : description,
                 "Social" : social,
-                "Maild_id" : maild_id,
+                "Maild_id" : mail_id,
                 "Agent_phone_numbers" : agent_phone_number,
                 "Office_phone_numbers" : office_phone_number,
             }
