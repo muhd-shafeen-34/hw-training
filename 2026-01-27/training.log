@@ -1,0 +1,13 @@
+Day started with analysing the website
+
+ 1. found where the category urls hides and extracted
+ 2. extracted api credentials of listing page from category urls
+ 3. extracted  product urls from api using those credentials
+ 4. created category url and implemented 
+ 5. updated existing code and optimised
+ 6. changed the entire structure
+ 7. Added logging 
+ 8. Added mongo db insertion and fetching between crawler and parser
+
+
+
