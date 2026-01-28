@@ -2881,3 +2881,1153 @@
 2026-01-28 06:10:46,306 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
 2026-01-28 06:10:46,509 | INFO | handm_scraper | STATUS CODE = 403
 2026-01-28 06:10:46,509 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 09:21:19,759 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 09:21:19,760 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 09:21:20,355 | ERROR | handm_scraper | Failed to fetch https://www2.hm.com/en_in/index.html please change the cookie and tsl_client identifier
+2026-01-28 09:21:20,356 | ERROR | handm_scraper | No __NEXT_DATA__ script tag found on https://www2.hm.com/en_in/index.html
+2026-01-28 09:21:20,356 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 09:21:20,358 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:21:20,361 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:21:20,367 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:22:24,462 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 09:22:24,462 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 09:22:24,765 | ERROR | handm_scraper | Failed to fetch https://www2.hm.com/en_in/index.html please change the cookie and tsl_client identifier
+2026-01-28 09:22:24,766 | ERROR | handm_scraper | No __NEXT_DATA__ script tag found on https://www2.hm.com/en_in/index.html
+2026-01-28 09:22:24,766 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 09:22:24,768 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:22:24,771 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:22:24,776 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:47:41,973 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 09:47:41,973 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 09:47:44,157 | INFO | handm_scraper | Response fetched successfully : 200
+2026-01-28 09:47:44,202 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 09:47:44,251 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:47:44,257 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:51:26,765 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 09:51:26,766 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 09:51:28,194 | INFO | handm_scraper | Response fetched successfully : 200
+2026-01-28 09:51:28,237 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 09:51:28,296 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:51:28,302 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 09:54:59,407 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/men/sport/view-all.html
+2026-01-28 09:55:00,686 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/men/sport/view-all.html is 200
+2026-01-28 09:55:00,686 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 09:55:00,687 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 09:55:00,687 | ERROR | handm_scraper | api params sending failed
+2026-01-28 09:55:00,687 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/men/sport/view-all.html - IDs not found
+2026-01-28 09:55:00,687 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html
+2026-01-28 09:55:02,227 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html is 200
+2026-01-28 09:55:03,145 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 09:55:03,147 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 09:55:03,147 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 09:55:06,527 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 09:55:06,529 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 09:55:06,529 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 09:55:09,901 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 09:55:09,903 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 09:55:09,903 | INFO | handm_scraper |  Fetched 17 urls from page no 3
+2026-01-28 09:59:38,490 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 09:59:38,490 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 09:59:39,367 | INFO | handm_scraper | Response fetched successfully : 200
+2026-01-28 09:59:39,412 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 09:59:39,473 | INFO | handm_scraper | [INFO] Starting the Crawling Process 
+2026-01-28 09:59:39,473 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html
+2026-01-28 09:59:39,834 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html is 200
+2026-01-28 09:59:39,835 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 09:59:39,835 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 09:59:39,835 | ERROR | handm_scraper | api params sending failed
+2026-01-28 09:59:39,835 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html - IDs not found
+2026-01-28 09:59:39,835 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/9-14y/shoes/view-all.html
+2026-01-28 09:59:41,729 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/9-14y/shoes/view-all.html is 200
+2026-01-28 09:59:42,383 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 09:59:42,384 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 09:59:42,384 | INFO | handm_scraper |  Fetched 1 urls from page no 1
+2026-01-28 09:59:45,866 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 09:59:45,866 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 09:59:45,866 | INFO | handm_scraper | successfully fetched 1 links
+2026-01-28 09:59:45,866 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/boys-9-14y/outerwear/view-all.html
+2026-01-28 09:59:47,223 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/boys-9-14y/outerwear/view-all.html is 200
+2026-01-28 09:59:47,512 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 09:59:47,513 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 09:59:47,514 | INFO | handm_scraper |  Fetched 21 urls from page no 1
+2026-01-28 09:59:50,882 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 09:59:50,882 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 09:59:50,890 | INFO | handm_scraper | successfully fetched 22 links
+2026-01-28 09:59:50,890 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html
+2026-01-28 09:59:51,302 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html is 200
+2026-01-28 09:59:51,704 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 09:59:51,705 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 09:59:51,706 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 09:59:54,991 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 09:59:54,993 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 09:59:54,993 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 09:59:58,361 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 09:59:58,362 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 09:59:58,362 | INFO | handm_scraper |  Fetched 17 urls from page no 3
+2026-01-28 10:00:01,634 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:00:01,635 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:00:01,635 | INFO | handm_scraper | successfully fetched 111 links
+2026-01-28 10:00:01,635 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/boys/clothing/view-all.html
+2026-01-28 10:00:02,326 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/boys/clothing/view-all.html is 200
+2026-01-28 10:00:02,766 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:00:02,767 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:00:02,768 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:00:06,246 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:00:06,248 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:00:06,248 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 10:00:09,626 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:00:09,628 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 10:00:09,629 | INFO | handm_scraper |  Fetched 36 urls from page no 3
+2026-01-28 10:00:12,823 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:00:12,825 | INFO | handm_scraper |  Fetching product urls from Page no: 4 
+2026-01-28 10:00:12,826 | INFO | handm_scraper |  Fetched 36 urls from page no 4
+2026-01-28 10:00:16,181 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 5 = 200
+2026-01-28 10:00:16,183 | INFO | handm_scraper |  Fetching product urls from Page no: 5 
+2026-01-28 10:00:16,183 | INFO | handm_scraper |  Fetched 36 urls from page no 5
+2026-01-28 10:00:19,558 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 6 = 200
+2026-01-28 10:00:19,560 | INFO | handm_scraper |  Fetching product urls from Page no: 6 
+2026-01-28 10:00:19,561 | INFO | handm_scraper |  Fetched 36 urls from page no 6
+2026-01-28 10:00:22,834 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 7 = 200
+2026-01-28 10:00:22,838 | INFO | handm_scraper |  Fetching product urls from Page no: 7 
+2026-01-28 10:00:22,838 | INFO | handm_scraper |  Fetched 36 urls from page no 7
+2026-01-28 10:00:26,213 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 8 = 200
+2026-01-28 10:00:26,215 | INFO | handm_scraper |  Fetching product urls from Page no: 8 
+2026-01-28 10:00:26,215 | INFO | handm_scraper |  Fetched 36 urls from page no 8
+2026-01-28 10:00:29,491 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 9 = 200
+2026-01-28 10:00:29,493 | INFO | handm_scraper |  Fetching product urls from Page no: 9 
+2026-01-28 10:00:29,494 | INFO | handm_scraper |  Fetched 36 urls from page no 9
+2026-01-28 10:00:32,867 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 10 = 200
+2026-01-28 10:00:32,870 | INFO | handm_scraper |  Fetching product urls from Page no: 10 
+2026-01-28 10:00:32,870 | INFO | handm_scraper |  Fetched 36 urls from page no 10
+2026-01-28 10:00:36,247 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 11 = 200
+2026-01-28 10:00:36,250 | INFO | handm_scraper |  Fetching product urls from Page no: 11 
+2026-01-28 10:00:36,257 | INFO | handm_scraper |  Fetched 36 urls from page no 11
+2026-01-28 10:00:39,548 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 12 = 200
+2026-01-28 10:00:39,551 | INFO | handm_scraper |  Fetching product urls from Page no: 12 
+2026-01-28 10:00:39,551 | INFO | handm_scraper |  Fetched 36 urls from page no 12
+2026-01-28 10:00:42,906 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 13 = 200
+2026-01-28 10:00:42,908 | INFO | handm_scraper |  Fetching product urls from Page no: 13 
+2026-01-28 10:00:42,909 | INFO | handm_scraper |  Fetched 36 urls from page no 13
+2026-01-28 10:00:46,382 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 14 = 200
+2026-01-28 10:00:46,384 | INFO | handm_scraper |  Fetching product urls from Page no: 14 
+2026-01-28 10:00:46,385 | INFO | handm_scraper |  Fetched 36 urls from page no 14
+2026-01-28 10:00:49,607 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 15 = 200
+2026-01-28 10:00:49,610 | INFO | handm_scraper |  Fetching product urls from Page no: 15 
+2026-01-28 10:00:49,610 | INFO | handm_scraper |  Fetched 36 urls from page no 15
+2026-01-28 10:00:52,763 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 16 = 200
+2026-01-28 10:00:52,765 | INFO | handm_scraper |  Fetching product urls from Page no: 16 
+2026-01-28 10:00:52,766 | INFO | handm_scraper |  Fetched 36 urls from page no 16
+2026-01-28 10:00:56,136 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 17 = 200
+2026-01-28 10:00:56,138 | INFO | handm_scraper |  Fetching product urls from Page no: 17 
+2026-01-28 10:00:56,139 | INFO | handm_scraper |  Fetched 36 urls from page no 17
+2026-01-28 10:00:59,390 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 18 = 200
+2026-01-28 10:00:59,392 | INFO | handm_scraper |  Fetching product urls from Page no: 18 
+2026-01-28 10:00:59,393 | INFO | handm_scraper |  Fetched 36 urls from page no 18
+2026-01-28 10:01:02,868 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 19 = 200
+2026-01-28 10:01:02,870 | INFO | handm_scraper |  Fetching product urls from Page no: 19 
+2026-01-28 10:01:02,871 | INFO | handm_scraper |  Fetched 36 urls from page no 19
+2026-01-28 10:01:06,352 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 20 = 200
+2026-01-28 10:01:06,354 | INFO | handm_scraper |  Fetching product urls from Page no: 20 
+2026-01-28 10:01:06,355 | INFO | handm_scraper |  Fetched 36 urls from page no 20
+2026-01-28 10:01:09,731 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 21 = 200
+2026-01-28 10:01:09,734 | INFO | handm_scraper |  Fetching product urls from Page no: 21 
+2026-01-28 10:01:09,734 | INFO | handm_scraper |  Fetched 36 urls from page no 21
+2026-01-28 10:01:13,036 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 22 = 200
+2026-01-28 10:01:13,038 | INFO | handm_scraper |  Fetching product urls from Page no: 22 
+2026-01-28 10:01:13,039 | INFO | handm_scraper |  Fetched 36 urls from page no 22
+2026-01-28 10:01:16,286 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 23 = 200
+2026-01-28 10:01:16,288 | INFO | handm_scraper |  Fetching product urls from Page no: 23 
+2026-01-28 10:01:16,289 | INFO | handm_scraper |  Fetched 36 urls from page no 23
+2026-01-28 10:01:19,786 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 24 = 200
+2026-01-28 10:01:19,788 | INFO | handm_scraper |  Fetching product urls from Page no: 24 
+2026-01-28 10:01:19,788 | INFO | handm_scraper |  Fetched 36 urls from page no 24
+2026-01-28 10:01:23,059 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 25 = 200
+2026-01-28 10:01:23,061 | INFO | handm_scraper |  Fetching product urls from Page no: 25 
+2026-01-28 10:01:23,062 | INFO | handm_scraper |  Fetched 36 urls from page no 25
+2026-01-28 10:01:26,524 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 26 = 200
+2026-01-28 10:01:26,526 | INFO | handm_scraper |  Fetching product urls from Page no: 26 
+2026-01-28 10:01:26,527 | INFO | handm_scraper |  Fetched 36 urls from page no 26
+2026-01-28 10:01:29,739 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 27 = 200
+2026-01-28 10:01:29,741 | INFO | handm_scraper |  Fetching product urls from Page no: 27 
+2026-01-28 10:01:29,742 | INFO | handm_scraper |  Fetched 36 urls from page no 27
+2026-01-28 10:01:33,178 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 28 = 200
+2026-01-28 10:01:33,180 | INFO | handm_scraper |  Fetching product urls from Page no: 28 
+2026-01-28 10:01:33,180 | INFO | handm_scraper |  Fetched 36 urls from page no 28
+2026-01-28 10:01:36,457 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 29 = 200
+2026-01-28 10:01:36,458 | INFO | handm_scraper |  Fetching product urls from Page no: 29 
+2026-01-28 10:01:36,459 | INFO | handm_scraper |  Fetched 20 urls from page no 29
+2026-01-28 10:01:39,937 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 30 = 200
+2026-01-28 10:01:39,938 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:01:39,938 | INFO | handm_scraper | successfully fetched 1139 links
+2026-01-28 10:01:39,938 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html
+2026-01-28 10:01:40,449 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html is 200
+2026-01-28 10:01:40,459 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:01:40,459 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:01:40,459 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:01:40,460 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html - IDs not found
+2026-01-28 10:01:40,460 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/women/shoes/view-all.html
+2026-01-28 10:01:41,489 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/women/shoes/view-all.html is 200
+2026-01-28 10:01:41,686 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:01:41,688 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:01:41,688 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:01:44,873 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:01:44,874 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:01:44,875 | INFO | handm_scraper |  Fetched 33 urls from page no 2
+2026-01-28 10:01:48,026 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:01:48,027 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:01:48,027 | INFO | handm_scraper | successfully fetched 1208 links
+2026-01-28 10:01:48,027 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html
+2026-01-28 10:01:48,227 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html is 200
+2026-01-28 10:01:48,228 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:01:48,236 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:01:48,236 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:01:48,236 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html - IDs not found
+2026-01-28 10:01:48,236 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/ladies/beauty/view-all.html
+2026-01-28 10:01:48,649 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/ladies/beauty/view-all.html is 301
+2026-01-28 10:01:48,651 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:01:48,652 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:01:48,652 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:01:48,652 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/ladies/beauty/view-all.html - IDs not found
+2026-01-28 10:01:48,652 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/women/accessories/view-all.html
+2026-01-28 10:01:48,751 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/women/accessories/view-all.html is 200
+2026-01-28 10:01:48,751 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:01:48,751 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:01:48,752 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:01:48,752 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/women/accessories/view-all.html - IDs not found
+2026-01-28 10:01:48,752 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/girls/clothing/view-all.html
+2026-01-28 10:01:49,438 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/girls/clothing/view-all.html is 200
+2026-01-28 10:01:49,685 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:01:49,688 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:01:49,688 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:01:52,944 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:01:52,946 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:01:52,947 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 10:01:56,327 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:01:56,329 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 10:01:56,329 | INFO | handm_scraper |  Fetched 36 urls from page no 3
+2026-01-28 10:01:59,529 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:01:59,532 | INFO | handm_scraper |  Fetching product urls from Page no: 4 
+2026-01-28 10:01:59,533 | INFO | handm_scraper |  Fetched 36 urls from page no 4
+2026-01-28 10:02:02,807 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 5 = 200
+2026-01-28 10:02:02,809 | INFO | handm_scraper |  Fetching product urls from Page no: 5 
+2026-01-28 10:02:02,810 | INFO | handm_scraper |  Fetched 36 urls from page no 5
+2026-01-28 10:02:05,988 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 6 = 200
+2026-01-28 10:02:05,990 | INFO | handm_scraper |  Fetching product urls from Page no: 6 
+2026-01-28 10:02:05,990 | INFO | handm_scraper |  Fetched 36 urls from page no 6
+2026-01-28 10:02:09,328 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 7 = 200
+2026-01-28 10:02:09,329 | INFO | handm_scraper |  Fetching product urls from Page no: 7 
+2026-01-28 10:02:09,330 | INFO | handm_scraper |  Fetched 36 urls from page no 7
+2026-01-28 10:02:12,477 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 8 = 200
+2026-01-28 10:02:12,479 | INFO | handm_scraper |  Fetching product urls from Page no: 8 
+2026-01-28 10:02:12,480 | INFO | handm_scraper |  Fetched 36 urls from page no 8
+2026-01-28 10:02:15,882 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 9 = 200
+2026-01-28 10:02:15,884 | INFO | handm_scraper |  Fetching product urls from Page no: 9 
+2026-01-28 10:02:15,884 | INFO | handm_scraper |  Fetched 36 urls from page no 9
+2026-01-28 10:02:19,105 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 10 = 200
+2026-01-28 10:02:19,107 | INFO | handm_scraper |  Fetching product urls from Page no: 10 
+2026-01-28 10:02:19,107 | INFO | handm_scraper |  Fetched 36 urls from page no 10
+2026-01-28 10:02:22,245 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 11 = 200
+2026-01-28 10:02:22,248 | INFO | handm_scraper |  Fetching product urls from Page no: 11 
+2026-01-28 10:02:22,248 | INFO | handm_scraper |  Fetched 36 urls from page no 11
+2026-01-28 10:02:25,608 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 12 = 200
+2026-01-28 10:02:25,610 | INFO | handm_scraper |  Fetching product urls from Page no: 12 
+2026-01-28 10:02:25,610 | INFO | handm_scraper |  Fetched 36 urls from page no 12
+2026-01-28 10:02:28,887 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 13 = 200
+2026-01-28 10:02:28,888 | INFO | handm_scraper |  Fetching product urls from Page no: 13 
+2026-01-28 10:02:28,889 | INFO | handm_scraper |  Fetched 36 urls from page no 13
+2026-01-28 10:02:32,170 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 14 = 200
+2026-01-28 10:02:32,172 | INFO | handm_scraper |  Fetching product urls from Page no: 14 
+2026-01-28 10:02:32,172 | INFO | handm_scraper |  Fetched 36 urls from page no 14
+2026-01-28 10:02:35,437 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 15 = 200
+2026-01-28 10:02:35,439 | INFO | handm_scraper |  Fetching product urls from Page no: 15 
+2026-01-28 10:02:35,439 | INFO | handm_scraper |  Fetched 36 urls from page no 15
+2026-01-28 10:02:38,817 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 16 = 200
+2026-01-28 10:02:38,819 | INFO | handm_scraper |  Fetching product urls from Page no: 16 
+2026-01-28 10:02:38,820 | INFO | handm_scraper |  Fetched 36 urls from page no 16
+2026-01-28 10:02:42,100 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 17 = 200
+2026-01-28 10:02:42,102 | INFO | handm_scraper |  Fetching product urls from Page no: 17 
+2026-01-28 10:02:42,102 | INFO | handm_scraper |  Fetched 36 urls from page no 17
+2026-01-28 10:02:45,294 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 18 = 200
+2026-01-28 10:02:45,296 | INFO | handm_scraper |  Fetching product urls from Page no: 18 
+2026-01-28 10:02:45,297 | INFO | handm_scraper |  Fetched 36 urls from page no 18
+2026-01-28 10:02:48,583 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 19 = 200
+2026-01-28 10:02:48,585 | INFO | handm_scraper |  Fetching product urls from Page no: 19 
+2026-01-28 10:02:48,586 | INFO | handm_scraper |  Fetched 36 urls from page no 19
+2026-01-28 10:02:51,820 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 20 = 200
+2026-01-28 10:02:51,822 | INFO | handm_scraper |  Fetching product urls from Page no: 20 
+2026-01-28 10:02:51,822 | INFO | handm_scraper |  Fetched 36 urls from page no 20
+2026-01-28 10:02:55,101 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 21 = 200
+2026-01-28 10:02:55,103 | INFO | handm_scraper |  Fetching product urls from Page no: 21 
+2026-01-28 10:02:55,103 | INFO | handm_scraper |  Fetched 36 urls from page no 21
+2026-01-28 10:02:58,291 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 22 = 200
+2026-01-28 10:02:58,294 | INFO | handm_scraper |  Fetching product urls from Page no: 22 
+2026-01-28 10:02:58,294 | INFO | handm_scraper |  Fetched 36 urls from page no 22
+2026-01-28 10:03:01,549 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 23 = 200
+2026-01-28 10:03:01,551 | INFO | handm_scraper |  Fetching product urls from Page no: 23 
+2026-01-28 10:03:01,552 | INFO | handm_scraper |  Fetched 36 urls from page no 23
+2026-01-28 10:03:04,722 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 24 = 200
+2026-01-28 10:03:04,724 | INFO | handm_scraper |  Fetching product urls from Page no: 24 
+2026-01-28 10:03:04,724 | INFO | handm_scraper |  Fetched 36 urls from page no 24
+2026-01-28 10:03:07,921 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 25 = 200
+2026-01-28 10:03:07,923 | INFO | handm_scraper |  Fetching product urls from Page no: 25 
+2026-01-28 10:03:07,924 | INFO | handm_scraper |  Fetched 36 urls from page no 25
+2026-01-28 10:03:11,091 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 26 = 200
+2026-01-28 10:03:11,092 | INFO | handm_scraper |  Fetching product urls from Page no: 26 
+2026-01-28 10:03:11,093 | INFO | handm_scraper |  Fetched 16 urls from page no 26
+2026-01-28 10:03:14,374 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 27 = 200
+2026-01-28 10:03:14,375 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:03:14,375 | INFO | handm_scraper | successfully fetched 2124 links
+2026-01-28 10:03:14,375 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/products/accessories/view-all.html
+2026-01-28 10:03:14,552 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/products/accessories/view-all.html is 200
+2026-01-28 10:03:14,552 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:14,552 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:14,552 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:14,553 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/baby/products/accessories/view-all.html - IDs not found
+2026-01-28 10:03:14,553 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/home/shop-by-product/bath-shower/view-all.html
+2026-01-28 10:03:14,860 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/home/shop-by-product/bath-shower/view-all.html is 200
+2026-01-28 10:03:14,861 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:14,861 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:14,861 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:14,861 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/home/shop-by-product/bath-shower/view-all.html - IDs not found
+2026-01-28 10:03:14,861 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/9-14y/outerwear/view-all.html
+2026-01-28 10:03:16,094 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/9-14y/outerwear/view-all.html is 200
+2026-01-28 10:03:16,638 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:03:16,640 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:03:16,640 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:03:19,781 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:03:19,781 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:03:19,782 | INFO | handm_scraper |  Fetched 7 urls from page no 2
+2026-01-28 10:03:23,051 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:03:23,052 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:03:23,052 | INFO | handm_scraper | successfully fetched 2167 links
+2026-01-28 10:03:23,052 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/beauty/shop-by-product/nails/view-all.html
+2026-01-28 10:03:23,156 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/beauty/shop-by-product/nails/view-all.html is 200
+2026-01-28 10:03:23,156 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:23,156 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:23,156 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:23,157 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/beauty/shop-by-product/nails/view-all.html - IDs not found
+2026-01-28 10:03:23,157 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/beauty/shop-by-product/makeup/view-all.html
+2026-01-28 10:03:23,257 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/beauty/shop-by-product/makeup/view-all.html is 200
+2026-01-28 10:03:23,258 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:23,258 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:23,258 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:23,258 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/beauty/shop-by-product/makeup/view-all.html - IDs not found
+2026-01-28 10:03:23,258 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/9-14y/sportswear/view-all.html
+2026-01-28 10:03:24,122 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/9-14y/sportswear/view-all.html is 200
+2026-01-28 10:03:24,491 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:03:24,493 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:03:24,493 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:03:27,765 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:03:27,767 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:03:27,768 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 10:03:31,147 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:03:31,149 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 10:03:31,150 | INFO | handm_scraper |  Fetched 36 urls from page no 3
+2026-01-28 10:03:34,336 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:03:34,338 | INFO | handm_scraper |  Fetching product urls from Page no: 4 
+2026-01-28 10:03:34,338 | INFO | handm_scraper |  Fetched 30 urls from page no 4
+2026-01-28 10:03:37,492 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 5 = 200
+2026-01-28 10:03:37,493 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:03:37,493 | INFO | handm_scraper | successfully fetched 2305 links
+2026-01-28 10:03:37,493 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/girls-9-14y/accessories/view-all.html
+2026-01-28 10:03:37,696 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/girls-9-14y/accessories/view-all.html is 200
+2026-01-28 10:03:37,697 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:37,697 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:37,697 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:37,697 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/kids/girls-9-14y/accessories/view-all.html - IDs not found
+2026-01-28 10:03:37,697 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/boys/outerwear/view-all.html
+2026-01-28 10:03:38,569 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/boys/outerwear/view-all.html is 200
+2026-01-28 10:03:38,820 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:03:38,821 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:03:38,821 | INFO | handm_scraper |  Fetched 11 urls from page no 1
+2026-01-28 10:03:42,098 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:03:42,099 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:03:42,099 | INFO | handm_scraper | successfully fetched 2316 links
+2026-01-28 10:03:42,099 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/home/shop-by-product/storage/view-all.html
+2026-01-28 10:03:42,304 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/home/shop-by-product/storage/view-all.html is 200
+2026-01-28 10:03:42,304 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:03:42,305 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:03:42,305 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:03:42,305 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/home/shop-by-product/storage/view-all.html - IDs not found
+2026-01-28 10:03:42,381 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list
+2026-01-28 10:12:41,865 | INFO | handm_scraper | startitng category crawling.....
+2026-01-28 10:12:41,866 | INFO | handm_scraper | starting the category crawler on https://www2.hm.com/en_in/index.html
+2026-01-28 10:12:43,209 | INFO | handm_scraper | Response fetched successfully : 200
+2026-01-28 10:12:43,252 | WARNING | handm_scraper | unhashable type: 'set'
+2026-01-28 10:12:43,268 | INFO | handm_scraper | [INFO] Starting the Crawling Process 
+2026-01-28 10:12:43,268 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html
+2026-01-28 10:12:43,800 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html is 200
+2026-01-28 10:12:43,800 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:12:43,800 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:12:43,801 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:12:43,801 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/baby/shop-by-product/shoes/view-all.html - IDs not found
+2026-01-28 10:12:43,801 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/9-14y/shoes/view-all.html
+2026-01-28 10:12:44,465 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/9-14y/shoes/view-all.html is 200
+2026-01-28 10:12:45,335 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:12:45,335 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:12:45,335 | INFO | handm_scraper |  Fetched 1 urls from page no 1
+2026-01-28 10:12:48,721 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:12:48,721 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:12:48,721 | INFO | handm_scraper | successfully fetched 1 links
+2026-01-28 10:12:48,721 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/boys-9-14y/outerwear/view-all.html
+2026-01-28 10:12:49,808 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/boys-9-14y/outerwear/view-all.html is 200
+2026-01-28 10:12:50,149 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:12:50,150 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:12:50,150 | INFO | handm_scraper |  Fetched 21 urls from page no 1
+2026-01-28 10:12:53,378 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:12:53,383 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:12:53,383 | INFO | handm_scraper | successfully fetched 22 links
+2026-01-28 10:12:53,383 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html
+2026-01-28 10:12:54,196 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/girls/sportswear/view-all.html is 200
+2026-01-28 10:12:54,557 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:12:54,559 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:12:54,559 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:12:57,742 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:12:57,743 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:12:57,744 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 10:13:01,005 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:13:01,006 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 10:13:01,006 | INFO | handm_scraper |  Fetched 17 urls from page no 3
+2026-01-28 10:13:04,285 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:13:04,286 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:13:04,286 | INFO | handm_scraper | successfully fetched 111 links
+2026-01-28 10:13:04,286 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/boys/clothing/view-all.html
+2026-01-28 10:13:04,557 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/boys/clothing/view-all.html is 200
+2026-01-28 10:13:04,900 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:13:04,902 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:13:04,902 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:13:08,176 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:13:08,178 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:13:08,178 | INFO | handm_scraper |  Fetched 36 urls from page no 2
+2026-01-28 10:13:11,527 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:13:11,529 | INFO | handm_scraper |  Fetching product urls from Page no: 3 
+2026-01-28 10:13:11,529 | INFO | handm_scraper |  Fetched 36 urls from page no 3
+2026-01-28 10:13:14,836 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 4 = 200
+2026-01-28 10:13:14,838 | INFO | handm_scraper |  Fetching product urls from Page no: 4 
+2026-01-28 10:13:14,839 | INFO | handm_scraper |  Fetched 36 urls from page no 4
+2026-01-28 10:13:18,210 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 5 = 200
+2026-01-28 10:13:18,212 | INFO | handm_scraper |  Fetching product urls from Page no: 5 
+2026-01-28 10:13:18,213 | INFO | handm_scraper |  Fetched 36 urls from page no 5
+2026-01-28 10:13:21,604 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 6 = 200
+2026-01-28 10:13:21,606 | INFO | handm_scraper |  Fetching product urls from Page no: 6 
+2026-01-28 10:13:21,607 | INFO | handm_scraper |  Fetched 36 urls from page no 6
+2026-01-28 10:13:24,790 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 7 = 200
+2026-01-28 10:13:24,792 | INFO | handm_scraper |  Fetching product urls from Page no: 7 
+2026-01-28 10:13:24,793 | INFO | handm_scraper |  Fetched 36 urls from page no 7
+2026-01-28 10:13:28,251 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 8 = 200
+2026-01-28 10:13:28,253 | INFO | handm_scraper |  Fetching product urls from Page no: 8 
+2026-01-28 10:13:28,254 | INFO | handm_scraper |  Fetched 36 urls from page no 8
+2026-01-28 10:13:31,629 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 9 = 200
+2026-01-28 10:13:31,631 | INFO | handm_scraper |  Fetching product urls from Page no: 9 
+2026-01-28 10:13:31,631 | INFO | handm_scraper |  Fetched 36 urls from page no 9
+2026-01-28 10:13:34,898 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 10 = 200
+2026-01-28 10:13:34,901 | INFO | handm_scraper |  Fetching product urls from Page no: 10 
+2026-01-28 10:13:34,901 | INFO | handm_scraper |  Fetched 36 urls from page no 10
+2026-01-28 10:13:38,282 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 11 = 200
+2026-01-28 10:13:38,284 | INFO | handm_scraper |  Fetching product urls from Page no: 11 
+2026-01-28 10:13:38,285 | INFO | handm_scraper |  Fetched 36 urls from page no 11
+2026-01-28 10:13:41,677 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 12 = 200
+2026-01-28 10:13:41,680 | INFO | handm_scraper |  Fetching product urls from Page no: 12 
+2026-01-28 10:13:41,680 | INFO | handm_scraper |  Fetched 36 urls from page no 12
+2026-01-28 10:13:45,039 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 13 = 200
+2026-01-28 10:13:45,041 | INFO | handm_scraper |  Fetching product urls from Page no: 13 
+2026-01-28 10:13:45,041 | INFO | handm_scraper |  Fetched 36 urls from page no 13
+2026-01-28 10:13:48,518 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 14 = 200
+2026-01-28 10:13:48,520 | INFO | handm_scraper |  Fetching product urls from Page no: 14 
+2026-01-28 10:13:48,520 | INFO | handm_scraper |  Fetched 36 urls from page no 14
+2026-01-28 10:13:51,796 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 15 = 200
+2026-01-28 10:13:51,798 | INFO | handm_scraper |  Fetching product urls from Page no: 15 
+2026-01-28 10:13:51,799 | INFO | handm_scraper |  Fetched 36 urls from page no 15
+2026-01-28 10:13:55,073 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 16 = 200
+2026-01-28 10:13:55,075 | INFO | handm_scraper |  Fetching product urls from Page no: 16 
+2026-01-28 10:13:55,075 | INFO | handm_scraper |  Fetched 36 urls from page no 16
+2026-01-28 10:13:58,243 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 17 = 200
+2026-01-28 10:13:58,245 | INFO | handm_scraper |  Fetching product urls from Page no: 17 
+2026-01-28 10:13:58,246 | INFO | handm_scraper |  Fetched 36 urls from page no 17
+2026-01-28 10:14:01,469 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 18 = 200
+2026-01-28 10:14:01,472 | INFO | handm_scraper |  Fetching product urls from Page no: 18 
+2026-01-28 10:14:01,472 | INFO | handm_scraper |  Fetched 36 urls from page no 18
+2026-01-28 10:14:04,719 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 19 = 200
+2026-01-28 10:14:04,721 | INFO | handm_scraper |  Fetching product urls from Page no: 19 
+2026-01-28 10:14:04,721 | INFO | handm_scraper |  Fetched 36 urls from page no 19
+2026-01-28 10:14:07,976 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 20 = 200
+2026-01-28 10:14:07,978 | INFO | handm_scraper |  Fetching product urls from Page no: 20 
+2026-01-28 10:14:07,978 | INFO | handm_scraper |  Fetched 36 urls from page no 20
+2026-01-28 10:14:11,165 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 21 = 200
+2026-01-28 10:14:11,167 | INFO | handm_scraper |  Fetching product urls from Page no: 21 
+2026-01-28 10:14:11,168 | INFO | handm_scraper |  Fetched 36 urls from page no 21
+2026-01-28 10:14:14,534 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 22 = 200
+2026-01-28 10:14:14,536 | INFO | handm_scraper |  Fetching product urls from Page no: 22 
+2026-01-28 10:14:14,537 | INFO | handm_scraper |  Fetched 36 urls from page no 22
+2026-01-28 10:14:17,911 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 23 = 200
+2026-01-28 10:14:17,913 | INFO | handm_scraper |  Fetching product urls from Page no: 23 
+2026-01-28 10:14:17,913 | INFO | handm_scraper |  Fetched 36 urls from page no 23
+2026-01-28 10:14:21,288 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 24 = 200
+2026-01-28 10:14:21,290 | INFO | handm_scraper |  Fetching product urls from Page no: 24 
+2026-01-28 10:14:21,291 | INFO | handm_scraper |  Fetched 36 urls from page no 24
+2026-01-28 10:14:24,513 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 25 = 200
+2026-01-28 10:14:24,515 | INFO | handm_scraper |  Fetching product urls from Page no: 25 
+2026-01-28 10:14:24,515 | INFO | handm_scraper |  Fetched 36 urls from page no 25
+2026-01-28 10:14:27,692 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 26 = 200
+2026-01-28 10:14:27,695 | INFO | handm_scraper |  Fetching product urls from Page no: 26 
+2026-01-28 10:14:27,695 | INFO | handm_scraper |  Fetched 36 urls from page no 26
+2026-01-28 10:14:31,163 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 27 = 200
+2026-01-28 10:14:31,165 | INFO | handm_scraper |  Fetching product urls from Page no: 27 
+2026-01-28 10:14:31,166 | INFO | handm_scraper |  Fetched 36 urls from page no 27
+2026-01-28 10:14:34,502 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 28 = 200
+2026-01-28 10:14:34,504 | INFO | handm_scraper |  Fetching product urls from Page no: 28 
+2026-01-28 10:14:34,505 | INFO | handm_scraper |  Fetched 36 urls from page no 28
+2026-01-28 10:14:37,882 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 29 = 200
+2026-01-28 10:14:37,883 | INFO | handm_scraper |  Fetching product urls from Page no: 29 
+2026-01-28 10:14:37,884 | INFO | handm_scraper |  Fetched 20 urls from page no 29
+2026-01-28 10:14:41,151 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 30 = 200
+2026-01-28 10:14:41,153 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:14:41,153 | INFO | handm_scraper | successfully fetched 1139 links
+2026-01-28 10:14:41,153 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html
+2026-01-28 10:14:41,867 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html is 200
+2026-01-28 10:14:41,868 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:14:41,876 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:14:41,876 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:14:41,876 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/baby/newborn/accessories/view-all.html - IDs not found
+2026-01-28 10:14:41,877 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/women/shoes/view-all.html
+2026-01-28 10:14:42,412 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/women/shoes/view-all.html is 200
+2026-01-28 10:14:42,691 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 1 = 200
+2026-01-28 10:14:42,692 | INFO | handm_scraper |  Fetching product urls from Page no: 1 
+2026-01-28 10:14:42,692 | INFO | handm_scraper |  Fetched 36 urls from page no 1
+2026-01-28 10:14:45,966 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 2 = 200
+2026-01-28 10:14:45,967 | INFO | handm_scraper |  Fetching product urls from Page no: 2 
+2026-01-28 10:14:45,968 | INFO | handm_scraper |  Fetched 33 urls from page no 2
+2026-01-28 10:14:49,154 | INFO | handm_scraper | [INFO] STATUS CODE FOR PAGE NO : 3 = 200
+2026-01-28 10:14:49,154 | INFO | handm_scraper |  No more products Reached last page
+2026-01-28 10:14:49,154 | INFO | handm_scraper | successfully fetched 1208 links
+2026-01-28 10:14:49,154 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html
+2026-01-28 10:14:49,279 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html is 200
+2026-01-28 10:14:49,280 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:14:49,280 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:14:49,280 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:14:49,280 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/kids/shop-by-product/sportswear/view-all.html - IDs not found
+2026-01-28 10:14:49,280 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/ladies/beauty/view-all.html
+2026-01-28 10:14:49,446 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/ladies/beauty/view-all.html is 301
+2026-01-28 10:14:49,446 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:14:49,447 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:14:49,447 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:14:49,447 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/ladies/beauty/view-all.html - IDs not found
+2026-01-28 10:14:49,447 | INFO | handm_scraper | getting api params from https://www2.hm.com/en_in/women/accessories/view-all.html
+2026-01-28 10:14:49,535 | INFO | handm_scraper | status code of https://www2.hm.com/en_in/women/accessories/view-all.html is 200
+2026-01-28 10:14:49,536 | ERROR | handm_scraper | error change client identifier list index out of range
+2026-01-28 10:14:49,536 | INFO | handm_scraper | params fetching failed becuase cannot access local variable 'script' where it is not associated with a value
+2026-01-28 10:14:49,536 | ERROR | handm_scraper | api params sending failed
+2026-01-28 10:14:49,536 | WARNING | handm_scraper | Skipping https://www2.hm.com/en_in/women/accessories/view-all.html - IDs not found
+2026-01-28 10:14:49,858 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:49,858 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:49,859 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:49,962 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:49,962 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:49,963 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:50,162 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:50,163 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:50,163 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:50,253 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:50,253 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:50,254 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:50,344 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:50,345 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:50,345 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:50,434 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:50,435 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:50,435 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:50,881 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:50,881 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:50,882 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,290 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,290 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,290 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,391 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,391 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,392 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,484 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,485 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,485 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,596 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,596 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,597 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,798 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,798 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,799 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:51,915 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:51,916 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:51,916 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:52,107 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:52,108 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:52,108 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:52,287 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:52,287 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:52,288 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:52,411 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:52,411 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:52,411 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:52,517 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:52,518 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:52,518 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:52,725 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:52,725 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:52,726 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:53,031 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:53,032 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:53,032 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:53,237 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:53,237 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:53,238 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:53,340 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:53,341 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:53,341 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:53,645 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:53,646 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:53,646 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:53,954 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:53,954 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:53,955 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,049 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,050 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,050 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,196 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,197 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,197 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,360 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,360 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,361 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,669 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,669 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,670 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,756 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,756 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,757 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,855 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,855 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,855 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:54,943 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:54,944 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:54,944 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,079 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,080 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,081 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,285 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,285 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,286 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,416 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,417 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,417 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,589 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,590 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,590 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,678 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,678 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,678 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,775 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,775 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,776 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:55,901 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:55,901 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:55,902 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,101 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,101 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,102 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,189 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,190 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,190 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,326 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,326 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,327 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,440 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,440 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,440 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,556 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,556 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,557 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,643 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,643 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,644 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,759 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,759 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,759 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:56,927 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:56,928 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:56,928 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,013 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,013 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,014 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,335 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,336 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,336 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,461 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,461 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,462 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,638 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,638 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,639 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,731 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,732 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,732 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:57,945 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:57,946 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:57,946 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:58,050 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:58,051 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:58,051 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:58,256 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:58,257 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:58,257 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:58,559 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:58,559 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:58,559 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:58,973 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:58,974 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:58,974 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:59,273 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:59,274 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:59,274 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:59,353 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:59,353 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:59,353 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:59,480 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:59,481 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:59,481 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:14:59,687 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:14:59,687 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:14:59,688 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,066 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,066 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,075 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,160 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,161 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,161 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,245 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,246 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,246 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,334 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,334 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,334 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,611 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,611 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,612 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:00,917 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:00,917 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:00,918 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:01,119 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:01,120 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:01,120 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:01,324 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:01,324 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:01,324 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:01,412 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:01,413 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:01,413 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:01,835 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:01,835 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:01,836 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:01,920 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:01,920 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:01,920 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,144 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,145 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,145 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,232 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,233 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,233 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,347 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,347 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,348 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,433 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,433 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,434 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,600 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,601 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,601 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,760 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,761 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,761 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,849 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,849 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,849 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:02,942 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:02,942 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:02,942 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,029 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,030 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,030 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,114 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,114 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,115 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,269 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,269 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,269 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,354 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,354 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,355 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,445 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,445 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,446 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,537 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,537 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,537 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:03,979 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:03,979 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:03,980 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,089 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,089 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,090 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,171 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,172 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,172 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,255 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,256 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,256 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,396 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,396 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,397 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,491 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,491 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,491 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:04,985 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:04,986 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:04,986 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:05,201 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:05,202 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:05,210 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:05,629 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:05,629 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:05,629 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:05,939 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:05,939 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:05,940 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:06,144 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:06,145 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:06,145 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:06,549 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:06,549 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:06,549 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:06,750 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:06,751 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:06,751 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:06,833 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:06,834 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:06,834 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:06,916 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:06,916 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:06,916 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,002 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,002 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,002 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,084 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,084 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,085 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,170 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,170 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,170 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,250 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,250 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,251 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,343 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,344 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,344 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,429 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,430 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,430 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,676 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,676 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,677 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,881 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,881 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,882 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:07,965 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:07,966 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:07,966 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,056 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,057 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,057 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,137 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,138 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,138 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,394 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,395 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,395 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,597 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,597 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,598 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,683 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,684 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,684 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,773 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,773 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,774 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,871 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,871 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,872 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:08,961 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:08,961 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:08,962 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,210 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,210 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,211 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,296 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,297 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,297 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,381 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,382 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,382 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,467 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,467 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,468 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,549 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,550 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,550 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,826 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,827 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,827 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:09,925 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:09,925 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:09,926 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:10,132 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:10,133 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:10,133 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:10,220 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:10,220 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:10,228 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:10,530 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:10,531 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:10,531 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:10,744 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:10,745 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:10,745 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:10,835 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:10,835 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:10,835 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:11,157 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:11,157 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:11,158 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:11,564 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:11,565 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:11,565 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:11,652 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:11,653 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:11,653 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:11,873 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:11,873 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:11,874 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:11,955 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:11,955 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:11,956 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,040 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,041 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,041 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,181 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,181 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,181 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,280 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,281 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,281 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,361 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,361 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,361 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,447 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,447 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,448 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,532 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,532 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,533 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,691 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,691 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,691 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:12,793 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:12,794 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:12,794 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,104 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,104 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,105 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,191 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,191 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,192 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,307 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,307 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,308 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,394 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,394 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,394 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,486 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,486 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,487 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,570 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,570 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,571 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,655 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,655 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,655 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,736 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,737 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,737 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:13,843 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:13,843 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:13,844 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,124 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,124 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,125 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,328 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,329 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,329 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,410 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,410 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,411 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,519 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,519 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,520 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,610 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,611 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,611 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,693 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,693 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,693 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,841 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,842 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,842 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:14,929 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:14,930 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:14,930 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,045 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,045 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,045 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,252 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,252 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,253 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,353 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,353 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,354 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,455 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,455 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,455 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,560 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,560 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,561 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,648 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,648 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,649 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,742 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,742 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,743 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,824 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,824 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,825 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,906 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,906 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,907 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:15,989 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:15,989 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:15,990 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,172 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,173 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,173 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,256 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,256 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,257 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,375 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,376 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,376 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,476 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,476 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,477 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,582 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,583 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,583 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,686 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,687 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,687 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,769 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,769 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,769 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,847 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,847 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,848 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:16,932 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:16,932 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:16,932 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,015 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,015 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,016 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,102 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,102 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,102 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,187 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,187 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,187 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,272 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,272 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,273 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,357 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,358 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,358 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,442 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,443 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,443 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,532 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,532 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,533 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,616 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,616 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,616 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,712 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,713 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,713 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,807 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,808 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,808 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,909 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,909 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,910 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:17,991 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:17,991 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:17,991 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,085 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,086 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,086 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,223 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,223 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,224 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,308 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,309 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,309 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,407 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,408 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,408 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,486 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,487 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,487 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,574 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,574 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,575 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,669 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,669 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,670 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,759 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,760 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,760 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:18,946 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:18,946 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:18,947 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:19,048 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:19,049 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:19,049 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:19,131 | INFO | handm_scraper | STATUS CODE = 200
+2026-01-28 10:15:19,131 | INFO | handm_scraper | Start fetching data........................
+2026-01-28 10:15:19,132 | ERROR | handm_scraper | Cookie expire or expected string or bytes-like object, got 'NoneType'
+2026-01-28 10:15:19,134 | ERROR | handm_scraper | Mongo db error detected
+ documents must be a non-empty list

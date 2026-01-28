@@ -65,7 +65,7 @@ class Crawler(ApiParamsGetter):
 
     def __init__(self):
         super().__init__()
-        self.data = fetch_from_mongo("category_links")
+        self.data = fetch_from_mongo("category_links_two",limit=10)
         self.list_of_plp_urls = [url["url"] for url in self.data]
         self.logger = logger
         self.list_of_pdp_urls = []
@@ -132,4 +132,4 @@ class Crawler(ApiParamsGetter):
         
         self.remove_duplicate_pdp_url = set(self.list_of_pdp_urls)
         self.links_to_save = [{"url":url} for url in self.remove_duplicate_pdp_url]
-        save_to_mongo(self.links_to_save,"products_links")
+        save_to_mongo(self.links_to_save,"products_links_two")

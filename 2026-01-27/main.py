@@ -8,26 +8,25 @@ import time
 
 class Main():
     def __init__(self):
-        self.category = CategoryCrawler()
-        self.crawler = Crawler()
+        
         self.pdp_data = []
-        self.data = fetch_from_mongo("products_links")
-        self.pdp_urls = [url["url"] for url in self.data]
         self.logger = logger
     
     def start(self):
 
+        self.category = CategoryCrawler()
+
         self.logger.info("startitng category crawling.....")
         self.category.category_crawl()
 
-
-        print("[INFO] Starting the Crawling Process ")
+        self.crawler = Crawler()
+        self.logger.info("[INFO] Starting the Crawling Process ")
 
         self.crawler.crawl()
 
-
         parser = Parser()
-
+        self.data = fetch_from_mongo("products_links_two",limit=200)
+        self.pdp_urls = [url["url"] for url in self.data]
         print(len(self.pdp_urls))
 
         for i in progress.tqdm(self.pdp_urls,desc ="Extracting.............."):

@@ -40,6 +40,7 @@ class CategoryCrawler():
             if response.status_code == 200:
                 self.logger.info(f"Response fetched successfully : {response.status_code}")
             else:
+                print(response.text)
                 self.logger.error(f"Failed to fetch {self.index_url} please change the cookie and tsl_client identifier")
 
             """this line of code will convert the response.content raw html markup string
@@ -75,6 +76,8 @@ class CategoryCrawler():
             self.logger.warning(f"{e}")
 
         #converting all links from set to list of dict to save to mongo
+        print(self.all_category_view_all_links)
         self.links_to_save = [{"url":url} for url in self.all_category_view_all_links]
         
-        save_to_mongo(self.links_to_save,"category_links")
+        
+        save_to_mongo(self.links_to_save,"category_links_two")
