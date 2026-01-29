@@ -1,0 +1,2 @@
+2026-01-29 16:08:08,757 | INFO | matalame.log | Starting the category crawler
+2026-01-29 16:08:10,098 | INFO | matalame.log | {self.url} retuned {respose.status_code}
