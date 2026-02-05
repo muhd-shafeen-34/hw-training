@@ -18,12 +18,17 @@ HEADER = {
 }
 
 DOMAIN = "https://gcc.luluhypermarket.com/en-ae"
-CATEGORY_API = ""
+CATEGORY_API = "https://gcc.luluhypermarket.com/api/client/menus/generate/?depth_height=2"
 
 ######### C A T E G O R Y ############################
 
+response = rq.get(url=CATEGORY_API,headers=HEADER)
+categories = response.json()
+data = categories.get("menu","")
 
+grocery_category_link = [d["url"] for d in data if d.get("level","") == 1 and (d.get("url","").startswith("/grocery") or d.get("url","").startswith("/fresh-food"))]
 
+final_listing_page_links = [urljoin(DOMAIN,i) for i in grocery_category_link]
 
 ############# C R A W L E R ######################
 current_url = "https://gcc.luluhypermarket.com/en-ae/grocery-food-cupboard/"
