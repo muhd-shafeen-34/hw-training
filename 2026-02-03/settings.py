@@ -31,7 +31,10 @@ HEADERS = {
     )
 }
 
-
+CSV_HEADERS = ["url","title","brand","manufacturer","price","package_size_of_price","price_per_unit",
+               "sku","manufacturer_part_no","unspsc_code","color","type","material","plate_configuration",
+               "grade","product_weight","overall_height","overall_width","number_of_gangs","unit_of_meassurement","express_available",
+               "breadcrumbs","image_url","description","features","applications"]
 
 
 def save_to_mongo(data_list,collection_name):
@@ -99,7 +102,7 @@ def fetch_pdp_from_mongo(collection_name,limit = None):
             data = data.limit(int(limit))
         return data
    except Exception as e:
-        print("Monogoerror")
+        print("Monogoerror{e}")
 
 
 
