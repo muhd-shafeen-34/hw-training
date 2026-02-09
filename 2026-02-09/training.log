@@ -1,0 +1,15 @@
+Day started doing with the advanced webscraping modules
+ 1. implemented playwright on website
+ 2. Created a category crawler using playwright
+ 3. used its functionalities such as selector and locator
+ 4. continued the task by using salenium and implemented salenium
+ 5. created a category crawler using salenium
+ 6. fetched category links from live DOM using salenium
+ 7. Countinued the task by creating a category crawler using cloudscraper module
+ 8. Used its anti blocking mechanisms
+ 9. Learned cURL moudule and created a category crawler 
+ 10.  used its anti blocking mechanisms such as impersonate and completed the task
+
+
+
+
