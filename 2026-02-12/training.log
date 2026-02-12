@@ -1,0 +1,10 @@
+Day started with Learned more into cURL and its functions
+Attended meeting with training head and discussed 
+ 1. Paginations and other data limitations
+ 2. Learned about real life pagination examples
+ 3. Learned types of paginations such as numbered, infinite scroll and load more
+ 4. Learned about pagination limits and antibot meassures
+ 5. Overcoming pagination barriers using scroll simulation and API usage
+ 6. Learned importance of using filters and sorting
+ 7. understood the technique of applying filters with URL parameters and form submission
+ 8. used price range and brand name filtering as url paramater
