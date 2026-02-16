@@ -1,0 +1,801 @@
+2026-02-17 00:53:14,821 | INFO | academy_scraper | website shows 200
+2026-02-17 00:53:14,832 | INFO | academy_scraper | fetched main url links
+2026-02-17 00:53:16,437 | INFO | academy_scraper | found category New Men's Clothing with breadcrumb Academy > Shops > Marketing Offers > New Men's Clothing
+2026-02-17 00:53:16,437 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/shops/mktg-offers/app-offer-1
+2026-02-17 00:53:17,552 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 00:53:17,552 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 00:53:17,939 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 00:53:17,939 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 00:53:18,254 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 00:53:18,255 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 00:53:18,596 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 00:53:18,596 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 00:53:20,016 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 00:53:20,016 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 00:53:20,840 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 00:53:20,840 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 00:53:22,818 | INFO | academy_scraper | found category Men's Base Layers + Thermals with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Base Layers + Thermals
+2026-02-17 00:53:22,818 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-base-layers-thermals
+2026-02-17 00:53:23,305 | INFO | academy_scraper | found category Men's Beanies with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Men's Beanies
+2026-02-17 00:53:23,306 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/mens-beanies
+2026-02-17 00:53:25,233 | INFO | academy_scraper | found category Men's Puffer Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Puffer Jackets
+2026-02-17 00:53:25,233 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-puffer-jackets
+2026-02-17 00:53:26,369 | INFO | academy_scraper | found category Men's Fleece Jackets + Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Fleece Jackets + Pullovers
+2026-02-17 00:53:26,369 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-fleece-tops
+2026-02-17 00:53:27,179 | INFO | academy_scraper | found category Men's Shirt Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Shirt Jackets
+2026-02-17 00:53:27,179 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-shirt-jackets
+2026-02-17 00:53:28,110 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 00:53:28,110 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 00:53:28,815 | INFO | academy_scraper | found category Men's Track Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Track Jackets
+2026-02-17 00:53:28,815 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-track-jackets
+2026-02-17 00:53:29,430 | INFO | academy_scraper | found category Men's Rain Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Rain Jackets
+2026-02-17 00:53:29,431 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-rain-jackets
+2026-02-17 00:53:30,158 | INFO | academy_scraper | found category Men's Windbreakers  with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Windbreakers 
+2026-02-17 00:53:30,158 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-windbreakers
+2026-02-17 00:53:30,976 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 00:53:30,976 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 00:53:31,322 | INFO | academy_scraper | found category Men's Vests with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Vests
+2026-02-17 00:53:31,322 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-vests
+2026-02-17 00:53:31,733 | INFO | academy_scraper | found category Men's Winter Gloves with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Winter Gloves
+2026-02-17 00:53:31,733 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-cold-weather-gloves
+2026-02-17 00:53:33,118 | INFO | academy_scraper | found category Ski Masks + Balaclavas with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Ski Masks + Balaclavas
+2026-02-17 00:53:33,118 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/ski-masks-balaclavas
+2026-02-17 00:53:35,686 | INFO | academy_scraper | found category Men's Western Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Western Shirts
+2026-02-17 00:53:35,686 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/western-shirts
+2026-02-17 00:53:36,294 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 00:53:36,294 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 00:53:36,709 | INFO | academy_scraper | found category Men's Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Pullovers
+2026-02-17 00:53:36,709 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-pullovers
+2026-02-17 00:53:37,085 | INFO | academy_scraper | found category Men's Polos with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Polos
+2026-02-17 00:53:37,086 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-polos
+2026-02-17 00:53:37,929 | INFO | academy_scraper | found category Men's Graphic Tees with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Graphic Tees
+2026-02-17 00:53:37,929 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-graphic-tee-shirts
+2026-02-17 00:53:38,750 | INFO | academy_scraper | found category Men's Solid T-Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Solid T-Shirts
+2026-02-17 00:53:38,750 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-solid-shirts
+2026-02-17 00:53:39,953 | INFO | academy_scraper | found category Men's Long Sleeve Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Long Sleeve Shirts
+2026-02-17 00:53:39,953 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-long-sleeve-shirts
+2026-02-17 00:53:40,195 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 00:53:40,195 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 00:53:41,094 | INFO | academy_scraper | found category Men's Button Up Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Button Up Shirts
+2026-02-17 00:53:41,094 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-button-downs
+2026-02-17 00:53:41,934 | INFO | academy_scraper | found category Men's Tank Tops + Sleeveless Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Tank Tops + Sleeveless Shirts
+2026-02-17 00:53:41,934 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tanks-and-muscle-tees
+2026-02-17 00:53:42,412 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 00:53:42,412 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 00:53:42,731 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 00:53:42,731 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 00:53:44,319 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 00:53:44,319 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 00:53:45,120 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 00:53:45,120 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 00:53:46,945 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 00:53:46,945 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 00:53:47,766 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 00:53:47,766 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 00:53:48,609 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 00:53:48,609 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 00:53:50,116 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 00:53:50,116 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 00:53:51,452 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 00:53:51,452 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 00:53:52,663 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 00:53:52,663 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 00:53:53,703 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 00:53:53,703 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 00:53:54,842 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 00:53:54,842 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 00:53:55,865 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 00:53:55,865 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 00:53:56,873 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 00:53:56,873 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 00:53:59,022 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 00:53:59,022 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 00:53:59,749 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 00:53:59,749 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 00:54:00,301 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 00:54:00,301 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 00:54:01,280 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 00:54:01,280 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 00:54:01,762 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 00:54:01,762 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 00:54:02,302 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 00:54:02,302 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 00:54:03,330 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 00:54:03,330 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 00:54:04,767 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 00:54:04,767 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 00:54:05,583 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 00:54:05,583 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 00:54:06,601 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 00:54:06,602 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 00:54:07,736 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 00:54:07,736 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 00:54:08,649 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 00:54:08,649 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 00:54:10,087 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 00:54:10,088 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 00:54:10,447 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 00:54:10,447 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 00:54:11,009 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 00:54:11,010 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 00:54:11,310 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 00:54:11,310 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 00:54:11,825 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 00:54:11,825 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 00:54:12,655 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 00:54:12,655 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 00:54:13,144 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 00:54:13,144 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 00:54:13,718 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 00:54:13,718 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 00:54:14,180 | INFO | academy_scraper | found category Men's Fishing Jackets with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Rain Gear + Jackets > Men's Fishing Jackets
+2026-02-17 00:54:14,180 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-jackets-vests/mens-fishing-jackets-vests
+2026-02-17 00:54:14,731 | INFO | academy_scraper | found category Men's Fishing T-Shirts  with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing T-Shirts 
+2026-02-17 00:54:14,731 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-graphic
+2026-02-17 00:54:16,248 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 00:54:16,248 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 00:54:17,208 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 00:54:17,209 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 00:54:17,664 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 00:54:17,664 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 00:54:20,025 | INFO | academy_scraper | found category Flame Resistant Clothing for Men with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Flame Resistant Clothing for Men
+2026-02-17 00:54:20,026 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/flame-resistant-clothing
+2026-02-17 00:54:20,450 | INFO | academy_scraper | found category Men's Work Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Shirts
+2026-02-17 00:54:20,450 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-shirts
+2026-02-17 00:54:21,042 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 00:54:21,042 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 00:54:21,289 | INFO | academy_scraper | found category Men's Work Hoodies + Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Hoodies + Sweatshirts
+2026-02-17 00:54:21,289 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-hoodies-sweatshirts
+2026-02-17 00:54:21,784 | INFO | academy_scraper | found category Men's Work Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Pants
+2026-02-17 00:54:21,784 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-pants
+2026-02-17 00:54:22,270 | INFO | academy_scraper | found category Men's High Visibility Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's High Visibility Clothing
+2026-02-17 00:54:22,270 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/high-visibility-clothing
+2026-02-17 00:54:22,985 | INFO | academy_scraper | found category Men's Scrubs with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Scrubs
+2026-02-17 00:54:22,986 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/scrubs
+2026-02-17 00:54:23,166 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 00:54:23,166 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 00:54:24,932 | INFO | academy_scraper | found category Men's Gym Clothes with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Gym Clothes
+2026-02-17 00:54:24,932 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens-training-clothes
+2026-02-17 00:54:25,358 | INFO | academy_scraper | found category Men's Running Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Running Clothing
+2026-02-17 00:54:25,358 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens--1
+2026-02-17 00:54:26,362 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 00:54:26,363 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 00:54:26,715 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 00:54:26,715 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 00:54:27,309 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 00:54:27,310 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 00:54:28,422 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 00:54:28,422 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 00:54:28,925 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 00:54:28,925 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 00:54:29,388 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 00:54:29,388 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 00:54:29,733 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 00:54:29,733 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 00:54:29,928 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 00:54:29,928 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 00:54:30,434 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 00:54:30,434 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 00:54:31,796 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 00:54:31,796 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 00:54:33,073 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 00:54:33,073 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 00:54:34,966 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 00:54:34,967 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 00:54:35,599 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 00:54:35,599 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 00:54:36,197 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 00:54:36,197 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 00:54:36,926 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 00:54:36,926 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 00:54:37,534 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 00:54:37,534 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 00:54:37,827 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 00:54:37,828 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 00:54:39,268 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 00:54:39,268 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 00:54:39,544 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 00:54:39,544 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 00:54:39,765 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 00:54:39,766 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 00:54:40,618 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 00:54:40,618 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 00:54:43,565 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 00:54:43,565 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 00:54:45,002 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 00:54:45,003 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 00:54:45,659 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 00:54:45,659 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 00:54:46,145 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 00:54:46,145 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 00:54:46,741 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 00:54:46,741 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 00:54:47,262 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 00:54:47,263 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 00:54:48,177 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 00:54:48,177 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 00:54:48,798 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 00:54:48,798 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 00:54:51,459 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 00:54:51,459 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 00:54:51,663 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 00:54:51,663 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 00:54:51,971 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 00:54:51,971 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 00:54:52,692 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 00:54:52,692 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 00:54:53,404 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 00:54:53,404 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 00:54:54,940 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 00:54:54,940 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 00:54:55,246 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 00:54:55,246 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 00:54:56,566 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:54:56,567 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear
+2026-02-17 00:54:57,591 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:54:57,591 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories
+2026-02-17 00:54:59,289 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 00:54:59,289 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 00:55:00,350 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:55:00,350 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-camo-clothing
+2026-02-17 00:55:01,479 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:55:01,479 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-trending
+2026-02-17 00:55:02,520 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:55:02,520 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/womens
+2026-02-17 00:55:03,529 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:55:03,530 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/kids
+2026-02-17 00:55:04,649 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 00:55:04,649 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/footwear
+2026-02-17 00:55:04,650 | INFO | academy_scraper | category crawling completed
+2026-02-17 00:55:04,650 | INFO | academy_scraper | Failed insertion due to : string indices must be integers, not 'str'
+2026-02-17 01:03:30,956 | INFO | academy_scraper | website shows 200
+2026-02-17 01:03:30,969 | INFO | academy_scraper | fetched main url links
+2026-02-17 01:03:32,053 | INFO | academy_scraper | found category New Men's Clothing with breadcrumb Academy > Shops > Marketing Offers > New Men's Clothing
+2026-02-17 01:03:32,053 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/shops/mktg-offers/app-offer-1
+2026-02-17 01:03:32,609 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:03:32,610 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:03:33,498 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 01:03:33,498 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 01:03:33,639 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 01:03:33,639 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 01:03:33,934 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 01:03:33,934 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 01:03:34,197 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 01:03:34,197 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 01:03:34,379 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 01:03:34,379 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 01:03:34,548 | INFO | academy_scraper | found category Men's Base Layers + Thermals with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Base Layers + Thermals
+2026-02-17 01:03:34,549 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-base-layers-thermals
+2026-02-17 01:03:34,674 | INFO | academy_scraper | found category Men's Beanies with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Men's Beanies
+2026-02-17 01:03:34,674 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/mens-beanies
+2026-02-17 01:03:35,174 | INFO | academy_scraper | found category Men's Puffer Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Puffer Jackets
+2026-02-17 01:03:35,174 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-puffer-jackets
+2026-02-17 01:03:35,447 | INFO | academy_scraper | found category Men's Fleece Jackets + Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Fleece Jackets + Pullovers
+2026-02-17 01:03:35,447 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-fleece-tops
+2026-02-17 01:03:36,000 | INFO | academy_scraper | found category Men's Shirt Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Shirt Jackets
+2026-02-17 01:03:36,000 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-shirt-jackets
+2026-02-17 01:03:37,382 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 01:03:37,382 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 01:03:38,303 | INFO | academy_scraper | found category Men's Track Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Track Jackets
+2026-02-17 01:03:38,303 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-track-jackets
+2026-02-17 01:03:39,536 | INFO | academy_scraper | found category Men's Rain Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Rain Jackets
+2026-02-17 01:03:39,536 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-rain-jackets
+2026-02-17 01:03:40,625 | INFO | academy_scraper | found category Men's Windbreakers  with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Windbreakers 
+2026-02-17 01:03:40,625 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-windbreakers
+2026-02-17 01:03:41,789 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 01:03:41,789 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 01:03:42,712 | INFO | academy_scraper | found category Men's Vests with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Vests
+2026-02-17 01:03:42,712 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-vests
+2026-02-17 01:03:42,879 | INFO | academy_scraper | found category Men's Winter Gloves with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Winter Gloves
+2026-02-17 01:03:42,880 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-cold-weather-gloves
+2026-02-17 01:03:43,100 | INFO | academy_scraper | found category Ski Masks + Balaclavas with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Ski Masks + Balaclavas
+2026-02-17 01:03:43,100 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/ski-masks-balaclavas
+2026-02-17 01:03:43,611 | INFO | academy_scraper | found category Men's Western Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Western Shirts
+2026-02-17 01:03:43,611 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/western-shirts
+2026-02-17 01:03:43,754 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 01:03:43,754 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 01:03:43,979 | INFO | academy_scraper | found category Men's Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Pullovers
+2026-02-17 01:03:43,979 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-pullovers
+2026-02-17 01:03:44,445 | INFO | academy_scraper | found category Men's Polos with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Polos
+2026-02-17 01:03:44,445 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-polos
+2026-02-17 01:03:45,121 | INFO | academy_scraper | found category Men's Graphic Tees with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Graphic Tees
+2026-02-17 01:03:45,121 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-graphic-tee-shirts
+2026-02-17 01:03:45,354 | INFO | academy_scraper | found category Men's Solid T-Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Solid T-Shirts
+2026-02-17 01:03:45,355 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-solid-shirts
+2026-02-17 01:03:45,642 | INFO | academy_scraper | found category Men's Long Sleeve Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Long Sleeve Shirts
+2026-02-17 01:03:45,642 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-long-sleeve-shirts
+2026-02-17 01:03:46,244 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 01:03:46,244 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 01:03:47,111 | INFO | academy_scraper | found category Men's Button Up Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Button Up Shirts
+2026-02-17 01:03:47,112 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-button-downs
+2026-02-17 01:03:47,821 | INFO | academy_scraper | found category Men's Tank Tops + Sleeveless Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Tank Tops + Sleeveless Shirts
+2026-02-17 01:03:47,821 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tanks-and-muscle-tees
+2026-02-17 01:03:48,143 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 01:03:48,143 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 01:03:48,908 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:03:48,908 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:03:49,744 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:03:49,744 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:03:50,494 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:03:50,494 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:03:51,134 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:03:51,134 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:03:51,500 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:03:51,500 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:03:51,818 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:03:51,819 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:03:51,992 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:03:51,992 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:03:52,235 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 01:03:52,236 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 01:03:52,651 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 01:03:52,651 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 01:03:52,926 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:03:52,926 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:03:53,102 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 01:03:53,102 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 01:03:53,491 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 01:03:53,491 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 01:03:54,669 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 01:03:54,669 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 01:03:55,302 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 01:03:55,302 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 01:03:55,864 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:03:55,864 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:03:56,429 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 01:03:56,429 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 01:03:56,939 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 01:03:56,939 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 01:03:57,278 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 01:03:57,278 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 01:03:58,017 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 01:03:58,017 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 01:03:58,219 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 01:03:58,219 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 01:03:59,237 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 01:03:59,238 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 01:03:59,502 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 01:03:59,502 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 01:03:59,706 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 01:03:59,706 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 01:04:00,884 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 01:04:00,884 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 01:04:01,489 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 01:04:01,489 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 01:04:02,703 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 01:04:02,703 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 01:04:03,552 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 01:04:03,552 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 01:04:03,821 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 01:04:03,821 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 01:04:04,128 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 01:04:04,128 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 01:04:04,341 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:04:04,341 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:04:05,458 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 01:04:05,459 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 01:04:05,635 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:04:05,635 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:04:05,802 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:04:05,802 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:04:06,052 | INFO | academy_scraper | found category Men's Fishing Jackets with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Rain Gear + Jackets > Men's Fishing Jackets
+2026-02-17 01:04:06,052 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-jackets-vests/mens-fishing-jackets-vests
+2026-02-17 01:04:06,333 | INFO | academy_scraper | found category Men's Fishing T-Shirts  with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing T-Shirts 
+2026-02-17 01:04:06,333 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-graphic
+2026-02-17 01:04:06,846 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:04:06,846 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:04:07,041 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 01:04:07,041 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 01:04:07,582 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 01:04:07,582 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 01:04:08,293 | INFO | academy_scraper | found category Flame Resistant Clothing for Men with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Flame Resistant Clothing for Men
+2026-02-17 01:04:08,293 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/flame-resistant-clothing
+2026-02-17 01:04:08,622 | INFO | academy_scraper | found category Men's Work Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Shirts
+2026-02-17 01:04:08,622 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-shirts
+2026-02-17 01:04:09,030 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 01:04:09,030 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 01:04:09,344 | INFO | academy_scraper | found category Men's Work Hoodies + Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Hoodies + Sweatshirts
+2026-02-17 01:04:09,344 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-hoodies-sweatshirts
+2026-02-17 01:04:09,607 | INFO | academy_scraper | found category Men's Work Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Pants
+2026-02-17 01:04:09,607 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-pants
+2026-02-17 01:04:09,926 | INFO | academy_scraper | found category Men's High Visibility Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's High Visibility Clothing
+2026-02-17 01:04:09,926 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/high-visibility-clothing
+2026-02-17 01:04:10,655 | INFO | academy_scraper | found category Men's Scrubs with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Scrubs
+2026-02-17 01:04:10,655 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/scrubs
+2026-02-17 01:04:10,951 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 01:04:10,952 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 01:04:12,300 | INFO | academy_scraper | found category Men's Gym Clothes with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Gym Clothes
+2026-02-17 01:04:12,300 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens-training-clothes
+2026-02-17 01:04:12,727 | INFO | academy_scraper | found category Men's Running Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Running Clothing
+2026-02-17 01:04:12,727 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens--1
+2026-02-17 01:04:13,937 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:04:13,938 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:04:14,692 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 01:04:14,692 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 01:04:17,838 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 01:04:17,838 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 01:04:20,079 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 01:04:20,079 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 01:04:21,823 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:04:21,823 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:04:22,537 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 01:04:22,537 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 01:04:22,897 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 01:04:22,897 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 01:04:23,171 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 01:04:23,172 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 01:04:23,388 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 01:04:23,388 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 01:04:24,136 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:04:24,136 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:04:25,301 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:04:25,301 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:04:25,576 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:04:25,576 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:04:26,020 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:04:26,020 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:04:26,191 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:04:26,191 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:04:26,393 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:04:26,393 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:04:26,852 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 01:04:26,852 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 01:04:27,056 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 01:04:27,056 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 01:04:27,193 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:04:27,193 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:04:28,421 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 01:04:28,422 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 01:04:29,742 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 01:04:29,742 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 01:04:29,988 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 01:04:29,988 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 01:04:32,044 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 01:04:32,044 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 01:04:32,532 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 01:04:32,532 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 01:04:33,193 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 01:04:33,193 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 01:04:34,152 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 01:04:34,152 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 01:04:34,725 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 01:04:34,725 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 01:04:35,664 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 01:04:35,664 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 01:04:37,955 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 01:04:37,955 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 01:04:38,865 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 01:04:38,865 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 01:04:41,016 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:04:41,016 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:04:41,846 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:04:41,846 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:04:42,507 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:04:42,508 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:04:43,222 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:04:43,222 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:04:43,647 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:04:43,647 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:04:44,350 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 01:04:44,350 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 01:04:44,958 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 01:04:44,958 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 01:04:46,899 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:46,899 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-athletic-sneakers
+2026-02-17 01:04:48,128 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:48,128 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-casual-shoes
+2026-02-17 01:04:49,870 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:49,870 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-shoes-by-sport
+2026-02-17 01:04:50,997 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:50,997 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-cleats
+2026-02-17 01:04:52,119 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:52,120 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-boots
+2026-02-17 01:04:53,147 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:53,147 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-work-shoes
+2026-02-17 01:04:54,172 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:54,172 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-court-shoes
+2026-02-17 01:04:55,298 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:55,298 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-wide-shoes
+2026-02-17 01:04:56,623 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:56,623 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-slippers
+2026-02-17 01:04:57,852 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:57,852 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/men-sandals
+2026-02-17 01:04:59,085 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:04:59,085 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-clogs-mules
+2026-02-17 01:05:00,460 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:00,460 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/footwear/socks--shoes-accessories
+2026-02-17 01:05:01,556 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:01,556 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-boat-shoes
+2026-02-17 01:05:02,564 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:02,564 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-watershoes
+2026-02-17 01:05:03,790 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:03,791 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories
+2026-02-17 01:05:04,054 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 01:05:04,054 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 01:05:05,430 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:05,430 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-camo-clothing
+2026-02-17 01:05:06,555 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:06,555 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-trending
+2026-02-17 01:05:07,583 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:07,583 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/womens
+2026-02-17 01:05:08,725 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:08,725 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/kids
+2026-02-17 01:05:09,732 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:05:09,733 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/footwear
+2026-02-17 01:05:09,733 | INFO | academy_scraper | category crawling completed
+2026-02-17 01:05:09,733 | INFO | academy_scraper | Failed insertion due to : string indices must be integers, not 'str'
+2026-02-17 01:17:02,890 | INFO | academy_scraper | website shows 200
+2026-02-17 01:17:02,907 | INFO | academy_scraper | fetched main url links
+2026-02-17 01:17:04,793 | INFO | academy_scraper | found category New Men's Clothing with breadcrumb Academy > Shops > Marketing Offers > New Men's Clothing
+2026-02-17 01:17:04,793 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/shops/mktg-offers/app-offer-1
+2026-02-17 01:17:07,485 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:17:07,485 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:17:09,156 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 01:17:09,156 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 01:17:09,957 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 01:17:09,957 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 01:17:10,809 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 01:17:10,809 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 01:17:12,078 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 01:17:12,078 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 01:17:13,514 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 01:17:13,515 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 01:17:14,641 | INFO | academy_scraper | found category Men's Base Layers + Thermals with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Base Layers + Thermals
+2026-02-17 01:17:14,642 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-base-layers-thermals
+2026-02-17 01:17:16,690 | INFO | academy_scraper | found category Men's Beanies with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Men's Beanies
+2026-02-17 01:17:16,690 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/mens-beanies
+2026-02-17 01:17:18,241 | INFO | academy_scraper | found category Men's Puffer Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Puffer Jackets
+2026-02-17 01:17:18,241 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-puffer-jackets
+2026-02-17 01:17:19,364 | INFO | academy_scraper | found category Men's Fleece Jackets + Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Fleece Jackets + Pullovers
+2026-02-17 01:17:19,364 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-fleece-tops
+2026-02-17 01:17:20,684 | INFO | academy_scraper | found category Men's Shirt Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Shirt Jackets
+2026-02-17 01:17:20,684 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-shirt-jackets
+2026-02-17 01:17:21,316 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 01:17:21,316 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 01:17:22,135 | INFO | academy_scraper | found category Men's Track Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Track Jackets
+2026-02-17 01:17:22,135 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-track-jackets
+2026-02-17 01:17:23,148 | INFO | academy_scraper | found category Men's Rain Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Rain Jackets
+2026-02-17 01:17:23,148 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-rain-jackets
+2026-02-17 01:17:24,581 | INFO | academy_scraper | found category Men's Windbreakers  with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Windbreakers 
+2026-02-17 01:17:24,581 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-windbreakers
+2026-02-17 01:17:25,914 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 01:17:25,914 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 01:17:26,938 | INFO | academy_scraper | found category Men's Vests with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Vests
+2026-02-17 01:17:26,938 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-vests
+2026-02-17 01:17:28,265 | INFO | academy_scraper | found category Men's Winter Gloves with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Winter Gloves
+2026-02-17 01:17:28,265 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-cold-weather-gloves
+2026-02-17 01:17:30,413 | INFO | academy_scraper | found category Ski Masks + Balaclavas with breadcrumb Academy > Men's > Men's Accessories > Men's Hats > Ski Masks + Balaclavas
+2026-02-17 01:17:30,414 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories/mens-hats/ski-masks-balaclavas
+2026-02-17 01:17:33,430 | INFO | academy_scraper | found category Men's Western Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Western Shirts
+2026-02-17 01:17:33,430 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/western-shirts
+2026-02-17 01:17:34,507 | INFO | academy_scraper | found category Men's Flannel Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Flannel Shirts
+2026-02-17 01:17:34,507 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-flannel-shirts
+2026-02-17 01:17:36,759 | INFO | academy_scraper | found category Men's Pullovers with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Pullovers
+2026-02-17 01:17:36,760 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-pullovers
+2026-02-17 01:17:38,305 | INFO | academy_scraper | found category Men's Polos with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Polos
+2026-02-17 01:17:38,305 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-polos
+2026-02-17 01:17:40,216 | INFO | academy_scraper | found category Men's Graphic Tees with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Graphic Tees
+2026-02-17 01:17:40,216 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-graphic-tee-shirts
+2026-02-17 01:17:41,476 | INFO | academy_scraper | found category Men's Solid T-Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's T-shirts > Men's Solid T-Shirts
+2026-02-17 01:17:41,476 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tees/mens-solid-shirts
+2026-02-17 01:17:42,228 | INFO | academy_scraper | found category Men's Long Sleeve Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Long Sleeve Shirts
+2026-02-17 01:17:42,228 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-long-sleeve-shirts
+2026-02-17 01:17:42,974 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 01:17:42,974 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 01:17:43,811 | INFO | academy_scraper | found category Men's Button Up Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Button Up Shirts
+2026-02-17 01:17:43,812 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-button-downs
+2026-02-17 01:17:44,957 | INFO | academy_scraper | found category Men's Tank Tops + Sleeveless Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Tank Tops + Sleeveless Shirts
+2026-02-17 01:17:44,958 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-tanks-and-muscle-tees
+2026-02-17 01:17:45,686 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 01:17:45,686 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 01:17:47,100 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:17:47,100 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:17:52,174 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:17:52,174 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:17:54,088 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:17:54,088 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:17:54,682 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:17:54,682 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:17:56,024 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:17:56,024 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:17:57,249 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:17:57,249 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:17:57,609 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:17:57,610 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:17:58,575 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 01:17:58,575 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 01:18:01,548 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 01:18:01,548 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 01:18:02,884 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:18:02,885 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:18:03,392 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 01:18:03,392 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 01:18:04,711 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 01:18:04,711 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 01:18:05,044 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 01:18:05,044 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 01:18:06,337 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 01:18:06,338 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 01:18:07,000 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:18:07,000 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:18:07,831 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 01:18:07,831 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 01:18:08,486 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 01:18:08,486 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 01:18:09,223 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 01:18:09,223 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 01:18:10,050 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 01:18:10,050 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 01:18:13,390 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 01:18:13,390 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 01:18:15,018 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 01:18:15,018 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 01:18:15,857 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 01:18:15,857 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 01:18:16,837 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 01:18:16,837 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 01:18:17,519 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 01:18:17,519 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 01:18:19,256 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 01:18:19,256 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 01:18:20,010 | INFO | academy_scraper | found category Men's Pullover Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Pullover Hoodies
+2026-02-17 01:18:20,011 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-hoodies
+2026-02-17 01:18:20,894 | INFO | academy_scraper | found category Men's Zip Up Hoodies with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Zip Up Hoodies
+2026-02-17 01:18:20,894 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-full-zip
+2026-02-17 01:18:21,890 | INFO | academy_scraper | found category Men's Crew Neck Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Crew Neck Sweatshirts
+2026-02-17 01:18:21,890 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-crews
+2026-02-17 01:18:24,206 | INFO | academy_scraper | found category Men's Quarter Zip Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Hoodies + Sweatshirts > Men's Quarter Zip Sweatshirts
+2026-02-17 01:18:24,206 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-hoodies-and-sweatshirts/mens-quarter-zip
+2026-02-17 01:18:25,294 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:18:25,295 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:18:27,757 | INFO | academy_scraper | found category Men's Fishing Shirts with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Shirts > Men's Fishing Shirts
+2026-02-17 01:18:27,758 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-shirts--t-shirts/mens-fishing-shirts
+2026-02-17 01:18:29,698 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:18:29,698 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:18:32,774 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:18:32,774 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:18:36,674 | INFO | academy_scraper | found category Men's Fishing Jackets with breadcrumb Academy > Outdoors > Fishing Gear + Equipment > Fishing Clothing > Fishing Rain Gear + Jackets > Men's Fishing Jackets
+2026-02-17 01:18:36,674 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/outdoors/fishing/fishing-shoes-clothing/fishing-jackets-vests/mens-fishing-jackets-vests
+2026-02-17 01:18:38,711 | INFO | academy_scraper | found category Men's Fishing T-Shirts  with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing T-Shirts 
+2026-02-17 01:18:38,711 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-graphic
+2026-02-17 01:18:44,647 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:18:44,648 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:18:46,901 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 01:18:46,901 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 01:18:47,516 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 01:18:47,516 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 01:18:50,383 | INFO | academy_scraper | found category Flame Resistant Clothing for Men with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Flame Resistant Clothing for Men
+2026-02-17 01:18:50,383 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/flame-resistant-clothing
+2026-02-17 01:18:51,420 | INFO | academy_scraper | found category Men's Work Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Shirts
+2026-02-17 01:18:51,420 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-shirts
+2026-02-17 01:18:52,856 | INFO | academy_scraper | found category Men's Work Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Work Jackets
+2026-02-17 01:18:52,856 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-work-service-jackets
+2026-02-17 01:18:55,611 | INFO | academy_scraper | found category Men's Work Hoodies + Sweatshirts with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Hoodies + Sweatshirts
+2026-02-17 01:18:55,611 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-hoodies-sweatshirts
+2026-02-17 01:18:58,285 | INFO | academy_scraper | found category Men's Work Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Work Pants
+2026-02-17 01:18:58,286 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/work-pants
+2026-02-17 01:18:59,607 | INFO | academy_scraper | found category Men's High Visibility Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's High Visibility Clothing
+2026-02-17 01:18:59,607 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/high-visibility-clothing
+2026-02-17 01:19:00,217 | INFO | academy_scraper | found category Men's Scrubs with breadcrumb Academy > Men's > Men's Clothing > Men's Workwear Clothing > Men's Scrubs
+2026-02-17 01:19:00,217 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/workwear/scrubs
+2026-02-17 01:19:02,279 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 01:19:02,279 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 01:19:06,719 | INFO | academy_scraper | found category Men's Gym Clothes with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Gym Clothes
+2026-02-17 01:19:06,719 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens-training-clothes
+2026-02-17 01:19:08,621 | INFO | academy_scraper | found category Men's Running Clothing with breadcrumb Academy > Men's > Men's Clothing > Men's Workout Clothing > Men's Running Clothing
+2026-02-17 01:19:08,621 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-workout-clothing--1/mens--1
+2026-02-17 01:19:14,037 | INFO | academy_scraper | found category Men's Compression Shirts + Tops with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Compression Shirts + Tops
+2026-02-17 01:19:14,037 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-compression-tops
+2026-02-17 01:19:15,683 | INFO | academy_scraper | found category Men's Compression Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Pants
+2026-02-17 01:19:15,686 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-pants
+2026-02-17 01:19:18,135 | INFO | academy_scraper | found category Men's Compression Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Compression > Men's Compression Shorts
+2026-02-17 01:19:18,135 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-compression-shop/mens-compression-shorts
+2026-02-17 01:19:21,519 | INFO | academy_scraper | found category Men's Basketball Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Basketball Shorts
+2026-02-17 01:19:21,520 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-basketball-shorts
+2026-02-17 01:19:24,591 | INFO | academy_scraper | found category Men's Fishing Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Shorts
+2026-02-17 01:19:24,592 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-shorts-
+2026-02-17 01:19:29,398 | INFO | academy_scraper | found category Men's Casual Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Casual Shorts
+2026-02-17 01:19:29,398 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-casual-shorts
+2026-02-17 01:19:32,067 | INFO | academy_scraper | found category Men's Athletic + Gym Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Athletic + Gym Shorts
+2026-02-17 01:19:32,067 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-athletic-shorts
+2026-02-17 01:19:34,624 | INFO | academy_scraper | found category Men's Running Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's Running Shorts
+2026-02-17 01:19:34,624 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-running-shorts
+2026-02-17 01:19:37,286 | INFO | academy_scraper | found category Men's 2-in-1 Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Shorts > Men's 2-in-1 Shorts
+2026-02-17 01:19:37,287 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shorts/mens-2-in-1-shorts
+2026-02-17 01:19:41,178 | INFO | academy_scraper | found category Men's Sweatpants + Joggers with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Sweatpants + Joggers
+2026-02-17 01:19:41,178 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-sweats-joggers
+2026-02-17 01:19:44,976 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:19:44,976 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:19:47,523 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:19:47,523 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:19:49,681 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:19:49,681 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:19:52,035 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:19:52,035 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:19:53,161 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:19:53,161 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:19:54,997 | INFO | academy_scraper | found category Men's Khaki + Chino Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Khaki + Chino Pants
+2026-02-17 01:19:54,997 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/khakis-chinos-technical
+2026-02-17 01:19:55,147 | INFO | academy_scraper | found category Men's Cargo Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Cargo Pants
+2026-02-17 01:19:55,147 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-cargo-pants
+2026-02-17 01:19:57,148 | INFO | academy_scraper | found category Men's Fishing Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Fishing Clothing > Men's Fishing Pants
+2026-02-17 01:19:57,148 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-fishing-clothing-/mens-fishing-pants
+2026-02-17 01:20:00,134 | INFO | academy_scraper | found category Men's Athletic + Workout Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Athletic + Workout Pants
+2026-02-17 01:20:00,134 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-athletic-pants--1
+2026-02-17 01:20:02,275 | INFO | academy_scraper | found category Men's Tights + Leggings with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Tights + Leggings
+2026-02-17 01:20:02,278 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-tights-leggings
+2026-02-17 01:20:04,220 | INFO | academy_scraper | found category Men's Lounge Pants with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Lounge Pants
+2026-02-17 01:20:04,220 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-lounge-pants
+2026-02-17 01:20:09,967 | INFO | academy_scraper | found category Men's Swim Shirts + Rash Guards with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Shirts + Rash Guards
+2026-02-17 01:20:09,968 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-rash-guards-swim-shirts
+2026-02-17 01:20:11,695 | INFO | academy_scraper | found category Men's Board Shorts with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Board Shorts
+2026-02-17 01:20:11,695 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-boardshorts-trunks
+2026-02-17 01:20:12,612 | INFO | academy_scraper | found category Men's Swim Briefs + Jammers with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Briefs + Jammers
+2026-02-17 01:20:12,612 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-briefs-jammers
+2026-02-17 01:20:13,636 | INFO | academy_scraper | found category Men's Competitive Swim with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Competitive Swim
+2026-02-17 01:20:13,636 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-competitive-swim
+2026-02-17 01:20:14,349 | INFO | academy_scraper | found category Men's Swim Trunks + Volleys with breadcrumb Academy > Men's > Men's Clothing > Men's Swimsuits > Men's Swim Trunks + Volleys
+2026-02-17 01:20:14,349 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-swimsuits/mens-swim-trunks-volleys
+2026-02-17 01:20:15,387 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 01:20:15,387 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 01:20:16,407 | INFO | academy_scraper | found category Men's Waders, Bibs, + Coveralls with breadcrumb Academy > Men's > Men's Clothing > Men's Waders, Bibs, + Coveralls
+2026-02-17 01:20:16,407 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/bibs-coveralls
+2026-02-17 01:20:17,747 | INFO | academy_scraper | found category Men's Underwear with breadcrumb Academy > Men's > Men's Clothing > Men's Underwear
+2026-02-17 01:20:17,748 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-underwear
+2026-02-17 01:20:24,292 | INFO | academy_scraper | found category Men's Slim Fit Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Slim Fit Jeans
+2026-02-17 01:20:24,292 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-slim-fit-jeans
+2026-02-17 01:20:26,850 | INFO | academy_scraper | found category Men's Stretch Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Stretch Jeans
+2026-02-17 01:20:26,850 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-stretch-jeans
+2026-02-17 01:20:28,994 | INFO | academy_scraper | found category Men's Bootcut Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Bootcut Jeans
+2026-02-17 01:20:28,994 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-bootcut-jeans
+2026-02-17 01:20:30,731 | INFO | academy_scraper | found category Men's Western Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Western Jeans
+2026-02-17 01:20:30,731 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-western-jeans
+2026-02-17 01:20:32,989 | INFO | academy_scraper | found category Men's Straight Leg Jeans with breadcrumb Academy > Men's > Men's Clothing > Men's Pants > Men's Jeans > Men's Straight Leg Jeans
+2026-02-17 01:20:32,989 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-pants/mens-jeans/mens-straight-leg-jeans
+2026-02-17 01:20:34,215 | INFO | academy_scraper | found category Men's Denim Jackets with breadcrumb Academy > Men's > Men's Clothing > Men's Winter Clothing > Men's Jackets + Outerwear > Men's Denim Jackets
+2026-02-17 01:20:34,215 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-cold-weather-clothing/mens-jackets--outerwear/mens-denim-jackets
+2026-02-17 01:20:35,256 | INFO | academy_scraper | found category Men's Denim Shirts with breadcrumb Academy > Men's > Men's Clothing > Men's Shirts  > Men's Denim Shirts
+2026-02-17 01:20:35,256 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-apparel/mens-shirts--t-shirts/mens-denim-shirts
+2026-02-17 01:20:38,001 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:38,001 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-athletic-sneakers
+2026-02-17 01:20:39,031 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:39,031 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-casual-shoes
+2026-02-17 01:20:40,353 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:40,353 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-shoes-by-sport
+2026-02-17 01:20:41,602 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:41,603 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-cleats
+2026-02-17 01:20:43,029 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:43,029 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-boots
+2026-02-17 01:20:44,116 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:44,117 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-work-shoes
+2026-02-17 01:20:45,430 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:45,430 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-court-shoes
+2026-02-17 01:20:46,606 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:46,606 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-wide-shoes
+2026-02-17 01:20:47,879 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:47,880 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-slippers
+2026-02-17 01:20:49,063 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:49,063 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/men-sandals
+2026-02-17 01:20:50,619 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:50,619 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-clogs-mules
+2026-02-17 01:20:51,840 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:51,840 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/footwear/socks--shoes-accessories
+2026-02-17 01:20:53,062 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:53,062 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-boat-shoes
+2026-02-17 01:20:54,381 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:54,381 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-footwear/mens-watershoes
+2026-02-17 01:20:55,714 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:55,715 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-accessories
+2026-02-17 01:20:56,757 | INFO | academy_scraper | found category Big + Tall Men's Clothing with breadcrumb Academy > Men's > Big + Tall Men's Clothing
+2026-02-17 01:20:56,757 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-big-tall-shop
+2026-02-17 01:20:58,088 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:58,088 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-camo-clothing
+2026-02-17 01:20:59,498 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:20:59,499 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/mens/mens-trending
+2026-02-17 01:21:00,833 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:21:00,833 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/womens
+2026-02-17 01:21:02,063 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:21:02,063 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/kids
+2026-02-17 01:21:03,197 | INFO | academy_scraper | found category  with breadcrumb 
+2026-02-17 01:21:03,198 | INFO | academy_scraper | found a listing page : https://www.academy.com/c/footwear
+2026-02-17 01:21:03,198 | INFO | academy_scraper | category crawling completed
