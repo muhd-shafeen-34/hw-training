@@ -1,0 +1,12 @@
+Day started with analysing the listing pages of the webpage to create Crawler
+ 1. completed the analysing
+ 2. Started developing the Crawler
+ 3. created its structure according to the organization code template
+ 4. Continued developing the Cralwer and pagination implementation
+ 5. Occured rate limiting blocking  While fetching all the pdp links using crawler
+ 6. Researched methods to bypass rate limiting 
+ 7. implemented researched options
+
+
+
+
