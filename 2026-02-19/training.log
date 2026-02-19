@@ -1,0 +1,20 @@
+Day started by completed the parser and tested the code and delivered the data
+Attended the daily meeting and discussed about behind the login scraping tehnique
+ 1. assigned a website which follows login scraping
+ 2. started analysing  the webpage to create a crawler
+ 3.  completed analysis
+ 4. Logged into the website using fake credentials 
+ 5. took the login headers and created the crawler structure
+ 6. completed the crawler development
+ 7. fetched all the api urls of the pdp since pdp is passing data through api
+ 8. Started creating parser
+ 9. created its structure according to the company template
+ 10. Completed creating parser and fetched details of the pdp urls from the listing page
+ 11.  delivered the data
+
+
+
+
+ 
+
+
