@@ -1,0 +1,12 @@
+Day started by completing the crawler development
+ 1. tested the code
+ 2. Started developing the Parser
+ 3. created its structure according to the organization code template
+ 4. Continued developing the Praser and Cleaned all the xpath expression outputs
+ 5. extracted all the fields except one field which is not availabe on the page source
+ 6. analysed found the api link which passes the value of the missing field and implemented it
+
+
+
+ 
+
