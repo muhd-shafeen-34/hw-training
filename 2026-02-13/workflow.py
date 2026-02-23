@@ -64,7 +64,13 @@ while True:
     api_url = f"{url}?page_{pageno}"
 
 
+PRODUCTS_XPATH = '//div[@data-auid="ProductCard"]'
 
+
+PDP_URL_XPATH = './/a[@data-auid="product-title"]/@href'
+PDP_NAME_XPATH = './/a[@data-auid="product-title"]//text()'
+PDP_RATING_XPATH = './/span[contains(@class,"ratingAvg") and contains(@class,"textCaption")]//text()'
+PDP_REVIEW_COUNT_XPATH = './/a[contains(@class,"ratingCount") and contains(@class,"focusable") and contains(@class,"smallLink")]/text()'
 
 
 
