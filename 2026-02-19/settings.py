@@ -47,7 +47,7 @@ api_params =  {
         "sorting_seed": "8011f547-8cd0-4afb-b377-fc818c0ad544"
 
     }
-#this is a must filed and "xano-authorization is only available after the login "
+
 
 api_header = {
 "Host": "api-reelly.up.railway.app",
@@ -68,11 +68,11 @@ api_header = {
 }
 
 
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb://mongotraining:a4892e52373844dc4862e6c468d11b6df7938e16@209.97.183.63:27017/?authSource=admin"
 client = MongoClient(MONGO_URI)
-DB_NAME = "reelly_poc_2026_02_19"
-PDP_URLS_COLLECTION = client[DB_NAME]["reelly_product_pdp_urls"]
-MONGO_COLLECTION_DATA = client[DB_NAME]["reelly_product_data"]
+DB_NAME = "reelly_io_db"
+PDP_URLS_COLLECTION = client[DB_NAME]["reelly_urls"]
+MONGO_COLLECTION_DATA = client[DB_NAME]["reelly_data"]
 
 
 LOG_DIR = Path("logs")

@@ -2,9 +2,11 @@ import requests as rq
 import settings
 import re
 import reelly_items
+import time
 
 class Parser():
     def __init__(self):
+        self.mongo = settings.MONGO_COLLECTION_DATA
         self.logger = settings.logger
     
     def start(self):
@@ -16,6 +18,7 @@ class Parser():
             api_response = rq.get(api_url,headers=settings.api_header)
             if api_response:
                 self.parse_item(url,api_response)
+                time.sleep(3)
             else:
                 self.logger.info("api error")
     
@@ -69,9 +72,13 @@ class Parser():
         try:
             product_item = reelly_items.ProductItem(**item)
             product_item.validate()
-            settings.MONGO_COLLECTION_DATA.insert_one(item)
+            self.mongo.insert_one(item)
         except Exception as e:
                     self.logger.info("save eroor due to %s",e)
+    
+    def close(self):
+         self.mongo.close()
+         
 
 
 parser = Parser()
