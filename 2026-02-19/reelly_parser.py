@@ -6,7 +6,8 @@ import time
 
 class Parser():
     def __init__(self):
-        self.mongo = settings.MONGO_COLLECTION_DATA
+        self.mongo = settings.client
+        self.mongo_col = settings.MONGO_COLLECTION_DATA
         self.logger = settings.logger
     
     def start(self):
@@ -72,7 +73,7 @@ class Parser():
         try:
             product_item = reelly_items.ProductItem(**item)
             product_item.validate()
-            self.mongo.insert_one(item)
+            self.mongo_col.insert_one(item)
         except Exception as e:
                     self.logger.info("save eroor due to %s",e)
     
@@ -83,3 +84,4 @@ class Parser():
 
 parser = Parser()
 parser.start()
+parser.close()

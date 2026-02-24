@@ -7,7 +7,8 @@ import reelly_items
 class Crawler():
     def __init__(self):
         self.logger = settings.logger
-        self.mongo = settings.PDP_URLS_COLLECTION
+        self.mongo = settings.client
+        self.mongo_col = settings.PDP_URLS_COLLECTION
     def start(self):
         response = rq.get(settings.api_url,headers=settings.api_header,params=settings.api_params)
 
@@ -35,15 +36,19 @@ class Crawler():
                 try:
                     product_item = reelly_items.ProductUrl(**item)
                     product_item.validate()
-                    self.mongo.insert_one(item)
+                    self.mongo_col.insert_one(item)
             
                 except Exception as e:
                     self.logger.info("save eroor due to %s",e)
             return True
         return False
+    
+    def close(self):
+        self.mongo.close()
+    
 
 
 crawler = Crawler()
 crawler.start()
-
+crawler.close()
 
