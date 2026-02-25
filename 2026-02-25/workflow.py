@@ -46,15 +46,24 @@ api_header = {
 url = "https://www.bigbasket.com/"
 
 ####################### C A T E G O R Y #################
-category_tree_api_link = "https:2/product//www.bigbasket.com/ui-svc/v1/category-tree"
+
+#need to get "slug" and "type" from categories to pass it to the crawler
+category_tree_api_link = "www.bigbasket.com/ui-svc/v1/category-tree"
 
 r1 = requests.get(category_tree_api_link,headers=api_header)
-categories = r1.json()
-category_links_fetch = list()
-category_links_fetch.append(categories["categories"][9]["children"][0]["url"])
-category_links_fetch.append(categories["categories"][9]["children"][4]["url"])
-print(category_links_fetch)
-
+data = r1.json()
+categories = data["categories"]
+for cat in categories:
+        for child in cat["children"]:
+            if child.get('name') == "Coffee" or child.get("name") == "Tea":
+                item = {}
+                item["url"] = child.get("url","")
+                item["name"] = child.get("name","")
+                item["slug"] = child.get("slug","")
+                item["type"] = child.get("type","")
+                #save item to mongo
+                        
+                  
 ###################### C R A W L E R ######################
 
 api_url = "https://www.bigbasket.com/listing-svc/v2/products"
@@ -85,13 +94,13 @@ while True:
 
 
 
-#####################P A R S E R ########################
+##################### P A R S E R ########################
 
 
 response = requests.get("https://www.bigbasket.com/pd/262799/bru-filter-coffee-green-label-500-g/?nc=l2category&t_pos_sec=1&t_pos_item=5&t_s=Filter+Coffee+-+Green+Label",headers=headers)
 
 sel = Selector(text=response.text)
-unique_id = sel.xpath('//p[contains(text(), "EAN Code")]/text()').extract_first()
+unique_id = "" #passed from crawler
 product_name = sel.xpath('//h1[@class="sc-cWSHoV donMbW"]/text()').extract_first()
 brand = sel.xpath('//a[@class="sc-kOPcWz jmFwda"]/text()').extract_first()
 
