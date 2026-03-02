@@ -61,7 +61,7 @@ def html_to_text(data):
     return " ".join(Selector(text=data).xpath("//text()").extract()).strip()
 
 
-FILE_NAME = "bigbasket_2026_02_27_sample(3).csv"
+FILE_NAME = "bigbasket_2026_02_27_sample.csv"
 
 FILE_HEADER= [
   "unique_id",
@@ -130,7 +130,7 @@ FILE_HEADER= [
   "chilled",
   "organictype",
   "cooking_part",
-  "Handmade",
+  "handmade",
   "max_heating_temperature",
   "special_information",
   "label_information",
@@ -190,7 +190,7 @@ FILE_HEADER= [
   "multibuy_items_pricesingle",
   "perfect_match",
   "servings_per_pack",
-  "Warning",
+  "warning",
   "suitable_for",
   "standard_drinks",
   "environmental",

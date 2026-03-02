@@ -69,7 +69,8 @@ class Parser():
         cleaned_breadcrumb = [
         item.strip()
         for item in bread_crumb
-        if re.match(r'^[A-Za-z &]+$', item.strip())
+        if re.match(r'^[A-Za-z &\-]+$', item.strip())
+        
         ]
 
         producthierarchy_level1 = cleaned_breadcrumb[0] if len(cleaned_breadcrumb) > 0 else ""
@@ -119,6 +120,7 @@ class Parser():
 
         bredcrumb = " > ".join(cleaned_breadcrumb)
         product_description_fetch = ""
+        product_description = ""
         nutritional_info = ""
         storage_info = ""
         instructions = ""
@@ -182,15 +184,22 @@ class Parser():
         if other_details_text:
             country_fetch = re.search(r"Country\s*of\s*Origin\s*:\s*(.*?)(?=\s*(?:Manufactured|Marketed|Best|For\s+Queries|$))",other_details_text,re.I)
             country_of_origin = country_fetch.group(1).strip() if country_fetch else ""
-            manufacturer = re.search(r"Manufacture(?:d by|r Name & Address):\s*(.*?)(?=\s*(?:Country of Origin|Country Of Origin|Best before|For Queries|Marketed by|$))",other_details_text,re.I | re.S)
+            #manufacturer = re.search(r"Manufacture(?:d by|r Name & Address):\s*(.*?)(?=\s*(?:Country of Origin|Country Of Origin|Best before|For Queries|Marketed by|$))",other_details_text,re.I | re.S)
+            #manufacturer = re.search(r"(?:Manufactured by|Manufactured\s*&\s*Marketed by|Manufacturer Name\s*&\s*Address)\s*:\s*(.*?)(?=\s*(?:Country of Origin|Country Of Origin|Best before|For Queries|Marketed by|$))",other_details_text,re.I | re.S)
+            manufacturer = re.search(r"""\bmanufactur\w*[^:]{0,40}:\s*(.*?)(?=\s*\b(?:EAN|FSSAI|Country|Best|Disclaimer|For\s+Queries|Marketed|$))""",other_details_text,re.I | re.S | re.X)
             manufacturer_details_fetch = manufacturer.group(1).strip() if manufacturer else ""
             cleaned_manufacturer = re.sub(r'\s+', ' ', re.sub(r'@import\s+url\([^)]*\);\s*', '', manufacturer_details_fetch)).strip()
             manufacturer_details = cleaned_manufacturer if cleaned_manufacturer else ""
+            ean_code_fetch = re.search(r"ean\s*code\s*:\s*(\d+)", other_details_text, re.IGNORECASE)
+            ean_code = ean_code_fetch.group(1) if ean_code_fetch else "" 
         else:
             country_of_origin = ""
             manufacturer_details = ""
+            ean_code = ""
         
         eancode = ean
+        if not eancode:
+            eancode = ean_code
 
         rating  = crawler_rating
         review = crawler_review
