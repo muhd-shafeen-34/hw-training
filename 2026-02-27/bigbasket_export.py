@@ -71,7 +71,7 @@ class Export:
             regular_price = format_price(item.get("regular_price", "").strip("₹"))
             selling_price = format_price(item.get("selling_price", "").strip("₹"))
 
-            price_was = item.get("price_was", "").strip("₹")
+            price_was = format_price(item.get("price_was", "").strip("₹"))
             percentage_discount = item.get("percentage_discount", "")
             currency = item.get("currency", "")
 
@@ -255,7 +255,7 @@ class Export:
 
 if __name__ == "__main__":
     with open(FILE_NAME, "a", encoding="utf-8") as file:
-        writer_file = csv.writer(file, delimiter=",", quotechar='"')
+        writer_file = csv.writer(file, delimiter="|", quotechar='"')
         export = Export(writer_file)
         export.start()
         file.close()
