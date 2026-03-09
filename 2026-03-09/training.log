@@ -1,0 +1,8 @@
+Day started by developing the Parser
+ 1. created its structure
+ 2. Cleaned all the xpath expression outputs
+ 3. extracted all the fields which are availabe on the page source
+ 4. completed the parser development
+ 5. Created Q/A checklist based on the requirements
+ 6. Conducted a Q/A on the data delivered by sharon
+
