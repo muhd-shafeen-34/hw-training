@@ -96,144 +96,63 @@ class Parser():
                 image_urls_list.append(f"https:{link.replace("\\","")}")
         image_urls = ", ".join(image_urls_list) if image_urls_list else ""
 
-        
-
-        #if its available on page in a specific heading
-        input_part_number_fetch = ""#sel.xpath('//span[@class="product-form__selected-value"]//text()').extract_first()
-        input_part_number = ""
-        if input_part_number_fetch:
-            input_part_number = input_part_number_fetch
-        #if not available in page we take from title
-        else:
-            #pattern = r'\b[A-Z]{1,4}\d{2,4}-\d{4,6}[A-Z]?\b|\b[A-Z]{1,4}\d{4,10}\b|\b\d{6,12}\b'
-          # previous- pattern = r'\b[A-Z0-9]{2,}-[A-Z0-9]+\b|\b[A-Z]{1,4}\d{1,6}[A-Z]?\b|\b\d{6,12}\b'
-            pattern = r'\b[A-Z0-9]{2,}-[A-Z0-9]+\b|\b[A-Z]{1,4}\d{1,6}[A-Z]?\b|\b\d{5,12}\b'
-            match = re.search(pattern,title)
-            input_part_number = match.group() if match else ""
-
-        
-        # if not input_part_number:
-        #     pattern = r'([A-Z]{1,3}-\d{5,})$'
-
-        #     match = re.search(pattern, url, re.I)
-
-        #     input_part_number = match.group(1).upper() if match else ""
+            #input part number getting        
+        input_part_number_pattern = r'\b[A-Z]{0,4}\d{3,10}[A-Z]{0,4}\b|\b[A-Z0-9]+-[A-Z0-9]+\b'
+        match = re.search(input_part_number_pattern,title)
+        input_part_number = match.group() if match else ""
+    
 
         if not input_part_number:
             script = sel.xpath('//script[@type="application/ld+json"][1]/text()').extract_first()
             data = json.loads(script)
             input_part_number = data.get("sku","")
-            
-
-
-
         
+
 
         equivalent_part_no = []
         compatible_products = []
+
         description_fetch = sel.xpath(P_DESC_XPATH).extract()
         description = re.sub(r'\s+', ' ', " ".join(description_fetch)).strip()
 
-        # -----------------------
-        # regex patterns
-        # -----------------------
-
-        # appliance part numbers
-        part_pattern = r'\b(?:[A-Z]{1,4}\d{5,}|\d{7,}|[A-Z]{2}\d{2}-\d{5}[A-Z]?)\b'
-
-        # appliance model numbers
-        model_pattern = r'\b[A-Z0-9]*\d+[A-Z]+\d+[A-Z0-9]*\b'
+        id_pattern = r'\b(?=[A-Z0-9\-]{5,}\b)[A-Z\-]*\d+[A-Z0-9\-]*\b'
 
 
-        # -----------------------
-        # extract equivalent parts
-        # -----------------------
+    
+        # equivalent block
+    
 
-        replace_block = re.search(
-            r'(?:replace|replaces|fits|equivalent|replacement)[^:]*:\s*(.*?)(?:compatible|works|models|machine|$)',
+        equiv_block = re.search(
+            r'(replaces?|replacement|equivalent|fits)[^\w]{0,5}(.*?)(works with|works for|compatible|model|$)',
             description,
             re.I
         )
 
-        if replace_block:
-            equivalent_part_no = re.findall(part_pattern, replace_block.group(1))
+        if equiv_block:
+            equivalent_part_no = re.findall(id_pattern, equiv_block.group(2))
 
 
-        # fallback: search whole description
-        if not equivalent_part_no:
-            equivalent_part_no = re.findall(part_pattern, description)
+        
+        # compatible block
+    
 
-
-        # -----------------------
-        # extract compatible models
-        # -----------------------
-
-        compatible_block = re.search(
-            r'(?:compatible|works for|works with|fits models|machines)[^:]*:\s*(.*)',
+        comp_block = re.search(
+            r'(works with|works for|compatible)[^\w]{0,5}(.*)',
             description,
             re.I
         )
 
-        if compatible_block:
-            compatible_products = re.findall(model_pattern, compatible_block.group(1))
+        if comp_block:
+            compatible_products = re.findall(id_pattern, comp_block.group(2))
 
-
-        # fallback: search whole description
-        if not compatible_products:
-            compatible_products = re.findall(model_pattern, description)
-
-
-        # -----------------------
-        # remove part numbers from model list
-        # -----------------------
+        # cleanup
+        equivalent_part_no = list(set(equivalent_part_no))
 
         compatible_products = [
-            m for m in compatible_products
+            m for m in set(compatible_products)
             if m not in equivalent_part_no
         ]
 
-
-        # -----------------------
-        # remove duplicates
-        # -----------------------
-
-        equivalent_part_no = list(set(equivalent_part_no))
-        compatible_products = list(set(compatible_products))
-        
-
-        # part_pattern = r'\b[A-Z]{2,}\d{2,}-\d{3,}[A-Z]?\b'
-
-        # equivalent_part_no = []
-        # compatible_products = []
-
-    
-        # # extract equivalent parts
-    
-        # replace_block = re.search(
-        #     r'(replace|replaces|fits|equivalent|replacement)[^:]*:\s*(.*?)(compatible|works|models|machine|$)',
-        #     description,
-        #     re.I
-        # )
-
-        # if replace_block:
-        #     equivalent_part_no = re.findall(part_pattern, replace_block.group(2))
-
-
-        
-        # # extract compatible models
-        
-        # compatible_block = re.search(
-        #     r'(compatible|works for|works with|fits models|machines)[^:]*:\s*(.*)',
-        #     description,
-        #     re.I
-        # )
-
-        # if compatible_block:
-        #     compatible_products = re.findall(part_pattern, compatible_block.group(2))
-
-
-        # equivalent_part_no = list(set(equivalent_part_no))
-        # compatible_products = list(set(compatible_products))
 
         item = {}
         item["input_part_no"] = input_part_number

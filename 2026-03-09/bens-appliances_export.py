@@ -35,7 +35,10 @@ class Export:
 
             price = format_price(price_fetch)
 
-            description = item.get("description")
+            description_fetch= item.get("description")
+            desc_clean = re.sub(r'<!--.*?-->|<[^>]+>|\s+', ' ', description_fetch).strip()
+            description = desc_clean if desc_clean else description_fetch
+
 
             availability = item.get("availability")
             image_urls = item.get("image_urls")

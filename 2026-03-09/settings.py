@@ -28,8 +28,8 @@ MONGO_URI = "mongodb://mongotraining:a4892e52373844dc4862e6c468d11b6df7938e16@20
 CLIENT = MongoClient(MONGO_URI)
 DB_NAME = "bens-appliances_db"
 
-MONGO_COLLECTION_URLS = CLIENT[DB_NAME]["bens-appliances_urls"]
-MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["bens-appliances_data"]
+MONGO_COLLECTION_URLS = CLIENT[DB_NAME]["bens-appliances_urls_2026_03_10"]
+MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["bens-appliances_data_2026_03_10"]
 
 
 def fetch_from_mongo(collection,limit,*others):
@@ -49,5 +49,5 @@ def fetch_from_mongo(collection,limit,*others):
             
     return results
 
-FILE_NAME = "bens_appliances_2026-03-09_sample.csv"
+FILE_NAME = "bens_appliances_2026-03-10_sample.csv"
 FILE_HEADER = ["input_part_number", "url", "title", "manufacturer", "price", "description", "oem_part_number", "retailer_part_number", "competitor_part_numbers", "compatible_products", "equivalent_part_numbers", "product_specfications", "additional_description", "availability", "image_urls", "linked_files"]
