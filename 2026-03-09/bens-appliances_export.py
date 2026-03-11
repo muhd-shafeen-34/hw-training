@@ -36,15 +36,27 @@ class Export:
             price = format_price(price_fetch)
 
             description_fetch= item.get("description")
-            desc_clean = re.sub(r'<!--.*?-->|<[^>]+>|\s+', ' ', description_fetch).strip()
+            desc_clean = re.sub(r'[\ufeff\xa0]|<!--.*?-->|<[^>]+>|\s+', ' ', description_fetch).strip()
             description = desc_clean if desc_clean else description_fetch
 
 
             availability = item.get("availability")
             image_urls = item.get("image_urls")
             compatible_products_fetch = item.get("compatible_product")
+            if input_part_number in compatible_products_fetch:
+                compatible_products_fetch.remove(input_part_number)
+            if "1000" in compatible_products_fetch:
+                compatible_products_fetch.remove("1000")
             compatible_products = ", ".join(compatible_products_fetch)
             equivalent_part_numbers_fetch = item.get("equivalent_par_numbers")
+            if input_part_number in equivalent_part_numbers_fetch:
+                equivalent_part_numbers_fetch.remove(input_part_number)
+            if "120V" in equivalent_part_numbers_fetch:
+                equivalent_part_numbers_fetch.remove("120V")
+            
+            if "2600" in equivalent_part_numbers_fetch:
+                equivalent_part_numbers_fetch.remove("2600")
+            
             equivalent_part_numbers = ", ".join(equivalent_part_numbers_fetch)
 
 

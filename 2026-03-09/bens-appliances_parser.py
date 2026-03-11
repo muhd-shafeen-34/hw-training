@@ -106,7 +106,8 @@ class Parser():
             script = sel.xpath('//script[@type="application/ld+json"][1]/text()').extract_first()
             data = json.loads(script)
             input_part_number = data.get("sku","")
-        
+
+
 
 
         equivalent_part_no = []
@@ -115,12 +116,13 @@ class Parser():
         description_fetch = sel.xpath(P_DESC_XPATH).extract()
         description = re.sub(r'\s+', ' ', " ".join(description_fetch)).strip()
 
-        id_pattern = r'\b(?=[A-Z0-9\-]{5,}\b)[A-Z\-]*\d+[A-Z0-9\-]*\b'
+        # allow 4+ characters with at least one digit
+        id_pattern = r'\b(?=[A-Z0-9\-]{4,}\b)[A-Z\-]*\d+[A-Z0-9\-]*\b'
 
 
-    
+        # -----------------------
         # equivalent block
-    
+        # -----------------------
 
         equiv_block = re.search(
             r'(replaces?|replacement|equivalent|fits)[^\w]{0,5}(.*?)(works with|works for|compatible|model|$)',
@@ -132,9 +134,9 @@ class Parser():
             equivalent_part_no = re.findall(id_pattern, equiv_block.group(2))
 
 
-        
+        # -----------------------
         # compatible block
-    
+        # -----------------------
 
         comp_block = re.search(
             r'(works with|works for|compatible)[^\w]{0,5}(.*)',
@@ -145,13 +147,79 @@ class Parser():
         if comp_block:
             compatible_products = re.findall(id_pattern, comp_block.group(2))
 
-        # cleanup
-        equivalent_part_no = list(set(equivalent_part_no))
+
+        # -----------------------
+        # cleanup filters
+        # -----------------------
+
+        def valid_part(x):
+
+            # remove measurement values like 45-16
+            if re.fullmatch(r'\d{1,3}-\d{1,3}', x):
+                return False
+
+            # remove year values between 1900–2035
+            if re.fullmatch(r'\d{4}', x):
+                year = int(x)
+                if 1900 <= year <= 2035:
+                    return False
+
+            return True
+
+
+        equivalent_part_no = [
+            part for part in set(equivalent_part_no)
+            if valid_part(part)
+        ]
 
         compatible_products = [
-            m for m in set(compatible_products)
-            if m not in equivalent_part_no
+            prod for prod in set(compatible_products)
+            if valid_part(prod) and prod not in equivalent_part_no
         ]
+
+        # equivalent_part_no = []
+        # compatible_products = []
+
+        # description_fetch = sel.xpath(P_DESC_XPATH).extract()
+        # description = re.sub(r'\s+', ' ', " ".join(description_fetch)).strip()
+
+        # id_pattern = r'\b(?=[A-Z0-9\-]{5,}\b)[A-Z\-]*\d+[A-Z0-9\-]*\b'
+
+
+    
+        # # equivalent block
+    
+
+        # equiv_block = re.search(
+        #     r'(replaces?|replacement|equivalent|fits)[^\w]{0,5}(.*?)(works with|works for|compatible|model|$)',
+        #     description,
+        #     re.I
+        # )
+
+        # if equiv_block:
+        #     equivalent_part_no = re.findall(id_pattern, equiv_block.group(2))
+
+
+        
+        # # compatible block
+    
+
+        # comp_block = re.search(
+        #     r'(works with|works for|compatible)[^\w]{0,5}(.*)',
+        #     description,
+        #     re.I
+        # )
+
+        # if comp_block:
+        #     compatible_products = re.findall(id_pattern, comp_block.group(2))
+
+        # # cleanup
+        # equivalent_part_no = list(set(equivalent_part_no))
+
+        # compatible_products = [
+        #     m for m in set(compatible_products)
+        #     if m not in equivalent_part_no
+        # ]
 
 
         item = {}
@@ -181,7 +249,7 @@ class Parser():
         
 
     def close(self):
-        pass
+        self.mongo.close()
 
 parser = Parser()
 parser.start()
