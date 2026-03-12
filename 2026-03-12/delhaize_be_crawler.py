@@ -50,12 +50,14 @@ class Crawler():
             if response.status_code == 200:
                 is_next = self.parse_item(response)
                 if not is_next:
+                    logging.warning("----------PAGINATION ENDED----------")
                     break
 
                 page += 1
             else:
                 logging.warning("PageNumber %d returned %s",page+1,response.status_code)
                 break
+            logging.warning("--------CRAWLING COMPLETED--------------")
 
     def parse_item(self,response):
         res = response.json()
@@ -69,7 +71,7 @@ class Crawler():
                 brand = product.get("manufacturerName","")
                 url = product.get("url","")
 
-                grammage_details_fetch = products.get("price",{})
+                grammage_details_fetch = product.get("price",{})
                 grammage_details = grammage_details_fetch.get("supplementaryPriceLabel2","") if grammage_details_fetch else ""
                 price = float(grammage_details_fetch.get("unitPrice",""))
                 unit_price = grammage_details_fetch.get("supplementaryPriceLabel1","")
@@ -87,7 +89,7 @@ class Crawler():
                     for promo in promotion_details:
                         promotion_description.append(promo.get("description",""))
                         promo_start_date.append(promo.get("startDate",""))
-                        promo_end_date.append(promo.get("endDate,"))
+                        promo_end_date.append(promo.get("endDate",""))
                 
 
                 image_urls_fetch = product.get("images",[])
