@@ -136,3 +136,7 @@ class Crawler():
             
     def close(self):
         self.mongo.close()
+
+crawler = Crawler()
+crawler.start()
+crawler.close()
