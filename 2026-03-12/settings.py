@@ -16,7 +16,7 @@ PDP_HEADER = {
 "Sec-Fetch-Dest": "document",
 "Sec-Fetch-Mode": "navigate",
 "Sec-Fetch-Site": "same-origin",
-"Sec-Fetch-User":" ?1",
+"Sec-Fetch-User":"?1",
 "Priority": "u=0, i",
 "TE": "trailers",
 }
@@ -52,8 +52,8 @@ MONGO_URI = "mongodb://mongotraining:a4892e52373844dc4862e6c468d11b6df7938e16@20
 
 CLIENT = MongoClient(MONGO_URI)
 DB_NAME = "delhaize_bl_db"
-MONGO_COLLECTION_URLS = CLIENT[DB_NAME]["delhaize_bl_urls"]
-MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["delhaize_bl_data"]
+MONGO_COLLECTION_URLS = CLIENT[DB_NAME]["delhaize_be_urls"]
+MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["delhaize_be_data"]
 
 
 params = {
@@ -64,3 +64,15 @@ params = {
 
 API = "https://www.delhaize.be/api/v1/"
 DOMAIN = "https://www.delhaize.be"
+
+def fetch_from_mongo(collection,limit=0,*others):
+    projection = {"_id":0}
+    if others:
+        for field in others:
+            projection[field] = 1
+    result = []
+    for doc in collection.find({},projection).limit(limit):
+        result.append(doc)
+    return result
+
+

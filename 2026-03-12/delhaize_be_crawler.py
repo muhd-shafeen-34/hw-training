@@ -122,7 +122,7 @@ class Crawler():
                 try:
                     product_item = items.ProductUrls(**item)
                     product_item.validate()
-                    MONGO_COLLECTION_URLS.insert_one(item)
+                    self.mongo_col.insert_one(item)
                     logging.warning("-------DATA SAVED SUCCESSFULLY---------")
                 except Exception as e:
                     logging.warning("------------ SAVE ERROR ------DUE TO -----\n")
