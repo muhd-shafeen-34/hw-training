@@ -43,7 +43,7 @@ class Parser():
 
         if pdp_response.status_code == 200 and api_response.status_code == 200:
 
-            self.parse_item(pdp_response,pdp_api_params,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image)
+            self.parse_item(pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image)
         
         
 
@@ -51,8 +51,9 @@ class Parser():
 
 
     def parse_item(self,pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image):
-        sel = Selector(text=pdp_response)
-        results = api_response.json()
+        sel = Selector(text=pdp_response.text)
+        results = api_response
+        
         data = results["data"]
         product = data.get("productDetails","")
         unique_id = product.get("code",crawler_unique_id)
@@ -77,7 +78,7 @@ class Parser():
         for bread in breadcrumb_api:
             breadcrub_list.insert(0,bread.get("name",""))
         
-        breadcrumb = breadcrumbs_pdp[0] + breadcrub_list + breadcrumbs_pdp[1]
+        breadcrumb = [breadcrumbs_pdp[0]] + breadcrub_list + [breadcrumbs_pdp[1]]
 
         producthierarchy_level1 = breadcrumb[0] if len(breadcrumb) > 0 else ""
         producthierarchy_level2 = breadcrumb[1] if len(breadcrumb) > 1 else ""
@@ -85,6 +86,7 @@ class Parser():
         producthierarchy_level4 = breadcrumb[3] if len(breadcrumb) > 3 else ""
         producthierarchy_level5 = breadcrumb[4] if len(breadcrumb) > 4 else ""
         producthierarchy_level6 = breadcrumb[5] if len(breadcrumb) > 5 else ""
+        
 
         regular_price_fetch = product.get("price",{})
         regular_price = regular_price_fetch.get("unitPrice",crawler_price) 
@@ -166,53 +168,53 @@ class Parser():
                 promotion_end_date = promo.get("toDate","")
         
 
-            item = {}
-            item["unique_id"] = unique_id
-            item["competitor_name"] = competitor_name
-            item["extraction_date"] = extraction_date
-            item["brand"] = brand
-            item["grammage_quantity"] = grammage_quantity
-            item["grammage_unit"] = grammage_unit
-            item["product_name"] = product_name
-            item["breadcrumb"] = breadcrumb
-            item["producthierarchy_level1"] = producthierarchy_level1
-            item["producthierarchy_level2"] = producthierarchy_level2
-            item["producthierarchy_level3"] = producthierarchy_level3
-            item["producthierarchy_level4"] = producthierarchy_level4
-            item["producthierarchy_level5"] = producthierarchy_level5
-            item["producthierarchy_level6"] = producthierarchy_level6
-            item["regular_price"] = regular_price
-            item["selling_price"] = selling_price
-            item["price_per_unit"] = price_per_unit
-            item["pdp_url"] = pdp_url
-            item["product_description"] = product_description
-            item["nutritional_information"] = nutritional_information
-            item["ingredients"] = ingredients
-            item["allergens"] = allergens
-            item["storage_instructions"] = storage_instructions
-            item["manufacturer_details"] = manufacturer_details
-            item["net_content"] = net_content
-            item["special_information"] = special_information
-            item["instruction_for_use"] = instruction_for_use
-            item["site_shown_uom"] = site_shown_uom
-            item["competitor_product_key"] = competitor_product_key
-            item["instock"] = instock
-            item["product_unique_key"] =  product_unique_key
-            item["image_url"] = image_urls
-            item["promotion_description"] = promotion_description
-            item["promotion_start_date"] = promotion_start_date
+        item = {}
+        item["unique_id"] = unique_id
+        item["competitor_name"] = competitor_name
+        item["extraction_date"] = extraction_date
+        item["brand"] = brand
+        item["grammage_quantity"] = grammage_quantity
+        item["grammage_unit"] = grammage_unit
+        item["product_name"] = product_name
+        item["breadcrumb"] = breadcrumb
+        item["producthierarchy_level1"] = producthierarchy_level1
+        item["producthierarchy_level2"] = producthierarchy_level2
+        item["producthierarchy_level3"] = producthierarchy_level3
+        item["producthierarchy_level4"] = producthierarchy_level4
+        item["producthierarchy_level5"] = producthierarchy_level5
+        item["producthierarchy_level6"] = producthierarchy_level6
+        item["regular_price"] = regular_price
+        item["selling_price"] = selling_price
+        item["price_per_unit"] = price_per_unit
+        item["pdp_url"] = pdp_url
+        item["product_description"] = product_description
+        item["nutritional_information"] = nutritional_information
+        item["ingredients"] = ingredients
+        item["allergens"] = allergens
+        item["storage_instructions"] = storage_instructions
+        item["manufacturer_details"] = manufacturer_details
+        item["net_content"] = net_content
+        item["special_information"] = special_information
+        item["instruction_for_use"] = instruction_for_use
+        item["site_shown_uom"] = site_shown_uom
+        item["competitor_product_key"] = competitor_product_key
+        item["instock"] = instock
+        item["product_unique_key"] =  product_unique_key
+        item["image_url"] = image_urls
+        item["promotion_description"] = promotion_description
+        item["promotion_start_date"] = promotion_start_date
 
-            item["promotion_end_date"] = promotion_end_date
-            logging.warning(item)
+        item["promotion_end_date"] = promotion_end_date
+        logging.warning(item)
 
-            try:
-                product_item = items.ProductItems(**item)
-                product_item.validate()
-                self.mongo_col.insert_one(item)
-                logging.warning("-----DATA SAVED---------")
-            except Exception as e:
-                logging.warning("------------SAVE-------ERROR--------")
-                logging.warning(e)
+        try:
+            product_item = items.ProductItems(**item)
+            product_item.validate()
+            self.mongo_col.insert_one(item)
+            logging.warning("-----DATA SAVED---------")
+        except Exception as e:
+            logging.warning("------------SAVE-------ERROR--------")
+            logging.warning(e)
             
 
 
