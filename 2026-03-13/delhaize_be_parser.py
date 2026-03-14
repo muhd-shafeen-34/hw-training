@@ -15,50 +15,60 @@ class Parser():
     
     def start(self):
         metas = fetch_from_mongo(MONGO_COLLECTION_URLS,0)
-        print(len(metas))
-        # for meta in metas:
-        meta = metas[0]
-        crawler_unique_id = meta.get("unique_id","")
-        crawler_pdp_url = meta.get("pdp_url","")
-        crawler_grammage_details = meta.get("grammage_details","")
-        crawler_brand = meta.get("brand","")
-        crawler_price = meta.get("price","")
-        crawler_price_per_unit = meta.get("unit_price","")
-        crawler_instock = meta.get("instock","")
-        crawler_image = meta.get("image_url","")
-        variables = {
-                    "productCode":crawler_unique_id,
-                    "lang" : "nl"
-                    }
+        logging.warning("total %d products to parser",len(metas))
+        logging.warning("--- S T A R T I N G  P A R S E R-----")
 
-        pdp_api_params = {
-                    "operationName": "ProductDetails",
-                    "variables": json.dumps(variables),
-                    "extensions": '{"persistedQuery":{"version":1,"sha256Hash":"bc98c7e3bfdca594d65bbaebb539e81887459c27c39e860f5538f05739f16236"}}'
-		            }
-        pdp_response = requests.get(crawler_pdp_url,headers=PDP_HEADER)
-        api_response = requests.get(API,headers=API_HEADER,params=pdp_api_params)
-        print(pdp_response.status_code)
-        print(api_response.status_code)
+        for meta in metas:
+            
+            crawler_unique_id = meta.get("unique_id","")
+            crawler_pdp_url = meta.get("pdp_url","")
+            crawler_grammage_details = meta.get("grammage_details","")
+            crawler_brand = meta.get("brand","")
+            crawler_price = meta.get("price","")
+            crawler_price_per_unit = meta.get("unit_price","")
+            crawler_instock = meta.get("instock","")
+            crawler_image = meta.get("image_url","")
+            variables = {
+                        "productCode":crawler_unique_id,
+                        "lang" : "nl"
+                        }
 
-        if pdp_response.status_code == 200 and api_response.status_code == 200:
+            pdp_api_params = {
+                        "operationName": "ProductDetails",
+                        "variables": json.dumps(variables),
+                        "extensions": '{"persistedQuery":{"version":1,"sha256Hash":"bc98c7e3bfdca594d65bbaebb539e81887459c27c39e860f5538f05739f16236"}}'
+                        }
+            pdp_response = requests.get(crawler_pdp_url,headers=PDP_HEADER)
+            api_response = requests.get(API,headers=API_HEADER,params=pdp_api_params)
 
-            self.parse_item(pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image)
-        
-        
+            if pdp_response.status_code == 200 and api_response.status_code == 200:
+                logging.warning("webpage and api of %s returned %d",crawler_pdp_url,200)
+                self.parse_item(pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image)
+            else:
+                logging.warning("%s page source returned %d and api returned %d",crawler_pdp_url,pdp_response.status_code,api_response.status_code)
+            logging.warning("---- P A R S E R ------ C O M P L E T E D --------")
 
 
 
 
     def parse_item(self,pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image):
+
         sel = Selector(text=pdp_response.text)
         results = api_response.json()
-        
         data = results["data"]
         product = data.get("productDetails","")
+
+
+        #XPATH
+
+        PRODUCT_NAME_XPATH = '//h1[@data-testid="product-common-header-title"]/text()'
+        BREADCRUMB_XPATH = '//nav[@aria-label]//text()'
+
+        # FIELD EXTRACTION AND CLEANING
         unique_id = product.get("code",crawler_unique_id)
         competitor_name = "delhaize"
         extraction_date = date.today().isoformat()
+
         brand = product.get("manufacturerName",crawler_brand)
 
         grammage_details_fetch = product.get("price",{})
@@ -68,10 +78,10 @@ class Parser():
         grammage_quantity = grammage_regex.group(1) if grammage_regex else ""
         grammage_unit = grammage_regex.group(2) if grammage_regex else ""
 
-        product_name_fetch = sel.xpath('//h1[@data-testid="product-common-header-title"]/text()').extract_first()
+        product_name_fetch = sel.xpath(PRODUCT_NAME_XPATH).extract_first()
         product_name = f"{product_name_fetch}{grammage_details}" if product_name_fetch else ""
 
-        breadcrumbs_pdp_fetch = sel.xpath('//nav[@aria-label]//text()').extract()
+        breadcrumbs_pdp_fetch = sel.xpath(BREADCRUMB_XPATH).extract()
         breadcrumbs_pdp = list(dict.fromkeys(breadcrumbs_pdp_fetch))
         breadcrumb_api = product.get("categories",[])
         breadcrub_list = []
@@ -93,7 +103,6 @@ class Parser():
         selling_price = regular_price if regular_price else ""
         price_per_unit = regular_price_fetch.get("supplementaryPriceLabel1",crawler_price_per_unit)
 
-        currency = "EUR"
 
         pdp_url = pdp_response.url if pdp_response.url else crawler_pdp_url
 
@@ -203,10 +212,11 @@ class Parser():
         item["image_url"] = image_urls
         item["promotion_description"] = promotion_description
         item["promotion_start_date"] = promotion_start_date
-
         item["promotion_end_date"] = promotion_end_date
+        
         logging.warning(item)
 
+        # Validation and database integration
         try:
             product_item = items.ProductItems(**item)
             product_item.validate()
@@ -215,24 +225,8 @@ class Parser():
         except Exception as e:
             logging.warning("------------SAVE-------ERROR--------")
             logging.warning(e)
-            
+                    
 
-
-
-
-            
-             
-
-
-
-        
-
-
-
-
-        
-
-        
     def close(self):
         self.mongo.close()
 
