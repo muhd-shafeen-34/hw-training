@@ -172,7 +172,7 @@ class Parser():
                 promotion_end_date = promo.get("toDate","")
 
             else:
-                promotion_description = promo.get("description","")
+                promotion_description = promo.get("simplePromotionMessage","")
                 promotion_start_date = promo.get("fromDate","")
                 promotion_end_date = promo.get("toDate","")
         

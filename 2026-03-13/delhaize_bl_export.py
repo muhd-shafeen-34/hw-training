@@ -54,6 +54,7 @@ class Export:
 
             promotion_description_fetch = item.get("promotion_description","").strip() 
             promotion_description = promotion_description_fetch if promotion_description_fetch else ""
+            
             promotion_startdate_fetch = item.get("promotion_start_date","")
             promotion_start_date = promotion_startdate_fetch if promotion_startdate_fetch else ""
 
@@ -103,7 +104,7 @@ class Export:
 
 
 
-            ingredients = item.get("ingredients", "")
+            ingredients = item.get("ingredients","")
 
             manufacturer_address = item.get("manufacturer_details", "")
 
