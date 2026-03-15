@@ -192,8 +192,8 @@ class Parser():
         item["producthierarchy_level4"] = producthierarchy_level4
         item["producthierarchy_level5"] = producthierarchy_level5
         item["producthierarchy_level6"] = producthierarchy_level6
-        item["regular_price"] = regular_price
-        item["selling_price"] = selling_price
+        item["regular_price"] = str(regular_price)
+        item["selling_price"] = str(selling_price)
         item["price_per_unit"] = price_per_unit
         item["pdp_url"] = pdp_url
         item["product_description"] = product_description
