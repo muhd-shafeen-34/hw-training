@@ -55,7 +55,7 @@ class Export:
             promotion_description_fetch = item.get("promotion_description","").strip() 
             promotion_description = promotion_description_fetch if promotion_description_fetch else ""
             promotion_startdate_fetch = item.get("promotion_start_date","")
-            promotion_start_date = format_date(promotion_startdate_fetch) if promotion_startdate_fetch else ""
+            promotion_start_date = promotion_startdate_fetch if promotion_startdate_fetch else ""
 
             promotion_enddate_fetch = item.get("promotion_end_date","")
             promotion_end_date = format_date(promotion_enddate_fetch) if promotion_enddate_fetch else ""
@@ -105,7 +105,7 @@ class Export:
 
             ingredients = item.get("ingredients", "")
 
-            manufacturer_address = item.get("manufacturer_address", "")
+            manufacturer_address = item.get("manufacturer_details", "")
 
             allergens = ""
             allergens_fetch = item.get("allergens",[])
@@ -123,13 +123,13 @@ class Export:
 
             instock = item.get("instock", "")
 
-            image_url_1_Fetch= item.get("image_url", [])
-            image_url_1 = "".join(image_url_1_Fetch) if image_url_1_Fetch else ""
-             # image_url_2 = item.get("image_url_2", "")
-            # image_url_3 = item.get("image_url_3", "")
-            # image_url_4 = item.get("image_url_4", "")
-            # image_url_5 = item.get("image_url_5", "")
-            # image_url_6 = item.get("image_url_6", "")
+            image = item.get("image_url", [])
+            image_url_1 = image[0] if len(image) > 0 else ""
+            image_url_2 = image[1] if len(image) > 1 else ""
+            image_url_3 = image[2] if len(image) > 2 else ""
+            image_url_4 = image[3] if len(image) > 3 else ""
+            image_url_5 = image[4] if len(image) > 4 else ""
+            image_url_6 = image[5] if len(image) > 5 else ""
 
             data = [
                 unique_id,                    # unique_id
@@ -219,15 +219,15 @@ class Export:
                 "",                            # file_name_1
                 image_url_1,                   # image_url_1
                 "",                            # file_name_2
-                "",                   # image_url_2
+                image_url_2,                   # image_url_2
                 "",                            # file_name_3
-                "",                   # image_url_3
+                image_url_3,                   # image_url_3
                 "",                            # file_name_4
-                "",                   # image_url_4
+                image_url_4,                   # image_url_4
                 "",                            # file_name_5
-                "",                   # image_url_5
+                image_url_5,                   # image_url_5
                 "",                            # file_name_6
-                "",                   # image_url_6
+                image_url_6,                   # image_url_6
                 competitor_product_key,        # competitor_product_key
                 "",                            # fit_guide
                 "",                            # occasion

@@ -122,7 +122,7 @@ class Parser():
         product_details = product.get("wsNutriFactData",{})
 
         ingredients_fetch = product_details.get("ingredients","")
-        ingredients = ingredients_fetch if ingredients else ""
+        ingredients = ingredients_fetch if ingredients_fetch else ""
 
         nutritional_information_fetch = product_details.get("nutrients",[])
         for nutrients in nutritional_information_fetch:
@@ -167,7 +167,7 @@ class Parser():
         promotion_details = product.get("potentialPromotions",[])
         for promo in promotion_details:
             if promo.get("code","") == "BE11742250":
-                promotion_description = f"{promo.get("description","")} Online"
+                promotion_description = f"{promo.get("simplePromotionMessage","")} Online"
                 promotion_start_date = promo.get("fromDate","")
                 promotion_end_date = promo.get("toDate","")
 

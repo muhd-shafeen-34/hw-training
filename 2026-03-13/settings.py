@@ -53,7 +53,7 @@ MONGO_URI = "mongodb://mongotraining:a4892e52373844dc4862e6c468d11b6df7938e16@20
 CLIENT = MongoClient(MONGO_URI)
 DB_NAME = "delhaize_bl_db"
 MONGO_COLLECTION_URLS = CLIENT[DB_NAME]["delhaize_be_urls"]
-MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["delhaize_be_data"]
+MONGO_COLLECTION_DATA = CLIENT[DB_NAME]["delhaize_be_data_new"]
 
 
 params = {
