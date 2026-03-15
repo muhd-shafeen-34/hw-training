@@ -129,7 +129,7 @@ class Parser():
             nutritional_information = nutrients.get("nutrients",[])
         
         allergens_fetch = product_details.get("allegery",[])
-        allergens = allergens_fetch if allergens_fetch else ""
+        allergens = allergens_fetch if allergens_fetch else []
 
         other_info = product_details.get("otherInfo",[])
         for info in other_info:
