@@ -38,7 +38,7 @@ class Export:
             brand = item.get("brand", "")
             pdp_url = item.get("pdp_url", "")
             competitor_name = item.get("competitor_name", "")
-            extraction_date = item.get("extraction_date", "").replace("-","_")
+            extraction_date = item.get("extraction_date","").replace("-","_")
 
             regular_price = format_price(item.get("regular_price", "").strip(""))
             selling_price = format_price(item.get("selling_price", "").strip(""))
@@ -106,7 +106,8 @@ class Export:
 
             ingredients = item.get("ingredients","")
 
-            manufacturer_address = item.get("manufacturer_details", "")
+            manufacturer_address = item.get("manufacturer_details", "").replace("\n"," ")
+        
 
             allergens = ""
             allergens_fetch = item.get("allergens",[])
