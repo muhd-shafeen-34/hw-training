@@ -74,9 +74,14 @@ class Parser():
         grammage_details_fetch = product.get("price",{})
         grammage_details = grammage_details_fetch.get("supplementaryPriceLabel2",crawler_grammage_details)
 
-        grammage_regex = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l)\b', grammage_details, re.I)
+        # grammage_regex = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l)\b', grammage_details, re.I)
+        # grammage_quantity = grammage_regex.group(1) if grammage_regex else ""
+        # grammage_unit = grammage_regex.group(2) if grammage_regex else ""
+        grammage_regex = re.search(r'((?:\d+\s*x\s*)?\d+(?:[.,]\d+)?)\s*(ml|cl|l)\b',grammage_details,re.I)
+
         grammage_quantity = grammage_regex.group(1) if grammage_regex else ""
         grammage_unit = grammage_regex.group(2) if grammage_regex else ""
+
 
         product_name_fetch = sel.xpath(PRODUCT_NAME_XPATH).extract_first()
         product_name = f"{product_name_fetch}{grammage_details}" if product_name_fetch else ""
