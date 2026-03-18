@@ -2,7 +2,8 @@ import requests
 import json
 import logging
 import re
-import items
+from datetime import time
+from items import ProductItems
 from datetime import date
 from parsel import Selector
 from urllib.parse import urljoin
@@ -15,8 +16,30 @@ class Parser():
     
     def start(self):
         metas = fetch_from_mongo(MONGO_COLLECTION_URLS,0)
-        logging.warning("total %d products to parser",len(metas))
-        logging.warning("--- S T A R T I N G  P A R S E R-----")
+        logging.info("total %d products to parser",len(metas))
+        logging.info("--- S T A R T I N G  P A R S E R-----")
+
+            #retry function
+        MAX_RETRIES = 3
+        def fetch_with_retry(url, headers=None, params=None):
+            for attempt in range(MAX_RETRIES):
+                try:
+                    response = requests.get(url, headers=headers, params=params, timeout=10)
+
+                    logging.info(
+                        "Attempt %d for %s returned %s",
+                        attempt + 1, url, response.status_code
+                    )
+
+                    if response and response.status_code == 200:
+                        return response
+                    else:
+                        continue 
+
+                except Exception as e:
+                    logging.warning(f"Retry {attempt+1} failed for {url}: {e}")
+
+            return None
 
         for meta in metas:
             
@@ -38,25 +61,52 @@ class Parser():
                         "variables": json.dumps(variables),
                         "extensions": '{"persistedQuery":{"version":1,"sha256Hash":"bc98c7e3bfdca594d65bbaebb539e81887459c27c39e860f5538f05739f16236"}}'
                         }
-            pdp_response = requests.get(crawler_pdp_url,headers=PDP_HEADER)
-            api_response = requests.get(API,headers=API_HEADER,params=pdp_api_params)
+
+            pdp_response = fetch_with_retry(crawler_pdp_url,PDP_HEADER)
+            api_response = fetch_with_retry(API,API_HEADER,pdp_api_params)
 
             if pdp_response.status_code == 200 and api_response.status_code == 200:
-                logging.warning("webpage and api of %s returned %d",crawler_pdp_url,200)
-                self.parse_item(pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image)
+                logging.info("webpage and api of %s returned %d",crawler_pdp_url,200)
+                self.parse_item(pdp_response,
+                                api_response,
+                                crawler_unique_id,
+                                crawler_brand,
+                                crawler_grammage_details,
+                                crawler_price,
+                                crawler_price_per_unit,
+                                crawler_pdp_url,
+                                crawler_instock,
+                                crawler_image
+                                )
             else:
-                logging.warning("%s page source returned %d and api returned %d",crawler_pdp_url,pdp_response.status_code,api_response.status_code)
-            logging.warning("---- P A R S E R ------ C O M P L E T E D --------")
+                logging.info("%s page source returned %d and api returned %d",crawler_pdp_url,pdp_response.status_code,api_response.status_code)
+        logging.info("---- P A R S E R ------ C O M P L E T E D --------")
 
 
 
 
-    def parse_item(self,pdp_response,api_response,crawler_unique_id,crawler_brand,crawler_grammage_details,crawler_price,crawler_price_per_unit,crawler_pdp_url,crawler_instock,crawler_image):
+    def parse_item(self,pdp_response,
+                   api_response,
+                   crawler_unique_id,
+                   crawler_brand,
+                   crawler_grammage_details,
+                   crawler_price,
+                   crawler_price_per_unit,
+                   crawler_pdp_url,
+                   crawler_instock,
+                   crawler_image
+                   ):
 
         sel = Selector(text=pdp_response.text)
-        results = api_response.json()
-        data = results["data"]
-        product = data.get("productDetails","")
+        results = {}
+        try:
+            results = api_response.json()
+        except Exception as e:
+            logging.info("failed to get api_response due to %s",e)
+            data = results.get("data",{})
+            product = data.get("productDetails",{})
+
+            
 
 
         #XPATH
@@ -74,9 +124,6 @@ class Parser():
         grammage_details_fetch = product.get("price",{})
         grammage_details = grammage_details_fetch.get("supplementaryPriceLabel2",crawler_grammage_details)
 
-        # grammage_regex = re.search(r'(\d+(?:\.\d+)?)\s*(ml|cl|l)\b', grammage_details, re.I)
-        # grammage_quantity = grammage_regex.group(1) if grammage_regex else ""
-        # grammage_unit = grammage_regex.group(2) if grammage_regex else ""
         grammage_regex = re.search(r'((?:\d+\s*x\s*)?\d+(?:[.,]\d+)?)\s*(ml|cl|l)\b',grammage_details,re.I)
 
         grammage_quantity = grammage_regex.group(1) if grammage_regex else ""
@@ -93,7 +140,7 @@ class Parser():
         for bread in breadcrumb_api:
             breadcrub_list.insert(0,bread.get("name",""))
         
-        breadcrumb = [breadcrumbs_pdp[0]] + breadcrub_list + [breadcrumbs_pdp[1]]
+        breadcrumb = [*(breadcrumbs_pdp[:1]),*(breadcrub_list or []),*(breadcrumbs_pdp[1:2])]
 
         producthierarchy_level1 = breadcrumb[0] if len(breadcrumb) > 0 else ""
         producthierarchy_level2 = breadcrumb[1] if len(breadcrumb) > 1 else ""
@@ -166,20 +213,20 @@ class Parser():
             if img.get("format","") == "xlarge":
                 image_urls.append(urljoin(DOMAIN,img.get("url",crawler_image)))
         
-        promotion_description = ""
-        promotion_start_date = ""
-        promotion_end_date = ""
+        promotion_description = []
+        promotion_start_date = []
+        promotion_end_date = []
         promotion_details = product.get("potentialPromotions",[])
         for promo in promotion_details:
             if promo.get("code","") == "BE11742250":
-                promotion_description = f"{promo.get("simplePromotionMessage","")} Online"
-                promotion_start_date = promo.get("fromDate","")
-                promotion_end_date = promo.get("toDate","")
+                promotion_description.append(f'{promo.get("simplePromotionMessage","")} Online')
+                promotion_start_date.append(promo.get("fromDate",""))
+                promotion_end_date.append(promo.get("toDate",""))
 
             else:
-                promotion_description = promo.get("simplePromotionMessage","")
-                promotion_start_date = promo.get("fromDate","")
-                promotion_end_date = promo.get("toDate","")
+                promotion_description.append(promo.get("simplePromotionMessage",""))
+                promotion_start_date.append(promo.get("fromDate",""))
+                promotion_end_date.append(promo.get("toDate",""))
         
 
         item = {}
@@ -219,17 +266,17 @@ class Parser():
         item["promotion_start_date"] = promotion_start_date
         item["promotion_end_date"] = promotion_end_date
         
-        logging.warning(item)
+        logging.info(item)
 
         # Validation and database integration
         try:
-            product_item = items.ProductItems(**item)
+            product_item = ProductItems(**item)
             product_item.validate()
             self.mongo_col.insert_one(item)
-            logging.warning("-----DATA SAVED---------")
+            logging.info("-----DATA SAVED---------")
         except Exception as e:
-            logging.warning("------------SAVE-------ERROR--------")
-            logging.warning(e)
+            logging.info("------------SAVE-------ERROR--------")
+            logging.info(e)
                     
 
     def close(self):

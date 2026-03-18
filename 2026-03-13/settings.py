@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-
+import logging
 
 
 
@@ -46,6 +46,12 @@ API_HEADER = {
 
 }
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s:%(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+
 ### M O N G O DETAILS
 
 MONGO_URI = "mongodb://mongotraining:a4892e52373844dc4862e6c468d11b6df7938e16@209.97.183.63:27017/?authSource=admin"
@@ -78,7 +84,7 @@ def fetch_from_mongo(collection,limit=0,*others):
 
 
 
-FILE_NAME = "delhaize_be_2026_03_13_sample.csv"
+FILE_NAME = "delhaize_be_2026_03_18_sample.csv"
 
 FILE_HEADER= [
   "unique_id",

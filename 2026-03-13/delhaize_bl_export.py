@@ -34,11 +34,12 @@ class Export:
             product_unique_key = item.get("product_unique_key", "")
             competitor_product_key = item.get("competitor_product_key", "")
 
-            product_name = item.get("product_name", "")
+            product_name_fetch = item.get("product_name", "")
+            product_name = re.sub(r'\s+', ' ', product_name_fetch.replace('\xa0', ' ')).strip() if product_name_fetch else ""
             brand = item.get("brand", "")
             pdp_url = item.get("pdp_url", "")
             competitor_name = item.get("competitor_name", "")
-            extraction_date = item.get("extraction_date","").replace("-","_")
+            extraction_date = item.get("extraction_date","")
 
             regular_price = format_price(item.get("regular_price", "").strip(""))
             selling_price = format_price(item.get("selling_price", "").strip(""))
@@ -63,7 +64,7 @@ class Export:
 
             currency = "EUR"
 
-            grammage_quantity = item.get("grammage_quantity", "")
+            grammage_quantity = item.get("grammage_quantity", "").replace(",",".")
             grammage_unit = item.get("grammage_unit", "")
             site_shown_uom = item.get("site_shown_uom", "")
             net_content = item.get("net_content")
@@ -73,19 +74,24 @@ class Export:
             producthierarchy_level3 = item.get("producthierarchy_level3", "")
             producthierarchy_level4 = item.get("producthierarchy_level4", "")
             producthierarchy_level5 = item.get("producthierarchy_level5", "")
-            producthierarchy_level6 = item.get("producthierarchy_level6", "")
+            producthierarchy_level6_fetch = item.get("producthierarchy_level6", "")
+            producthierarchy_level6 = re.sub(r'\s+', ' ', producthierarchy_level6_fetch.replace('\xa0', ' ')).strip() if producthierarchy_level6_fetch else ""
+
             
             breadcrumb_fetch = item.get("breadcrumb", "")
-            breadcrumb = " > ".join(breadcrumb_fetch) if breadcrumb_fetch else ""
+            breadcrumb_create = " > ".join(breadcrumb_fetch) if breadcrumb_fetch else ""
+            breadcrumb = re.sub(r'\s+', ' ', breadcrumb_create.replace('\xa0', ' ')).strip() if breadcrumb_create else ""
 
             product_description = item.get("product_description", "")
 
 
-            storage_instructions= item.get("storage_instructions", "")
+            storage_instructions_fetch = item.get("storage_instructions", "")
+            storage_instructions = re.sub(r'\s+', ' ', storage_instructions_fetch.replace('\xa0', ' ')).strip() if storage_instructions_fetch else ""
 
 
             instructionforuse_fetch = item.get("instruction_for_use", "")
-            instructionforuse = instructionforuse_fetch.strip() if instructionforuse_fetch else ""
+            instructionforuse = re.sub(r'\s+', ' ', instructionforuse_fetch.replace('\xa0', ' ')).strip() if instructionforuse_fetch else ""
+
 
 
 
@@ -104,9 +110,15 @@ class Export:
 
 
 
-            ingredients = item.get("ingredients","")
+            ingredients_fetch = item.get("ingredients","")
+            ingredients_clean = re.sub(r"(?:&apos;|[^\w\s,])", "", ingredients_fetch)  if ingredients_fetch else ""
+            ingredients = re.sub(r'\s+', ' ', ingredients_clean.replace('\xa0', ' ')).strip() if ingredients_clean else ""
 
-            manufacturer_address = item.get("manufacturer_details", "").replace("\n"," ")
+
+            manufacturer_address_fetch = item.get("manufacturer_details", "").replace("\n"," ")
+            manufacturer_address = re.sub(r'\s+', ' ', manufacturer_address_fetch.replace('\xa0', ' ')).strip() if manufacturer_address_fetch else ""
+
+
         
 
             allergens = ""
@@ -121,7 +133,8 @@ class Export:
                             allergens = values
         
             special_information_fetch = item.get("special_information","")
-            special_information = special_information_fetch.replace("*","").strip() if special_information_fetch else ""
+            special_information_clean = re.sub(r'\s+', ' ', special_information_fetch.replace('\xa0', ' ')).replace("*","").strip() if special_information_fetch else ""
+            special_information = re.sub(r"(?:&apos;|[^\w\s,])", "", special_information_clean) if special_information_clean else ""  
 
             instock = item.get("instock", "")
 

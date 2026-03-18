@@ -55,9 +55,9 @@ class ProductItems(DynamicDocument):
     instock = StringField()
     product_unique_key = StringField()
     image_url = ListField()
-    promotion_description = StringField()
-    promotion_start_date = StringField()
-    promotion_end_date = StringField()
+    promotion_description = ListField()
+    promotion_start_date = ListField()
+    promotion_end_date = ListField()
 
     
 
