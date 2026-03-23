@@ -26,7 +26,7 @@ class Crawler():
                 }
             while True:
                 response = requests.get(CRAWLER_API_URL,headers=API_HEADER,params=params,cookies=requestCookies)
-                time.sleep(5) #API has rate limiting
+                time.sleep(10) #API has rate limiting
 
                 if response.status_code == 200:
                     warning(f"type = {params['slug']} status = {response.status_code} page number = {params["page"]}")

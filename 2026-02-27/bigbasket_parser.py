@@ -18,7 +18,7 @@ class Parser():
 
     def start(self):
 
-        metas = fetch_from_mongo(MONGO_COLLECTION_URLS,210,"unique_id","pdp_url","grammage_details","rating","review","images","ean_code","regular_price","selling_price")        
+        metas = fetch_from_mongo(MONGO_COLLECTION_URLS,0,"unique_id","pdp_url","grammage_details","rating","review","images","ean_code","regular_price","selling_price")        
         for meta in metas:
             url = meta.get("pdp_url")
             _id = meta.get("unique_id")
