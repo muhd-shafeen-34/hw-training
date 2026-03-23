@@ -25,8 +25,9 @@ class Crawler():
             "page": 1
                 }
             while True:
-                time.sleep(1) #API has rate limiting
                 response = requests.get(CRAWLER_API_URL,headers=API_HEADER,params=params,cookies=requestCookies)
+                time.sleep(5) #API has rate limiting
+
                 if response.status_code == 200:
                     warning(f"type = {params['slug']} status = {response.status_code} page number = {params["page"]}")
                     next = self.parse_item(response)
@@ -108,7 +109,7 @@ class Crawler():
                 try:
                     product_item = items.ProductUrlItem(**item)
                     product_item.validate()
-                    #MONGO_COLLECTION_URLS.insert_one(item)
+                    MONGO_COLLECTION_URLS.insert_one(item)
                     warning("----DATA SAVED SUCCESSFULLY-------")
                 except Exception as e:
                     warning("save error occured due to %s ",e)
