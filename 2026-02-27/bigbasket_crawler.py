@@ -4,7 +4,7 @@ from urllib.parse import urljoin
 import items
 import time
 import random
-from settings import DOMAIN,API_HEADER,CRAWLER_API_URL,CLIENT,MONGO_COLLECTION_CATEGORY,MONGO_COLLECTION_URLS,fetch_from_mongo,list_of_agents
+from settings import DOMAIN,API_HEADER,cookies,CRAWLER_API_URL,CLIENT,MONGO_COLLECTION_CATEGORY,requestCookies,MONGO_COLLECTION_URLS,fetch_from_mongo,default_Request_Cookies
 
 
 
@@ -14,7 +14,7 @@ class Crawler():
         self.mongo_col = MONGO_COLLECTION_URLS
 
     def start(self):
-        metas = fetch_from_mongo(MONGO_COLLECTION_CATEGORY,"url","type","name","slug")
+        metas = fetch_from_mongo(MONGO_COLLECTION_CATEGORY,0,"url","type","name","slug")
 
 
         for meta in metas:
@@ -25,8 +25,8 @@ class Crawler():
             "page": 1
                 }
             while True:
-                time.sleep(10) #API has rate limiting
-                response = requests.get(CRAWLER_API_URL,headers=API_HEADER,params=params)
+                time.sleep(1) #API has rate limiting
+                response = requests.get(CRAWLER_API_URL,headers=API_HEADER,params=params,cookies=requestCookies)
                 if response.status_code == 200:
                     warning(f"type = {params['slug']} status = {response.status_code} page number = {params["page"]}")
                     next = self.parse_item(response)
@@ -108,7 +108,7 @@ class Crawler():
                 try:
                     product_item = items.ProductUrlItem(**item)
                     product_item.validate()
-                    MONGO_COLLECTION_URLS.insert_one(item)
+                    #MONGO_COLLECTION_URLS.insert_one(item)
                     warning("----DATA SAVED SUCCESSFULLY-------")
                 except Exception as e:
                     warning("save error occured due to %s ",e)

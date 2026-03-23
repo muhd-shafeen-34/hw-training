@@ -73,6 +73,9 @@ class Export:
 
             price_was = format_price(item.get("price_was", "").strip("₹"))
             percentage_discount = item.get("percentage_discount", "")
+            promotion_description_fetch = item.get("promotion_description","").strip() 
+            promotion_description = promotion_description_fetch.replace(": ",":").strip() if promotion_description_fetch else ""
+            promotion_price = item.get("promotion_price","").strip()
             currency = item.get("currency", "")
 
             grammage_quantity = item.get("grammage_quantity", "")
@@ -88,7 +91,7 @@ class Export:
             product_description = item.get("product_description", "")
 
 
-            storage_instructions= item.get("storage_instructions", "").strip("*").strip()
+            storage_instructions= item.get("storage_instructions", "").strip("*").replace("*","").strip()
 
 
             instructionforuse_fetch = item.get("instructionforuse", "")
@@ -142,12 +145,12 @@ class Export:
                 regular_price,                 # regular_price
                 selling_price,                 # selling_price
                 price_was,                     # price_was
-                "",                            # promotion_price
+                promotion_price,               # promotion_price
                 "",                            # promotion_valid_from
                 "",                            # promotion_valid_upto
                 "",                            # promotion_type
                 percentage_discount,           # percentage_discount
-                "",                            # promotion_description
+                promotion_description,         # promotion_description
                 "",                            # package_sizeof_sellingprice
                 "",                            # per_unit_sizedescription
                 "",                            # price_valid_from

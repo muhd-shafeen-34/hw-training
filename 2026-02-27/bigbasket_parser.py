@@ -55,15 +55,24 @@ class Parser():
         product_name = sel.xpath('//h1[contains(@class,"sc-bMCYpw lcKFu")]/text()').extract_first()
         brand = sel.xpath('//a[contains(@class,"sc-eTYdcR iUKcjN")]/text()').extract_first()
         
+        
         grammage = grammage_details.split(" ")
         if len(grammage) > 1:
             grammage_quantity = grammage[0]
             grammage_unit = grammage[1]
+            site_shown_uom = grammage_details
         else:
             match = re.search(r"(\d+(?:\.\d+)?)\s*(kg|g|l|ml)\b", product_name, re.I)
             grammage = [{match.group(1)},{match.group(2)}] if match else None
             grammage_quantity = grammage[0]
             grammage_unit = grammage[1]
+            site_shown_uom = " ".join(grammage)
+        if grammage_unit.lower() in ["sachets","bags","tea bags","peices"]:
+            grammage_unit = "pack"
+            grammage_quantity = "1"
+            site_shown_uom = "1 pack"
+        
+
 
         bread_crumb = sel.xpath('//div[contains(@class,"Breadcrumb___StyledDiv-sc-1jdzjpl-0 dbnMCn")]//text()').extract()
         cleaned_breadcrumb = [
@@ -81,6 +90,8 @@ class Parser():
         selling_price = ""
         discount = ""
         price_was = ""
+        product_description = ""
+        promotion_price = ""
         
         regular_price_fetch_in_promo = sel.xpath('//td[contains(@class,"line-through p-0")]/text()').extract_first()
         if regular_price_fetch_in_promo:
@@ -91,12 +102,18 @@ class Parser():
             selling_price = m.group(1)
             price_was = regular_price_fetch_in_promo
 
-            discount_fetch = sel.xpath('//td[contains(@class,"text-md text-appleGreen-700 font-semibold p-0")]/text()').extract_first()
+            discount_fetch = sel.xpath('//tr[contains(@class,"flex items-center text-md text-appleGreen-700 font-semibold mb-1 leading-md p-0")]//text()').extract()
             if discount_fetch:
-                discount_regex = re.search(r"(\d+(?:\.\d+)?)\s*%", discount_fetch)
-                discount = discount_regex.group(1) if discount_regex else ""
+                promotion_description = "".join(discount_fetch)
+                discount_regex = re.search(r"%\s*(\d+(?:\.\d+)?)|(\d+(?:\.\d+)?)\s*%", promotion_description)
+                discount = next(g for g in discount_regex.groups() if g) if discount_regex else ""
+                promotion_price_regex = re.search(r"(?:₹|Rs\.?)\s*(\d+(?:\.\d+)?)", promotion_description, re.I)
+                promotion_price = promotion_price_regex.group(1) if promotion_price_regex else ""
             else:
+                promotion_description = ""
                 discount = ""
+                promotion_price = ""
+
         else:
             regular_price_fetch = sel.xpath('//td[contains(@class,"Description___StyledTd-sc-82a36a-0 hueIJn")]/text()').extract()
             if regular_price_fetch:
@@ -106,11 +123,15 @@ class Parser():
                 selling_price = regular_price
                 discount = ""
                 price_was = ""
+                promotion_description = ""
+                promotion_price = ""
             else:
                 regular_price = ""
                 selling_price = ""
                 discount = ""
                 price_was = ""
+                promotion_description = ""
+                promotion_price = ""
         if regular_price  == "" and selling_price == "":
                 regular_price = crawler_regular_price
                 selling_price = crawler_selling_price
@@ -180,13 +201,21 @@ class Parser():
         cleaned_features = re.sub(r'\s+', ' ', re.sub(r'@import\s+url\([^)]*\);\s*', '', features_text)).strip()
         features_detail = cleaned_features if cleaned_features else ""
 
+        #rare case when product description contains instruction of use (prepation) details 
+
+        preparation_regex = re.search(r"""\bprepara\w*\b\s*:?\s*(.*?)(?=\n\s*[A-Z][A-Za-z ]{2,}\n|\Z)""",product_description_text,re.I | re.S | re.X) if product_description_text else ""
+        preparation_text = preparation_regex.group(1).strip() if preparation_regex  else ""
+        instructions_detail = preparation_text if preparation_text else ""
+
+
         other_details_text = html_to_text(other_details)
         if other_details_text:
             country_fetch = re.search(r"Country\s*of\s*Origin\s*:\s*(.*?)(?=\s*(?:Manufactured|Marketed|Best|For\s+Queries|$))",other_details_text,re.I)
             country_of_origin = country_fetch.group(1).strip() if country_fetch else ""
             #manufacturer = re.search(r"Manufacture(?:d by|r Name & Address):\s*(.*?)(?=\s*(?:Country of Origin|Country Of Origin|Best before|For Queries|Marketed by|$))",other_details_text,re.I | re.S)
             #manufacturer = re.search(r"(?:Manufactured by|Manufactured\s*&\s*Marketed by|Manufacturer Name\s*&\s*Address)\s*:\s*(.*?)(?=\s*(?:Country of Origin|Country Of Origin|Best before|For Queries|Marketed by|$))",other_details_text,re.I | re.S)
-            manufacturer = re.search(r"""\bmanufactur\w*[^:]{0,40}:\s*(.*?)(?=\s*\b(?:EAN|FSSAI|Country|Best|Disclaimer|For\s+Queries|Marketed|$))""",other_details_text,re.I | re.S | re.X)
+            #manufacturer = re.search(r"""\bmanufactur\w*[^:]{0,40}:\s*(.*?)(?=\s*\b(?:EAN|FSSAI|Country|Best|Disclaimer|For\s+Queries|Marketed|$))""",other_details_text,re.I | re.S | re.X)
+            manufacturer = re.search(r"""\bmanufactur\w*(?:\s+name\s*&?\s*address)?(?:\s*&\s*marketed\s+by)?(?:\s+by)?\s*:?\s*(.*?)(?=\s*\b(?:marketed\s+by|fssai|country|best\s+before|disclaimer|for\s+queries|ean|lic|import|$))""",other_details_text,re.I | re.S | re.X)
             manufacturer_details_fetch = manufacturer.group(1).strip() if manufacturer else ""
             cleaned_manufacturer = re.sub(r'\s+', ' ', re.sub(r'@import\s+url\([^)]*\);\s*', '', manufacturer_details_fetch)).strip()
             manufacturer_details = cleaned_manufacturer if cleaned_manufacturer else ""
@@ -235,7 +264,9 @@ class Parser():
         item["selling_price"] = selling_price
         item["currency"] = currency
         item["price_was"] = price_was
+        item["promotion_price"] = promotion_price
         item["percentage_discount"] = discount
+        item["promotion_description"] = promotion_description
         item["producthierarchy_level1"] = producthierarchy_level1
         item["producthierarchy_level2"] = producthierarchy_level2
         item["producthierarchy_level3"] = producthierarchy_level3
@@ -258,7 +289,7 @@ class Parser():
         item["image_url_4"] = image_url_4
         item["image_url_5"] = image_url_5
         item["image_url_6"] = image_url_6
-        item["site_shown_uom"] = grammage_details
+        item["site_shown_uom"] = site_shown_uom
         item["competitor_product_key"] = eancode
         item["product_unique_key"] = product_unique_key
         print(item)

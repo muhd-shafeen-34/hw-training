@@ -2,7 +2,7 @@ import requests
 from logging import info,warning,error
 from urllib.parse import urljoin
 import items
-from settings import DOMAIN,API_HEADER,CATEGORY_API_URL,CLIENT,MONGO_COLLECTION_CATEGORY
+from settings import DOMAIN,API_HEADER,CATEGORY_API_URL,CLIENT,MONGO_COLLECTION_CATEGORY,requestCookies
 
 class CategoryCrawler():
     def __init__(self):
@@ -12,7 +12,7 @@ class CategoryCrawler():
         
 
     def start(self):
-        response = requests.get(self.category_api_url,headers=API_HEADER)
+        response = requests.get(self.category_api_url,headers=API_HEADER,cookies=requestCookies)
         if response.status_code == 200:
             data = response.json()
             target_categories = {"Coffee","Tea"}
