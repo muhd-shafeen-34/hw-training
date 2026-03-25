@@ -137,6 +137,7 @@ class Export:
             country_of_origin_fetch = item.get("country_of_origin","")
             country_of_origin = country_of_origin_fetch if country_of_origin_fetch else ""
 
+
         
             allergens_fetch = item.get("allergens","")
             allergens = allergens_fetch.replace(" ","") if allergens_fetch else ""

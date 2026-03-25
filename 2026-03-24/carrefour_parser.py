@@ -50,6 +50,7 @@ class Parser():
         html = response.text
         sel = Selector(text=html)
 
+
         #xpath
         PRODUCT_NAME_XPATH = '//h1[@class="product-name"]/text()'
         BRAND_XPATH = '//div[@class="grouping-brand-name-badge"]/div[@class="brand-wrapper"]/div/text()'
@@ -140,36 +141,7 @@ class Parser():
         nutritional_information_fetch = sel.xpath(NUTRITIONAL_INFORMATION_XPATH)
         table = nutritional_information_fetch.xpath('.//table[@class="nutrition-table"]') if nutritional_information_fetch else ""
 
-        def extract_nutrition_data(table_selector):
-            # 1. Get Headers (Clean up whitespace and ignore the first empty <th>)
-            headers = [h.strip() for h in table_selector.xpath('.//thead//th/text()').getall() if h.strip()]
-            
-            nutrition_dict = {}
-
-            # 2. Iterate through rows in the tbody
-            for row in table_selector.xpath('.//tbody/tr'):
-                # Extract the label (e.g., "Energie", "Fats")
-                key = row.xpath('normalize-space(.//td[@class="nutrition-key"]/text())').get()
-                
-                # Extract all values in that row (e.g., ["80 kJ", "201 kJ", "2%"])
-                values = [v.strip() for v in row.xpath('.//td[@class="nutrition-value"]/text()').getall()]
-
-                if not key or not values:
-                    continue
-
-                # Clean the key (remove trailing colons or leading dashes)
-                clean_key = key.rstrip(':').lstrip('-').strip()
-
-                # 3. Map values to headers
-                # If there's only 1 header but 1 value, it maps: {"Energie": {"Per 100ml": "1.4kJ"}}
-                row_map = {}
-                for i, val in enumerate(values):
-                    header_label = headers[i] if i < len(headers) else f"Column_{i+1}"
-                    row_map[header_label] = val
-                
-                nutrition_dict[clean_key] = row_map
-
-            return nutrition_dict
+        
 
         nutritional_informations = extract_nutrition_data(table) if table else {}
 
@@ -203,6 +175,38 @@ class Parser():
 
 
         product_unique_key = f"{unique_id}P"
+
+
+        def extract_nutrition_data(table_selector):
+            # 1. Get Headers (Clean up whitespace and ignore the first empty <th>)
+            headers = [h.strip() for h in table_selector.xpath('.//thead//th/text()').getall() if h.strip()]
+            
+            nutrition_dict = {}
+
+            # 2. Iterate through rows in the tbody
+            for row in table_selector.xpath('.//tbody/tr'):
+                # Extract the label (e.g., "Energie", "Fats")
+                key = row.xpath('normalize-space(.//td[@class="nutrition-key"]/text())').get()
+                
+                # Extract all values in that row (e.g., ["80 kJ", "201 kJ", "2%"])
+                values = [v.strip() for v in row.xpath('.//td[@class="nutrition-value"]/text()').getall()]
+
+                if not key or not values:
+                    continue
+
+                # Clean the key (remove trailing colons or leading dashes)
+                clean_key = key.rstrip(':').lstrip('-').strip()
+
+                # 3. Map values to headers
+                # If there's only 1 header but 1 value, it maps: {"Energie": {"Per 100ml": "1.4kJ"}}
+                row_map = {}
+                for i, val in enumerate(values):
+                    header_label = headers[i] if i < len(headers) else f"Column_{i+1}"
+                    row_map[header_label] = val
+                
+                nutrition_dict[clean_key] = row_map
+
+            return nutrition_dict
 
         item = {}
         item["unique_id"] = unique_id 
