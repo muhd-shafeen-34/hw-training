@@ -1,0 +1,118 @@
+import requests
+from parsel import Selector
+import json
+headers = {
+    'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    # 'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'Referer': 'https://www.johnlewis.com/browse/women/womens-dresses/_/N-flw',
+    'Connection': 'keep-alive',
+    # 'Cookie': 'mt.v=5.1982663899.1768458564262; jl_uuid=41aad3a7-cb14-4556-8256-8cf71c773b4b; _abck=F09CCD1F154866BFEA78E479999C18C2~0~YAAQltcLFzqbH/KcAQAAUhPpIw8SLwP3U2yirmn/nNOFvniL9bKs5vbr51EtJBRaHJ+0PdPUverWdqXBR1wYTsL8sbWITwTORzxtGhIbBquReNPdxTC9TUl/gJbl2Y4XONv37nG9TU1wpqT1IM9vW7XNr4Jrw6yC8OkDYwjV+AnnivyxJDsmYrTuFA9Qp9VyTb3neDft9F990noGgVSfNYTHakKvtq3tBploihGsZ+L1/0a3XTHcvd+Xvoy+q6Bo/w5X5AlfSwoF0sSkHN626Go+3xvsKbQ1kehv7bhYYtfmL0YQrhjirRCSAVTDK1jMFc5i/BwRVOgkWerzXINMTIEvfKcs+R0anVoU/Y+sg3z2UHmx7U+7KmLrl8/6kra1OvwPT41Rsj1B2XchJvqlsjQnBECIT1JWHXpnyc7DPO409KuCmDnMtTQDGYbGzVLGos0NJr9MRjYMnzx78uvxNiT+LFlZAUhgTWFyORDXvMoiwyvKvma5xghHqVs15dMPqgDPeNL+vSC2EqX5chocmtXaK6j6Hs+tQ1HREwe1qRlf4GymPvXBNgEQaNGbvQLoYLeqhNlzIvmlBzAA5qf62KMH3/Z3HljGu67j5hjCJhW6/ygTk/zWBLfWWtZDgl8mWpPEtWkTH1416EqmX0aSW4N4fjlYMzsYL/Iew+4D/0WdZ+NGL65IuphUvG/8lb3GibXmyRRyYJ13p25eazmq0hAaBkraleaSjG9vj8uetr08fNAWgDDC7k3IcYfgysdMhZTFv7UsjcUW3PC86E5JVyp6y6GmhRsmBW2dcaoTjvH78uSeJvmp1lo2ZiRN7t7WPPQcwwim5fA05cqW65vaVLsXQqkn83UyiFaFI6giuQGRXpswEB7h+2Kjt8RPowLJq7W3lyGxgPOth66dgVpuKh6f6PJ8Sxbqwn6pZT1p/0hfouXG4u8+KRXEBwxDW6Wnr57o4aSztG4bzqjnWg==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f5unmUQ0t%2fSKr4wLuaD0iCIkmz5k0cptgZTvijKoVLmEu1Tal6nEiowLt%2foAIi0R6Y1+PAPmIVafen1n3FknT58%2frA9B3tbAa6R0KZ5b+JqAxNmuAl5AEMilL0ZCgj5qVyd+JX2jFaT0YkrI80WpBvo5oMKReN6Ea6+8ZsyEsg%3d%3d~-1; ravelinDeviceId=rjs-33318337-b278-4120-94a3-cc4762d9a507; uuid=15b890a6-a327-434b-85fa-4327857c251e; JOHNLEWIS_ENSIGHTEN_PRIVACY_BANNER_VIEWED=1; JOHNLEWIS_ENSIGHTEN_PRIVACY_Advertising=0; JOHNLEWIS_ENSIGHTEN_PRIVACY_Analytics=0; JOHNLEWIS_ENSIGHTEN_PRIVACY_Essentials=1; JOHNLEWIS_ENSIGHTEN_PRIVACY_Functional=0; JOHNLEWIS_ENSIGHTEN_PRIVACY_Personalisation=0; ib=2bdc4806427e520f48203cd9ac84351f; ak_bmsc=EBCDE54AD34904256C3EBE19D2F3A119~000000000000000000000000000000~YAAQ1kLHF+yDuyGdAQAA9r+xIx/P6aKI2EmVNJJSsLkKyFYnKXHzDO1RUVPKwDerz9drYrWG7+EOXeowQOqElEf6oQDMCXvWVnfmhaUTNf2pDosZXqHMdrSCucIw7B+NcpIH+3EC4/f7XN3Ip5fqdGg2MZZxaMHu4XiKJh9NvdBPpDy9Ger0pYi5ZGevV7HqPWxpxo2OZbMEX8umaeyQViv0wTBwi7PNbLbCwjH0zUgNLUpIbvC9IpTkUdSRCuQkPAuz0wcce6tEUktNf5HFYHEH+vwPyya3syC9ALqDjqIX3nWf7fL1tbJ0/Z4OSDzpGTd5QEhqei34UcW8y2uiwlmhc+dzEt2frKCUPyApN0t/Q0BLB1E8mKCsiGA35Iee3oUKrHP75+pP1dLuFdg140EmMEgfJQYAqBkFQe3/rE5fLqmK4j3WPLj0btPmtB/4m/BHxmlSi4/6yBDapwpNEGiUQQ==; bm_s=YAAQltcLFzubH/KcAQAAUhPpIwUmsG8MGp+HqsFTKPFhJ42edDPZ5XwqPy2hjkCDNJV/qBU9AMUHV2ajuxvV8RtTY1d49woxP78dXVy6J3HkFN8kmHhMefZP1L3u/jCPlvqZFwFbGcHzK3d5/lhoQan4RA7GI/sULeXbUdppsJ9AigP5BMJsvPgewG9f4rucJizTRQE0BbK5fMr9pRP0pjC909kh7heAHWu7iUzNLoMz486fBwKWf+w4gWXmqewMPC7jUG6rhIeuDi4+ceYGudyaOrpe7zM2RKG53I/NucVatB74vsjWH9SwfFfL+yeV3zeGrLg2NNi3ot6iypFL1xHdI4p9Na/alUqfdzTxkMS9NjDUg3UjWcrrUi/YQfpZMtO80XrcA6tiRCYQ6FaN5PMqyZXykl7oHfgHg09jTfiZo0Ggut/pjng191dzVGjeP53LPuiIKzdR6zLUU8JDGVTuqnUAA+xL4PES5ajVpBIR4953UOEJNKFj22g4HavnLyutmJFg6021U+moRSHvbXGoD81W/WvhQjFXLYFpy845ItKx9IkM5KvxqveovKfW8BkVvuCKk2NVj2CUbl5E3zn5WJ7KIC2JIK5Ovo2nTRRQ0BlDfNpWL3pXetGBRvxM04P7KAZ6VVoCQXW2smzrWTDJLARzH08FH1hxw4zm1k14baAZ1Q5YxrwsQMvE8qSunl/waB1+v+wbmLeXXgIcmjiMWJR2W3/xG0KaGj1MOWMHloSjbPKbskZ+8m5v5mLFVEk080lS/gm+c7g8Ioh9KaSmOGrRwvg7PZBSHjopNkvcLuomJrvEBsgR3wne0/wDf/5+FdbHG8pwt/3ILRf7R04/cCrKLjLwqYfMwqpzNzq/0/RXpGXTDb9JX3ALdIKjNYML1aQ+eaNu; bm_so=5E92DD5F27BC991AC468AA1D08EEC038EE403210395C6E2063A4B99386B10405~YAAQUZUjFzEcCgmdAQAAbwTpIwfMzrAZCF/7zlzQAj4LXbWXvROQtjI+45Md4IsV5j0Chqd2H4uSu0Hw6jLCkZ1NI62jv1kl3Vn2MAv5ZOxbOXi8pCNmCyio8fO3Kns/z3eG78/lRlmLxXhDPj08YQPRJnVggQBjiZORvvr24DObgyx9xuZmUs+2stSEkFu93pk+y+N/b2TJkCABliE7vFacxkskor/Ke7lbF5OHIKHcNjEs/EQVbsNyhnNGl184HTZbXRmEQtBKC71CRonjrLsIK37se9b4usBfrkP3aWs9rELCGFsN7n4EQ1lvvH7xawbPZO6ho1rJ/mtBm/AYgz6Ip9Cgq4wMgBSNAw7BKBZs198h5aWgQhx1guz8cWi2T+i5o1p7E/C/J/bb+W7B4oieZSB//ROfnSshjKt/8SgQjCrhS+Fq3W2BCJu1ibeLWFYKzaKeoogEqo13FLTrIfvwiA==; bm_sz=8909FCD2E892C8B8003DED925D3BE9F7~YAAQltcLFz2bH/KcAQAAUhPpIx+CKSHul4NJqmdH23hqvoACVOEorHsthrOcc3yWkOzVQH3ITAHx8F9c2RWbZx2YzzJPcqSM7Iw7QV63Cdf25RkZnBUmGh9r90XEuRDymkmjejQ03dATToiMbpLtfAEXHRfaMe+HOuvrjPQUT9nhwmUlifJ44FjvIjpJqN8KwNJcq+usAyLofVYL8owQJBdjnKyPGqJgyr6EMeWOcA6clV24vHbN9phJ+S4hXnXGwZyFibxErCKHFJ+vt7OZk5lkx4P3E3GvlstpubENdiXOlBTcRv8EetG0CTFOsg+3I7zBkuUXmfcvra/Bcijk0BCdCYinLz7kRy5h90R8ZhbOJNL1KiVyq5OWTi8SW/vBEShFQaGdNg9mlBBNX58xxK3N6rDSj7UpNwlJytsUxsmVYNfuApSjD3kxPJTgPmoehi3ubdkveuJSK9Dv6B0mF+OzvgnrhDbYkc7wY4QKBrHBcILr0Edr7cgXV5xdTLaVSRL8QkuUN2gjkhCyYYknUINHlLTh8PU=~3360322~3291458; bm_lso=01CF26D3431494877FBEE17AB8797A8D4F9795C6EBC70A82FF0425AE5B0D5D73~YAAQUZUjF/nFCQmdAQAA6iXjIwfyEX3j/91wla6/RY1zuoNFrbzC2/Bz3ngy9+HZTlce/8RSi/rXyaPej1MW5HRvq7aJ9dOhPcyaEFIBzjStsaunOh+/f3EsCSvch3bWPgoLUN/D31YggLMO1JFlLWdm8rQR12F6kAHKlM8paMomAcTgX+BWWpNXWCzIgAvmEyJfbTpAo1fuEUhOmYe8nODTm9ddhXElpXkM9ejf2jK7xPyTf+ceGW7MLQe0OynX9xe2UtZEURLylXQLeQZmp830GjgAJTBqRSmzSF8KtFGgEPlJp0n4BZxIIccw7GPALeWGO/ksnKznuEvMLNoGoZRFr+PDClFe9/OjOcghtBTxNxO8+0JPrujDabf+EiCe9Xr5BLXtmuD6RCTrF9jpNTlPaxWQ/76OmVIllnSdb5+hmtSuf5GncoqAuWOvBDz3DuQ+In8y00VA3N3iPgON1hnZVA==~1774423583522; bm_sv=6787EE979C5F509C6DB7A65AB0E985F0~YAAQltcLF4ycH/KcAQAAMBfpIx/eKi99jGa0Us0EG30/FvEcmsmyENTEbV+x7EuRAUc8iJeMLW5wnO261LNlUPCjF6AtaqQ7CzCV0kM9KCpZQ1hthTbmFuaERA7BsiUeSK2MHBv9ilE76QxLT4bTrDjiUAM6wO70sB8y0VH79WHEQyTTYSObdBhJF9Nox7yIdOeG2ddSW3dxPRKYgGIoyvaLjlYIMCYngwHnVVZlF6KiNEyIMHpnmspdHq6y44ctZhVSXG8=~1; ens_session=1; ensAppData=%7B%22prevPage%22%3A%22jl%3Awomen%3Awomen\'s%20dresses%3A114507028%22%7D; ravelinSessionId=rjs-33318337-b278-4120-94a3-cc4762d9a507:c9a36462-dc91-45a7-bcba-ad0942fb6a02; ensnav=tf%7Cwomen%7Cclothing%7Cdresses; jlpwlg=eyJraW5kIjoiTElTVCIsInRva2VuIjoiNlIyRHhabVdkMDkxODcwZTk0YzA0YWY5ODM0N2Q4ZGQ2ZmUxN2VkNiIsImhhc2giOiIyOTMxYTY1N2Q3MWQzOGIwYWRmZjNjYTk1ZjVhMjU5MGU2ZTg4ZGI3YjYyOTY5NTIwZTVmNjFiZTRjZmVkZWUwZTViMDA3NGI1YWRmMTZkMTZmZGFlNjY4MzFmMTlhNWY3NjZlN2IxZjdhNDI3NjdkNDJmYTc3ODcwNWY4YWVkYyIsInZlcnNpb24iOjF9; DQ-Info="%7B%22ukd%22%3A25%2C%22cc%22%3A30%7D"; ens_session_count=22; bm_ss=ab8e18ef4e',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'If-None-Match': 'W/"zgqch2oq892kq1"',
+    'Priority': 'u=0, i',
+    # Requests doesn't support trailers
+    # 'TE': 'trailers',
+}
+
+
+
+################ C A T E G O R Y ####################
+category_url = "https://www.johnlewis.com/women/c50000298"
+
+response = requests.get(category_url,headers=headers)
+sel = Selector(text=response.text)
+#xpath
+category_womens_link_script_data_xpath = '//script[@id="__NEXT_DATA__"]/text()'
+category_data = sel.xpath(category_womens_link_script_data_xpath).extract_first()
+json_data = json.loads(category_data)
+category_details = json_data['props']['pageProps']['category']["child"]
+links = []
+type(category_details)
+for cat in category_details:
+    if cat.get("name","") == "Clothing" or cat.get("name","") == "Lingerie and nightwear":
+       for link in cat.get("child",[]):
+           links.append(link.get("url",""))
+
+print(links)
+
+
+
+
+############## C R A W L E R #####################3
+
+crawler_api = "https://www.johnlewis.com/web-plp-scaffold-ui/api/product-chunk"
+params = {
+    'page': '1',
+    'type': 'browse',
+    'chunk': '2',
+    'facetId': '/women/cashmere/_/N-6shb',
+}
+response = requests.get(crawler_api,headers=headers,params=params)
+
+data = response.json()
+products = data.get("products","")
+print(len(products))
+
+#develop logic for chunk and page number
+
+### P A R S E R ###########3
+
+pdp_link = "https://www.johnlewis.com/ghost-cecelia-v-neck-midi-dress/berry/p114375121"
+
+response = requests.get(pdp_link,headers=headers)
+
+sel = Selector(response.text)
+#XPATH
+brand = '//span[@data-testid="product:title:otherBrand"]//text()'
+breadcrumb = '//ol[@class="breadcrumbs-carousel--list"]//text()'
+promotion_description = '//div[@data-testid="description:content"]//text()'
+
+
+script_data_xpath = '//script[@id="__NEXT_DATA__"]/text()'
+data = sel.xpath(script_data_xpath).extract_first()
+json_data = json.loads(data)
+variants_details = json_data['props']['pageProps']['product']["variants"]
+if variants_details:
+    for variant in variants_details:
+        product_name = variant.get("title","")
+        price = variant.get("price",{})
+        if price.get("reductionHistory",[]):
+            selling_price = price.get("value","")
+            regular_price = price["reductionHistory"][0].get("value")
+        else:
+            selling_price = price.get("value","")
+            regular_price = price.get("value","")
+        promotion = variant.get("messaging",[])
+        if promotion:
+            promotion_description = []
+            for promo in promotion:
+                promotion_description.append(promo.get("promotionType",""))
+        else:
+            promotion_description = ""
+        pdp_url = variant.get("pdpURL","")
+
+        product_description = sel.xpath('//div[@data-testid="description:content"]//text()')
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
