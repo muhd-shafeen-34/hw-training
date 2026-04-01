@@ -63,7 +63,7 @@ class Export:
             product_name = product_name_fetch if product_name_fetch else ""
             brand = item.get("brand", "")
             pdp_url = item.get("pdp_url", "")
-            competitor_name = item.get("competitor_name", "")
+            competitor_name = "carrefour"
             extraction_date = "2026-03-24"
             regular_price_fetch = item.get("regular_price", "")
             regular_price_text = regular_price_fetch.replace(",",".").replace("€","") if regular_price_fetch else ""
@@ -75,7 +75,7 @@ class Export:
             selling_price = format_price(selling_price_text).strip("")
 
             price_per_unit_fetch = item.get("price_per_unit","")
-            price_per_unit = re.search(r"\d+,\d+", price_per_unit_fetch).group().replace(",", ".") if price_per_unit_fetch else ""
+            price_per_unit = price_per_unit_fetch.replace(",", ".").replace("€","").replace(" ","") if price_per_unit_fetch else ""
 
 
            
@@ -91,7 +91,11 @@ class Export:
 
             grammage_quantity_fetch = item.get("grammage_quantity", "")
             grammage_quantity = grammage_quantity_fetch.replace(",",".") if grammage_quantity_fetch else ""
-            grammage_unit = item.get("grammage_unit", "")
+            grammage_unit_fetch = item.get("grammage_unit", "")
+            grammage_unit = grammage_unit_fetch.lower()
+            if grammage_quantity == "" and grammage_unit == "":
+                grammage_quantity = "1"
+                grammage_unit = "pack"
             site_shown_uom = item.get("site_shown_uom", "")
 
             producthierarchy_level1 = item.get("producthierarchy_level1", "")
@@ -105,9 +109,10 @@ class Export:
             breadcrumb = item.get("breadcrumb", "")
 
             product_description_fetch = item.get("product_description", "")
-            product_description_text = re.sub(r"\xa0", " ", product_description_fetch) if product_description_fetch else ""
+            product_description_text = re.sub(r'\s+', ' ', product_description_fetch).strip() if product_description_fetch else ""
 
             product_description = product_description_text.strip("-").strip("*").strip().replace("*","").replace("-","")
+
 
 
             storage_instructions_fetch = item.get("storage_instructions", "")
@@ -130,7 +135,7 @@ class Export:
 
 
             manufacturer_address_fetch = item.get("manufacturer_address", "").replace("\n"," ")
-            manufacturer_address_text = re.sub(r"\xa0", " ", manufacturer_address_fetch) if manufacturer_address_fetch else ""
+            manufacturer_address_text = re.sub(r'\s+', ' ', manufacturer_address_fetch).strip() if manufacturer_address_fetch else ""
             manufacturer_address = manufacturer_address_text if manufacturer_address_text else ""
 
 

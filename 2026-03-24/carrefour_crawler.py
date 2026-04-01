@@ -73,7 +73,8 @@ class Crawler():
 
 
                 pdp_url_fetch = prod.xpath(URL_XPATH).extract_first()
-                pdp_url = pdp_url_fetch if pdp_url_fetch else ""
+                full_pdp_url = pdp_url_fetch if pdp_url_fetch else ""
+                pdp_url = urljoin(DOMAIN,full_pdp_url) if full_pdp_url else ""
 
 
                 brand_fetch = prod.xpath(BRAND_XPATH).extract_first()
@@ -93,7 +94,7 @@ class Crawler():
                 item = {}
                 item["unique_id"] = unique_id
                 item["name"] = name
-                item["pdp_url"] = urljoin(DOMAIN,pdp_url) if pdp_url else ""
+                item["pdp_url"] = pdp_url
                 item["brand"] = brand
                 item["price"] = price
                 item["price_per_unit"] = price_per_unit
